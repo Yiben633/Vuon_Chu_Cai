@@ -1,0 +1,146 @@
+[
+  {
+    "key": "story-little-seed",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "slug": "mam-nho-trong-vuon",
+    "title": "Mầm nhỏ trong vườn",
+    "category": "nature-story",
+    "durationHintMinutes": 4,
+    "vocabularyKeys": [
+      "vocab-la-sac",
+      "vocab-ca-sac"
+    ],
+    "endingExerciseKey": "ex-story-seed-ending",
+    "moral": "Kiên trì chăm sóc sẽ giúp điều nhỏ bé lớn lên.",
+    "scenes": [
+      {
+        "id": "scene-1",
+        "text": "Sóc tìm thấy một hạt mầm bên lối đi. Sóc đặt hạt vào chậu đất mềm và tưới một chút nước.",
+        "imageAssetKey": null,
+        "audioAssetKeys": {
+          "north": null,
+          "central": null,
+          "south": null
+        },
+        "hotspots": []
+      },
+      {
+        "id": "scene-2",
+        "text": "Mỗi sáng, Sóc lại thăm chậu. Một chiếc lá xanh nhú lên. Sóc vui lắm nhưng vẫn nhẹ tay chăm mầm.",
+        "imageAssetKey": null,
+        "audioAssetKeys": {
+          "north": null,
+          "central": null,
+          "south": null
+        },
+        "hotspots": [
+          {
+            "id": "hotspot-leaf",
+            "label": "Lá xanh",
+            "vocabularyKey": "vocab-la-sac",
+            "x": 0.5,
+            "y": 0.4
+          }
+        ]
+      },
+      {
+        "id": "scene-3",
+        "text": "Ngày qua ngày, mầm nhỏ lớn thêm. Sóc rủ bạn Cá nhìn cây bên bờ ao. Cả hai cùng hẹn chăm vườn mỗi ngày.",
+        "imageAssetKey": null,
+        "audioAssetKeys": {
+          "north": null,
+          "central": null,
+          "south": null
+        },
+        "hotspots": [
+          {
+            "id": "hotspot-fish",
+            "label": "Bạn Cá",
+            "vocabularyKey": "vocab-ca-sac",
+            "x": 0.7,
+            "y": 0.65
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "story-clear-stream",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "slug": "dong-suoi-trong",
+    "title": "Dòng suối trong",
+    "category": "nature-story",
+    "durationHintMinutes": 4,
+    "vocabularyKeys": [
+      "vocab-tho-hoi",
+      "vocab-co-hoi"
+    ],
+    "endingExerciseKey": "ex-story-stream-ending",
+    "moral": "Cùng nhau giữ sạch nơi mình sống.",
+    "scenes": [
+      {
+        "id": "scene-1",
+        "text": "Thỏ đi dọc dòng suối. Trên bãi cỏ có một chiếc túi cũ. Thỏ dừng lại nhìn, rồi gọi bạn Sóc.",
+        "imageAssetKey": null,
+        "audioAssetKeys": {
+          "north": null,
+          "central": null,
+          "south": null
+        },
+        "hotspots": []
+      },
+      {
+        "id": "scene-2",
+        "text": "Sóc mang giỏ đến. Hai bạn cùng người lớn nhặt rác trên bờ và bỏ vào thùng. Hai bạn không bước xuống nước.",
+        "imageAssetKey": null,
+        "audioAssetKeys": {
+          "north": null,
+          "central": null,
+          "south": null
+        },
+        "hotspots": [
+          {
+            "id": "hotspot-rabbit",
+            "label": "Bạn Thỏ",
+            "vocabularyKey": "vocab-tho-hoi",
+            "x": 0.4,
+            "y": 0.5
+          }
+        ]
+      },
+      {
+        "id": "scene-3",
+        "text": "Bờ suối sạch hơn. Thỏ ngồi trên bãi cỏ ngắm nước chảy. Hai bạn nhắc nhau luôn bỏ rác đúng chỗ.",
+        "imageAssetKey": null,
+        "audioAssetKeys": {
+          "north": null,
+          "central": null,
+          "south": null
+        },
+        "hotspots": [
+          {
+            "id": "hotspot-grass",
+            "label": "Bãi cỏ",
+            "vocabularyKey": "vocab-co-hoi",
+            "x": 0.5,
+            "y": 0.8
+          }
+        ]
+      }
+    ]
+  }
+]

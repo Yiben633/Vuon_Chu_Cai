@@ -1,0 +1,32 @@
+{
+  "name": "vuon-chu-dieu-ky",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.12.0",
+    "npm": ">=10.0.0"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "dev:web": "npm run dev --workspace @vuon-chu/web",
+    "dev:api": "npm run dev --workspace @vuon-chu/api",
+    "build": "npm run build --workspace @vuon-chu/contracts && npm run build --workspace @vuon-chu/web && npm run build --workspace @vuon-chu/api",
+    "lint": "npm run lint --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present",
+    "db:indexes": "npm run db:indexes --workspace @vuon-chu/api",
+    "db:verify-indexes": "npm run db:verify-indexes --workspace @vuon-chu/api",
+    "db:seed": "npm run db:seed --workspace @vuon-chu/api",
+    "test:e2e": "node scripts/not-implemented.mjs test:e2e \"Playwright E2E sẽ được triển khai ở bước 18.\"",
+    "check:env": "node scripts/check-env.mjs",
+    "db:validate-seed": "npm run db:validate-seed --workspace @vuon-chu/api",
+    "db:seed:dry-run": "npm run db:seed:dry-run --workspace @vuon-chu/api",
+    "db:verify-seed-idempotency": "npm run db:verify-seed-idempotency --workspace @vuon-chu/api",
+    "db:demo": "npm run db:demo --workspace @vuon-chu/api",
+    "admin:create": "npm run admin:create --workspace @vuon-chu/api"
+  }
+}

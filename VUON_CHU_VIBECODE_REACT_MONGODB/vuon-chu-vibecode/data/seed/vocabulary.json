@@ -1,0 +1,602 @@
+[
+  {
+    "key": "vocab-ca",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "word": "ca",
+    "meaning": "Một lượt hoặc một bài hát; nghĩa phụ thuộc ngữ cảnh.",
+    "category": "nature",
+    "syllables": [
+      "ca"
+    ],
+    "imageAssetKey": null,
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "letterKeys": [],
+    "teachingNote": "Nội dung mẫu kỹ thuật, cần duyệt sư phạm."
+  },
+  {
+    "key": "vocab-ca-sac",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "word": "cá",
+    "meaning": "Con vật sống dưới nước, thường có vây.",
+    "category": "nature",
+    "syllables": [
+      "cá"
+    ],
+    "imageAssetKey": null,
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "letterKeys": [],
+    "teachingNote": "Nội dung mẫu kỹ thuật, cần duyệt sư phạm."
+  },
+  {
+    "key": "vocab-ca-huyen",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "word": "cà",
+    "meaning": "Tên gọi một nhóm cây có quả dùng làm thức ăn.",
+    "category": "nature",
+    "syllables": [
+      "cà"
+    ],
+    "imageAssetKey": null,
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "letterKeys": [],
+    "teachingNote": "Nội dung mẫu kỹ thuật, cần duyệt sư phạm."
+  },
+  {
+    "key": "vocab-ba",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "word": "ba",
+    "meaning": "Cách gọi bố ở nhiều gia đình.",
+    "category": "everyday",
+    "syllables": [
+      "ba"
+    ],
+    "imageAssetKey": null,
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "letterKeys": [],
+    "teachingNote": "Nội dung mẫu kỹ thuật, cần duyệt sư phạm."
+  },
+  {
+    "key": "vocab-ba-huyen",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "word": "bà",
+    "meaning": "Mẹ của bố hoặc mẹ của mẹ.",
+    "category": "everyday",
+    "syllables": [
+      "bà"
+    ],
+    "imageAssetKey": null,
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "letterKeys": [],
+    "teachingNote": "Nội dung mẫu kỹ thuật, cần duyệt sư phạm."
+  },
+  {
+    "key": "vocab-be-sac",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "word": "bé",
+    "meaning": "Em nhỏ hoặc người còn ít tuổi.",
+    "category": "everyday",
+    "syllables": [
+      "bé"
+    ],
+    "imageAssetKey": null,
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "letterKeys": [],
+    "teachingNote": "Nội dung mẫu kỹ thuật, cần duyệt sư phạm."
+  },
+  {
+    "key": "vocab-be-huyen",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "word": "bè",
+    "meaning": "Vật ghép từ gỗ hoặc tre để nổi trên nước.",
+    "category": "nature",
+    "syllables": [
+      "bè"
+    ],
+    "imageAssetKey": null,
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "letterKeys": [],
+    "teachingNote": "Nội dung mẫu kỹ thuật, cần duyệt sư phạm."
+  },
+  {
+    "key": "vocab-me-nang",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "word": "mẹ",
+    "meaning": "Người mẹ trong gia đình.",
+    "category": "everyday",
+    "syllables": [
+      "mẹ"
+    ],
+    "imageAssetKey": null,
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "letterKeys": [],
+    "teachingNote": "Nội dung mẫu kỹ thuật, cần duyệt sư phạm."
+  },
+  {
+    "key": "vocab-me-huyen",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "word": "mè",
+    "meaning": "Cây cho hạt nhỏ dùng làm thức ăn; còn gọi là vừng.",
+    "category": "nature",
+    "syllables": [
+      "mè"
+    ],
+    "imageAssetKey": null,
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "letterKeys": [],
+    "teachingNote": "Nội dung mẫu kỹ thuật, cần duyệt sư phạm."
+  },
+  {
+    "key": "vocab-me",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "word": "me",
+    "meaning": "Cây có quả thường có vị chua.",
+    "category": "nature",
+    "syllables": [
+      "me"
+    ],
+    "imageAssetKey": null,
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "letterKeys": [],
+    "teachingNote": "Nội dung mẫu kỹ thuật, cần duyệt sư phạm."
+  },
+  {
+    "key": "vocab-la-sac",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "word": "lá",
+    "meaning": "Bộ phận thường có màu xanh của cây.",
+    "category": "nature",
+    "syllables": [
+      "lá"
+    ],
+    "imageAssetKey": null,
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "letterKeys": [],
+    "teachingNote": "Nội dung mẫu kỹ thuật, cần duyệt sư phạm."
+  },
+  {
+    "key": "vocab-la",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "word": "la",
+    "meaning": "Phát ra tiếng lớn; không dùng để khuyến khích bé la hét.",
+    "category": "everyday",
+    "syllables": [
+      "la"
+    ],
+    "imageAssetKey": null,
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "letterKeys": [],
+    "teachingNote": "Nội dung mẫu kỹ thuật, cần duyệt sư phạm."
+  },
+  {
+    "key": "vocab-na",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "word": "na",
+    "meaning": "Loại quả có vỏ nhiều mắt; còn gọi là mãng cầu ta.",
+    "category": "nature",
+    "syllables": [
+      "na"
+    ],
+    "imageAssetKey": null,
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "letterKeys": [],
+    "teachingNote": "Nội dung mẫu kỹ thuật, cần duyệt sư phạm."
+  },
+  {
+    "key": "vocab-no",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "word": "no",
+    "meaning": "Cảm giác sau khi đã ăn đủ.",
+    "category": "everyday",
+    "syllables": [
+      "no"
+    ],
+    "imageAssetKey": null,
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "letterKeys": [],
+    "teachingNote": "Nội dung mẫu kỹ thuật, cần duyệt sư phạm."
+  },
+  {
+    "key": "vocab-no-moc",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "word": "nơ",
+    "meaning": "Dải vải buộc thành hình trang trí.",
+    "category": "everyday",
+    "syllables": [
+      "nơ"
+    ],
+    "imageAssetKey": null,
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "letterKeys": [],
+    "teachingNote": "Nội dung mẫu kỹ thuật, cần duyệt sư phạm."
+  },
+  {
+    "key": "vocab-bo-huyen",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "word": "bò",
+    "meaning": "Con vật có bốn chân, thường được nuôi ở nông trại.",
+    "category": "nature",
+    "syllables": [
+      "bò"
+    ],
+    "imageAssetKey": null,
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "letterKeys": [],
+    "teachingNote": "Nội dung mẫu kỹ thuật, cần duyệt sư phạm."
+  },
+  {
+    "key": "vocab-bo-moc",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "word": "bơ",
+    "meaning": "Một loại quả có phần thịt mềm.",
+    "category": "nature",
+    "syllables": [
+      "bơ"
+    ],
+    "imageAssetKey": null,
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "letterKeys": [],
+    "teachingNote": "Nội dung mẫu kỹ thuật, cần duyệt sư phạm."
+  },
+  {
+    "key": "vocab-co-huyen",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "word": "cò",
+    "meaning": "Loài chim thường có chân và cổ dài.",
+    "category": "nature",
+    "syllables": [
+      "cò"
+    ],
+    "imageAssetKey": null,
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "letterKeys": [],
+    "teachingNote": "Nội dung mẫu kỹ thuật, cần duyệt sư phạm."
+  },
+  {
+    "key": "vocab-co-hoi",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "word": "cỏ",
+    "meaning": "Những cây nhỏ thường mọc thành thảm trên đất.",
+    "category": "nature",
+    "syllables": [
+      "cỏ"
+    ],
+    "imageAssetKey": null,
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "letterKeys": [],
+    "teachingNote": "Nội dung mẫu kỹ thuật, cần duyệt sư phạm."
+  },
+  {
+    "key": "vocab-co-nang",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "word": "cọ",
+    "meaning": "Cây có lá lớn xòe thành tán.",
+    "category": "nature",
+    "syllables": [
+      "cọ"
+    ],
+    "imageAssetKey": null,
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "letterKeys": [],
+    "teachingNote": "Nội dung mẫu kỹ thuật, cần duyệt sư phạm."
+  },
+  {
+    "key": "vocab-ga-huyen",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "word": "gà",
+    "meaning": "Loài chim quen thuộc được nuôi trong sân vườn.",
+    "category": "nature",
+    "syllables": [
+      "gà"
+    ],
+    "imageAssetKey": null,
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "letterKeys": [],
+    "teachingNote": "Nội dung mẫu kỹ thuật, cần duyệt sư phạm."
+  },
+  {
+    "key": "vocab-go-nga",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "word": "gỗ",
+    "meaning": "Phần thân cây được dùng làm nhiều đồ vật.",
+    "category": "nature",
+    "syllables": [
+      "gỗ"
+    ],
+    "imageAssetKey": null,
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "letterKeys": [],
+    "teachingNote": "Nội dung mẫu kỹ thuật, cần duyệt sư phạm."
+  },
+  {
+    "key": "vocab-sen",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "word": "sen",
+    "meaning": "Cây sống ở ao hồ, thường có hoa và lá lớn.",
+    "category": "nature",
+    "syllables": [
+      "sen"
+    ],
+    "imageAssetKey": null,
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "letterKeys": [],
+    "teachingNote": "Nội dung mẫu kỹ thuật, cần duyệt sư phạm."
+  },
+  {
+    "key": "vocab-tho-hoi",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "word": "thỏ",
+    "meaning": "Con vật có đôi tai dài.",
+    "category": "nature",
+    "syllables": [
+      "thỏ"
+    ],
+    "imageAssetKey": null,
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "letterKeys": [],
+    "teachingNote": "Nội dung mẫu kỹ thuật, cần duyệt sư phạm."
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "key": "resource-alphabet-worksheet",
+    "version": 1,
+    "status": "draft",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "title": "Phiếu tập tô chữ cái",
+    "type": "worksheet",
+    "assetKey": null,
+    "pageCount": null,
+    "letterKeys": [],
+    "availability": "missing"
+  },
+  {
+    "key": "resource-parent-guide",
+    "version": 1,
+    "status": "draft",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "title": "Gợi ý đồng hành cùng bé",
+    "type": "guide",
+    "assetKey": null,
+    "pageCount": null,
+    "letterKeys": [],
+    "availability": "missing"
+  }
+]

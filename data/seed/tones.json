@@ -1,0 +1,98 @@
+[
+  {
+    "key": "tone-ngang",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "code": "ngang",
+    "name": "Thanh ngang",
+    "marker": "",
+    "order": 0,
+    "example": "ca"
+  },
+  {
+    "key": "tone-sac",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "code": "sac",
+    "name": "Thanh sắc",
+    "marker": "´",
+    "order": 1,
+    "example": "cá"
+  },
+  {
+    "key": "tone-huyen",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "code": "huyen",
+    "name": "Thanh huyền",
+    "marker": "`",
+    "order": 2,
+    "example": "cà"
+  },
+  {
+    "key": "tone-hoi",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "code": "hoi",
+    "name": "Thanh hỏi",
+    "marker": "̉",
+    "order": 3,
+    "example": "cả"
+  },
+  {
+    "key": "tone-nga",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "code": "nga",
+    "name": "Thanh ngã",
+    "marker": "~",
+    "order": 4,
+    "example": "ngã"
+  },
+  {
+    "key": "tone-nang",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "code": "nang",
+    "name": "Thanh nặng",
+    "marker": "̣",
+    "order": 5,
+    "example": "mẹ"
+  }
+]

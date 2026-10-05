@@ -1,0 +1,530 @@
+[
+  {
+    "key": "spelling-ca",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "onset": "c",
+    "rime": "a",
+    "toneCode": "ngang",
+    "word": "ca",
+    "vocabularyKey": "vocab-ca",
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "explanation": "C + A + Thanh ngang → CA"
+  },
+  {
+    "key": "spelling-ca-sac",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "onset": "c",
+    "rime": "a",
+    "toneCode": "sac",
+    "word": "cá",
+    "vocabularyKey": "vocab-ca-sac",
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "explanation": "C + A + Thanh sắc → CÁ"
+  },
+  {
+    "key": "spelling-ca-huyen",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "onset": "c",
+    "rime": "a",
+    "toneCode": "huyen",
+    "word": "cà",
+    "vocabularyKey": "vocab-ca-huyen",
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "explanation": "C + A + Thanh huyền → CÀ"
+  },
+  {
+    "key": "spelling-ba",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "onset": "b",
+    "rime": "a",
+    "toneCode": "ngang",
+    "word": "ba",
+    "vocabularyKey": "vocab-ba",
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "explanation": "B + A + Thanh ngang → BA"
+  },
+  {
+    "key": "spelling-ba-huyen",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "onset": "b",
+    "rime": "a",
+    "toneCode": "huyen",
+    "word": "bà",
+    "vocabularyKey": "vocab-ba-huyen",
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "explanation": "B + A + Thanh huyền → BÀ"
+  },
+  {
+    "key": "spelling-be-sac",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "onset": "b",
+    "rime": "e",
+    "toneCode": "sac",
+    "word": "bé",
+    "vocabularyKey": "vocab-be-sac",
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "explanation": "B + E + Thanh sắc → BÉ"
+  },
+  {
+    "key": "spelling-be-huyen",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "onset": "b",
+    "rime": "e",
+    "toneCode": "huyen",
+    "word": "bè",
+    "vocabularyKey": "vocab-be-huyen",
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "explanation": "B + E + Thanh huyền → BÈ"
+  },
+  {
+    "key": "spelling-me-nang",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "onset": "m",
+    "rime": "e",
+    "toneCode": "nang",
+    "word": "mẹ",
+    "vocabularyKey": "vocab-me-nang",
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "explanation": "M + E + Thanh nặng → MẸ"
+  },
+  {
+    "key": "spelling-me-huyen",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "onset": "m",
+    "rime": "e",
+    "toneCode": "huyen",
+    "word": "mè",
+    "vocabularyKey": "vocab-me-huyen",
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "explanation": "M + E + Thanh huyền → MÈ"
+  },
+  {
+    "key": "spelling-me",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "onset": "m",
+    "rime": "e",
+    "toneCode": "ngang",
+    "word": "me",
+    "vocabularyKey": "vocab-me",
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "explanation": "M + E + Thanh ngang → ME"
+  },
+  {
+    "key": "spelling-la-sac",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "onset": "l",
+    "rime": "a",
+    "toneCode": "sac",
+    "word": "lá",
+    "vocabularyKey": "vocab-la-sac",
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "explanation": "L + A + Thanh sắc → LÁ"
+  },
+  {
+    "key": "spelling-la",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "onset": "l",
+    "rime": "a",
+    "toneCode": "ngang",
+    "word": "la",
+    "vocabularyKey": "vocab-la",
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "explanation": "L + A + Thanh ngang → LA"
+  },
+  {
+    "key": "spelling-na",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "onset": "n",
+    "rime": "a",
+    "toneCode": "ngang",
+    "word": "na",
+    "vocabularyKey": "vocab-na",
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "explanation": "N + A + Thanh ngang → NA"
+  },
+  {
+    "key": "spelling-no",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "onset": "n",
+    "rime": "o",
+    "toneCode": "ngang",
+    "word": "no",
+    "vocabularyKey": "vocab-no",
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "explanation": "N + O + Thanh ngang → NO"
+  },
+  {
+    "key": "spelling-no-moc",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "onset": "n",
+    "rime": "ơ",
+    "toneCode": "ngang",
+    "word": "nơ",
+    "vocabularyKey": "vocab-no-moc",
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "explanation": "N + Ơ + Thanh ngang → NƠ"
+  },
+  {
+    "key": "spelling-bo-huyen",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "onset": "b",
+    "rime": "o",
+    "toneCode": "huyen",
+    "word": "bò",
+    "vocabularyKey": "vocab-bo-huyen",
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "explanation": "B + O + Thanh huyền → BÒ"
+  },
+  {
+    "key": "spelling-bo-moc",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "onset": "b",
+    "rime": "ơ",
+    "toneCode": "ngang",
+    "word": "bơ",
+    "vocabularyKey": "vocab-bo-moc",
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "explanation": "B + Ơ + Thanh ngang → BƠ"
+  },
+  {
+    "key": "spelling-co-huyen",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "onset": "c",
+    "rime": "o",
+    "toneCode": "huyen",
+    "word": "cò",
+    "vocabularyKey": "vocab-co-huyen",
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "explanation": "C + O + Thanh huyền → CÒ"
+  },
+  {
+    "key": "spelling-co-hoi",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "onset": "c",
+    "rime": "o",
+    "toneCode": "hoi",
+    "word": "cỏ",
+    "vocabularyKey": "vocab-co-hoi",
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "explanation": "C + O + Thanh hỏi → CỎ"
+  },
+  {
+    "key": "spelling-co-nang",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "onset": "c",
+    "rime": "o",
+    "toneCode": "nang",
+    "word": "cọ",
+    "vocabularyKey": "vocab-co-nang",
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "explanation": "C + O + Thanh nặng → CỌ"
+  },
+  {
+    "key": "spelling-ga-huyen",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "onset": "g",
+    "rime": "a",
+    "toneCode": "huyen",
+    "word": "gà",
+    "vocabularyKey": "vocab-ga-huyen",
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "explanation": "G + A + Thanh huyền → GÀ"
+  },
+  {
+    "key": "spelling-go-nga",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "onset": "g",
+    "rime": "ô",
+    "toneCode": "nga",
+    "word": "gỗ",
+    "vocabularyKey": "vocab-go-nga",
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "explanation": "G + Ô + Thanh ngã → GỖ"
+  },
+  {
+    "key": "spelling-sen",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "onset": "s",
+    "rime": "en",
+    "toneCode": "ngang",
+    "word": "sen",
+    "vocabularyKey": "vocab-sen",
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "explanation": "S + EN + Thanh ngang → SEN"
+  },
+  {
+    "key": "spelling-tho-hoi",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "onset": "th",
+    "rime": "o",
+    "toneCode": "hoi",
+    "word": "thỏ",
+    "vocabularyKey": "vocab-tho-hoi",
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "explanation": "TH + O + Thanh hỏi → THỎ"
+  }
+]

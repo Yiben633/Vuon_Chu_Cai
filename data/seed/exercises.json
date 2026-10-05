@@ -1,0 +1,559 @@
+[
+  {
+    "key": "ex-letter-a-1",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "type": "identify-letter",
+    "prompt": "Bé hãy chọn chữ A.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "A",
+        "assetKey": null
+      },
+      {
+        "id": "option-2",
+        "label": "B",
+        "assetKey": null
+      },
+      {
+        "id": "option-3",
+        "label": "C",
+        "assetKey": null
+      },
+      {
+        "id": "option-4",
+        "label": "D",
+        "assetKey": null
+      }
+    ],
+    "answer": {
+      "optionId": "option-1"
+    },
+    "targetLetterKey": "letter-a",
+    "difficulty": 1,
+    "maxAttempts": 3,
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    }
+  },
+  {
+    "key": "ex-letter-a-2",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "type": "identify-letter",
+    "prompt": "Tìm thẻ có chữ a giống chữ mẫu nhé.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "d",
+        "assetKey": null
+      },
+      {
+        "id": "option-2",
+        "label": "c",
+        "assetKey": null
+      },
+      {
+        "id": "option-3",
+        "label": "b",
+        "assetKey": null
+      },
+      {
+        "id": "option-4",
+        "label": "a",
+        "assetKey": null
+      }
+    ],
+    "answer": {
+      "optionId": "option-4"
+    },
+    "targetLetterKey": "letter-a",
+    "difficulty": 1,
+    "maxAttempts": 3,
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    }
+  },
+  {
+    "key": "ex-letter-b-1",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "type": "identify-letter",
+    "prompt": "Bé hãy chọn chữ B.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "A",
+        "assetKey": null
+      },
+      {
+        "id": "option-2",
+        "label": "B",
+        "assetKey": null
+      },
+      {
+        "id": "option-3",
+        "label": "C",
+        "assetKey": null
+      },
+      {
+        "id": "option-4",
+        "label": "D",
+        "assetKey": null
+      }
+    ],
+    "answer": {
+      "optionId": "option-2"
+    },
+    "targetLetterKey": "letter-b",
+    "difficulty": 1,
+    "maxAttempts": 3,
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    }
+  },
+  {
+    "key": "ex-letter-b-2",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "type": "identify-letter",
+    "prompt": "Tìm thẻ có chữ b giống chữ mẫu nhé.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "d",
+        "assetKey": null
+      },
+      {
+        "id": "option-2",
+        "label": "c",
+        "assetKey": null
+      },
+      {
+        "id": "option-3",
+        "label": "b",
+        "assetKey": null
+      },
+      {
+        "id": "option-4",
+        "label": "a",
+        "assetKey": null
+      }
+    ],
+    "answer": {
+      "optionId": "option-3"
+    },
+    "targetLetterKey": "letter-b",
+    "difficulty": 1,
+    "maxAttempts": 3,
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    }
+  },
+  {
+    "key": "ex-letter-c-1",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "type": "identify-letter",
+    "prompt": "Bé hãy chọn chữ C.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "C",
+        "assetKey": null
+      },
+      {
+        "id": "option-2",
+        "label": "Đ",
+        "assetKey": null
+      },
+      {
+        "id": "option-3",
+        "label": "E",
+        "assetKey": null
+      },
+      {
+        "id": "option-4",
+        "label": "G",
+        "assetKey": null
+      }
+    ],
+    "answer": {
+      "optionId": "option-1"
+    },
+    "targetLetterKey": "letter-c",
+    "difficulty": 1,
+    "maxAttempts": 3,
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    }
+  },
+  {
+    "key": "ex-letter-c-2",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "type": "identify-letter",
+    "prompt": "Tìm thẻ có chữ c giống chữ mẫu nhé.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "g",
+        "assetKey": null
+      },
+      {
+        "id": "option-2",
+        "label": "e",
+        "assetKey": null
+      },
+      {
+        "id": "option-3",
+        "label": "đ",
+        "assetKey": null
+      },
+      {
+        "id": "option-4",
+        "label": "c",
+        "assetKey": null
+      }
+    ],
+    "answer": {
+      "optionId": "option-4"
+    },
+    "targetLetterKey": "letter-c",
+    "difficulty": 1,
+    "maxAttempts": 3,
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    }
+  },
+  {
+    "key": "ex-rime-en",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "type": "match-rime",
+    "prompt": "Từ SEN có vần nào?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "AN",
+        "assetKey": null
+      },
+      {
+        "id": "option-2",
+        "label": "EN",
+        "assetKey": null
+      },
+      {
+        "id": "option-3",
+        "label": "ON",
+        "assetKey": null
+      },
+      {
+        "id": "option-4",
+        "label": "AM",
+        "assetKey": null
+      }
+    ],
+    "answer": {
+      "optionId": "option-2"
+    },
+    "targetLetterKey": null,
+    "difficulty": 1,
+    "maxAttempts": 3,
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "spellingEntryKey": "spelling-sen",
+    "vocabularyKey": "vocab-sen"
+  },
+  {
+    "key": "ex-word-ca",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "type": "listen-word",
+    "prompt": "Chọn từ CÁ theo lời hướng dẫn.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "CÁ",
+        "assetKey": null
+      },
+      {
+        "id": "option-2",
+        "label": "CÀ",
+        "assetKey": null
+      },
+      {
+        "id": "option-3",
+        "label": "BA",
+        "assetKey": null
+      },
+      {
+        "id": "option-4",
+        "label": "LÁ",
+        "assetKey": null
+      }
+    ],
+    "answer": {
+      "optionId": "option-1"
+    },
+    "targetLetterKey": null,
+    "difficulty": 1,
+    "maxAttempts": 3,
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "vocabularyKey": "vocab-ca-sac"
+  },
+  {
+    "key": "ex-tone-sac",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "type": "select-tone",
+    "prompt": "Từ CÁ mang thanh nào?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Thanh sắc",
+        "assetKey": null
+      },
+      {
+        "id": "option-2",
+        "label": "Thanh huyền",
+        "assetKey": null
+      },
+      {
+        "id": "option-3",
+        "label": "Thanh hỏi",
+        "assetKey": null
+      },
+      {
+        "id": "option-4",
+        "label": "Thanh ngang",
+        "assetKey": null
+      }
+    ],
+    "answer": {
+      "optionId": "option-1"
+    },
+    "targetLetterKey": null,
+    "difficulty": 1,
+    "maxAttempts": 3,
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "spellingEntryKey": "spelling-ca-sac"
+  },
+  {
+    "key": "ex-animal-ga",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "type": "listen-animal",
+    "prompt": "Con vật nào thường gáy ò ó o?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Gà",
+        "assetKey": null
+      },
+      {
+        "id": "option-2",
+        "label": "Bò",
+        "assetKey": null
+      },
+      {
+        "id": "option-3",
+        "label": "Thỏ",
+        "assetKey": null
+      },
+      {
+        "id": "option-4",
+        "label": "Cá",
+        "assetKey": null
+      }
+    ],
+    "answer": {
+      "optionId": "option-1"
+    },
+    "targetLetterKey": null,
+    "difficulty": 1,
+    "maxAttempts": 3,
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "vocabularyKey": "vocab-ga-huyen"
+  },
+  {
+    "key": "ex-story-seed-ending",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "type": "listen-word",
+    "prompt": "Mầm nhỏ lớn lên nhờ bạn Sóc làm điều gì?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Tưới nước và kiên trì",
+        "assetKey": null
+      },
+      {
+        "id": "option-2",
+        "label": "Bỏ quên cây",
+        "assetKey": null
+      },
+      {
+        "id": "option-3",
+        "label": "Bẻ lá cây",
+        "assetKey": null
+      },
+      {
+        "id": "option-4",
+        "label": "Giấu chậu cây",
+        "assetKey": null
+      }
+    ],
+    "answer": {
+      "optionId": "option-1"
+    },
+    "targetLetterKey": null,
+    "difficulty": 1,
+    "maxAttempts": 3,
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    }
+  },
+  {
+    "key": "ex-story-stream-ending",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "type": "listen-word",
+    "prompt": "Bạn Thỏ đã giúp dòng suối bằng cách nào?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Nhặt rác cùng bạn",
+        "assetKey": null
+      },
+      {
+        "id": "option-2",
+        "label": "Ném thêm rác",
+        "assetKey": null
+      },
+      {
+        "id": "option-3",
+        "label": "Bẻ cây",
+        "assetKey": null
+      },
+      {
+        "id": "option-4",
+        "label": "Bỏ mặc rác",
+        "assetKey": null
+      }
+    ],
+    "answer": {
+      "optionId": "option-1"
+    },
+    "targetLetterKey": null,
+    "difficulty": 1,
+    "maxAttempts": 3,
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    }
+  }
+]

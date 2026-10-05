@@ -1,0 +1,38 @@
+[
+  {
+    "key": "reward-leaf-pin",
+    "title": "Ghim lá xanh",
+    "cost": 20,
+    "cosmeticType": "badge",
+    "assetKey": null,
+    "active": true,
+    "version": 1
+  },
+  {
+    "key": "reward-explorer-hat",
+    "title": "Mũ thám hiểm",
+    "cost": 80,
+    "cosmeticType": "hat",
+    "assetKey": null,
+    "active": true,
+    "version": 1
+  },
+  {
+    "key": "reward-lotus-badge",
+    "title": "Huy hiệu hoa sen",
+    "cost": 120,
+    "cosmeticType": "badge",
+    "assetKey": "icon-lotus",
+    "active": true,
+    "version": 1
+  },
+  {
+    "key": "reward-grass-bag",
+    "title": "Túi cỏ nhỏ",
+    "cost": 150,
+    "cosmeticType": "bag",
+    "assetKey": null,
+    "active": true,
+    "version": 1
+  }
+]

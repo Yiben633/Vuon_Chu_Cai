@@ -1,0 +1,115 @@
+[
+  {
+    "key": "lesson-letter-a",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "module": "alphabet",
+    "contentKey": "letter-a",
+    "title": "Khám phá chữ A trong từ cá",
+    "letterKeys": [
+      "letter-a"
+    ],
+    "exerciseKeys": [
+      "ex-letter-a-1",
+      "ex-letter-a-2"
+    ],
+    "order": 1,
+    "durationHintMinutes": 3
+  },
+  {
+    "key": "lesson-letter-b",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "module": "alphabet",
+    "contentKey": "letter-b",
+    "title": "Chữ B và bạn Bướm",
+    "letterKeys": [
+      "letter-b"
+    ],
+    "exerciseKeys": [
+      "ex-letter-b-1",
+      "ex-letter-b-2"
+    ],
+    "order": 2,
+    "durationHintMinutes": 3
+  },
+  {
+    "key": "lesson-letter-c",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "module": "alphabet",
+    "contentKey": "letter-c",
+    "title": "Chữ C và con Cá",
+    "letterKeys": [
+      "letter-c"
+    ],
+    "exerciseKeys": [
+      "ex-letter-c-1",
+      "ex-letter-c-2"
+    ],
+    "order": 3,
+    "durationHintMinutes": 3
+  },
+  {
+    "key": "lesson-spelling-ca",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "module": "spelling",
+    "contentKey": "spelling-ca-sac",
+    "title": "C + A + thanh sắc thành CÁ",
+    "letterKeys": [
+      "letter-c",
+      "letter-a"
+    ],
+    "exerciseKeys": [
+      "ex-word-ca",
+      "ex-tone-sac"
+    ],
+    "order": 4,
+    "durationHintMinutes": 4
+  },
+  {
+    "key": "lesson-story-seed",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "module": "story",
+    "contentKey": "story-little-seed",
+    "title": "Mầm nhỏ trong vườn",
+    "letterKeys": [],
+    "exerciseKeys": [
+      "ex-story-seed-ending"
+    ],
+    "order": 5,
+    "durationHintMinutes": 4
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "key": "mission-three-answers",
+    "title": "Luyện ba câu hỏi",
+    "rule": {
+      "metric": "firstTryAttempts",
+      "threshold": 3
+    },
+    "rewardAcorns": 10,
+    "active": true,
+    "version": 1
+  },
+  {
+    "key": "mission-one-story",
+    "title": "Hoàn thành một câu chuyện",
+    "rule": {
+      "metric": "completedStoriesToday",
+      "threshold": 1
+    },
+    "rewardAcorns": 10,
+    "active": true,
+    "version": 1
+  },
+  {
+    "key": "mission-five-minutes",
+    "title": "Vui học năm phút",
+    "rule": {
+      "metric": "activeSecondsToday",
+      "threshold": 300
+    },
+    "rewardAcorns": 10,
+    "active": true,
+    "version": 1
+  }
+]

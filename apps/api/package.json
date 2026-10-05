@@ -1,0 +1,41 @@
+{
+  "name": "@vuon-chu/api",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node src/server.js",
+    "start": "node src/server.js",
+    "build": "node scripts/build-check.mjs",
+    "lint": "eslint .",
+    "test": "vitest run --passWithNoTests",
+    "db:indexes": "node scripts/create-indexes.mjs",
+    "db:indexes:dry-run": "node scripts/create-indexes.mjs --dry-run",
+    "db:verify-indexes": "node scripts/verify-indexes.mjs",
+    "db:seed": "node scripts/seed-database.mjs",
+    "db:validate-seed": "node scripts/validate-seed.mjs",
+    "db:seed:dry-run": "node scripts/seed-database.mjs --dry-run",
+    "db:verify-seed-idempotency": "node scripts/verify-seed-idempotency.mjs",
+    "db:demo": "node scripts/create-demo.mjs",
+    "admin:create": "node scripts/create-admin.mjs"
+  },
+  "dependencies": {
+    "@vuon-chu/contracts": "0.1.0",
+    "bcryptjs": "^2.4.3",
+    "connect-mongo": "^5.1.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "express-rate-limit": "^7.4.1",
+    "express-session": "^1.18.1",
+    "helmet": "^8.0.0",
+    "mongoose": "^8.8.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.13.0",
+    "eslint": "^9.13.0",
+    "globals": "^15.11.0",
+    "supertest": "^7.0.0",
+    "vitest": "^2.1.3"
+  }
+}

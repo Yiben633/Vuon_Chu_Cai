@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+
+<html lang="vi"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@500;600;700&amp;family=Quicksand:wght@600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"on-primary":"#ffffff","surface-container-low":"#cbffe8","tertiary-container":"#007bb9","surface-container-high":"#b6f6db","on-tertiary-container":"#fdfcff","surface-variant":"#b0f0d6","secondary":"#855300","tertiary-fixed-dim":"#93ccff","surface-dim":"#a8e7cd","on-tertiary-fixed":"#001d31","surface-tint":"#006c4a","tertiary":"#006194","inverse-on-surface":"#befee3","on-primary-container":"#f5fff7","inverse-surface":"#003829","outline":"#6d7a72","secondary-fixed":"#ffddb8","on-secondary-fixed":"#2a1700","secondary-container":"#fea619","on-surface-variant":"#3d4a42","on-background":"#002117","outline-variant":"#bccac0","on-tertiary-fixed-variant":"#004b73","inverse-primary":"#68dba9","surface":"#e7fff3","surface-container":"#bbfbe1","on-secondary-fixed-variant":"#653e00","primary-container":"#00855d","on-primary-fixed-variant":"#005137","primary-fixed":"#85f8c4","error":"#ba1a1a","error-container":"#ffdad6","on-tertiary":"#ffffff","tertiary-fixed":"#cce5ff","surface-container-lowest":"#ffffff","on-secondary-container":"#684000","on-error-container":"#93000a","secondary-fixed-dim":"#ffb95f","primary":"#006948","on-error":"#ffffff","on-primary-fixed":"#002114","on-surface":"#002117","primary-fixed-dim":"#68dba9","surface-container-highest":"#b0f0d6","background":"#e7fff3","surface-bright":"#e7fff3","on-secondary":"#ffffff"},borderRadius:{DEFAULT:"1rem",lg:"2rem",xl:"3rem",full:"9999px"},spacing:{"space-sm":"0.75rem","space-xl":"3rem","space-lg":"2rem",gutter:"1.5rem",margin:"1.5rem","space-md":"1.25rem","space-xs":"0.375rem"},fontFamily:{"headline-sm":["Quicksand"],"body-lg":["Nunito Sans"],"label-sm":["Quicksand"],"display-hero-mobile":["Quicksand"],"headline-lg-mobile":["Quicksand"],"body-md":["Nunito Sans"],"body-sm":["Nunito Sans"],"label-md":["Quicksand"],"label-lg":["Quicksand"],"headline-lg":["Quicksand"],"headline-md":["Quicksand"],"display-hero":["Quicksand"]},fontSize:{"headline-sm":["20px",{lineHeight:"28px",fontWeight:"600"}],"body-lg":["20px",{lineHeight:"30px",fontWeight:"600"}],"label-sm":["13px",{lineHeight:"16px",fontWeight:"700"}],"display-hero-mobile":["34px",{lineHeight:"42px",fontWeight:"700"}],"headline-lg-mobile":["26px",{lineHeight:"34px",fontWeight:"700"}],"body-md":["17px",{lineHeight:"26px",fontWeight:"500"}],"body-sm":["15px",{lineHeight:"22px",fontWeight:"500"}],"label-md":["15px",{lineHeight:"20px",fontWeight:"700"}],"label-lg":["18px",{lineHeight:"24px",fontWeight:"700"}],"headline-lg":["32px",{lineHeight:"40px",fontWeight:"700"}],"headline-md":["24px",{lineHeight:"32px",fontWeight:"600"}],"display-hero":["48px",{lineHeight:"56px",fontWeight:"700"}]}}}};</script></head><body class="bg-background font-body-md text-on-surface antialiased relative min-h-screen"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/90 backdrop-blur-xl shadow-[0_4px_20px_rgba(0,105,72,0.06)]"><div class="h-20 max-w-7xl mx-auto px-6 flex items-center justify-between gap-4"><div class="flex items-center gap-3 shrink-0"><img alt="Logo Vườn Chữ Diệu Kỳ" class="h-11 w-auto object-contain drop-shadow-sm" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAa1cwhkMOQY3hu6DO0GMG3KpYF6lSTWgByyBW_NN-4BgldRTwU4UUk-ZEW1EHQzhZRQAuDMO78xMIDbx-gupBtEUWFby9rNddRKyb1BxqgyU06T45bG23oHG1y7BJjU6jCfMZg4ShK2M0SMAbdeIkvAjsM0-6m5IT-4KQoeAx51PkRZa5KVQvRgHjrQA4xdexMuuCzA-2S0CSmzKn4_DeTJv7GTRomM9QEsbtm-cAwM8lF6PHOlt5I"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-primary tracking-tight leading-tight">Vườn Chữ Diệu Kỳ</span><span class="font-label-sm text-label-sm text-on-surface-variant font-medium leading-none hidden sm:inline">Bé vui học Tiếng Việt cùng muôn loài</span></div></div><nav class="hidden lg:flex items-center gap-1.5" data-active-classes="bg-primary text-on-primary shadow-[0_4px_0_#005137]"><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container px-3.5 py-2 rounded-full transition-all duration-200" data-path="gioi-thieu" href="#">Giới Thiệu</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container px-3.5 py-2 rounded-full transition-all duration-200" data-path="bang-chu-cai" href="#">Bảng Chữ Cái</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container px-3.5 py-2 rounded-full transition-all duration-200" data-path="rung-ghep-van" href="#">Rừng Ghép Vần</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container px-3.5 py-2 rounded-full transition-all duration-200" data-path="goc-phu-huynh" href="#">Góc Phụ Huynh</a></nav><div class="flex items-center gap-2.5 shrink-0"><a class="hidden sm:inline-flex items-center justify-center font-label-md text-label-md text-primary hover:text-on-surface bg-surface-container hover:bg-surface-container-high px-4 py-2 rounded-full transition-all duration-200 shadow-[0_2px_0_#68dba9]" data-path="dang-nhap" href="#">Đăng Nhập</a><a class="inline-flex items-center justify-center font-label-md text-label-md text-on-primary bg-primary hover:bg-primary-container px-4 py-2 rounded-full transition-all duration-200 shadow-[0_3px_0_#005137] active:translate-y-0.5" data-path="dang-ky-tai-khoan-cho-be" href="#">Đăng Ký Tài Khoản Cho Bé</a><div class="hidden md:flex items-center pl-1"><img alt="Linh vật Sóc Nhí" class="w-10 h-10 rounded-full object-cover ring-2 ring-primary-fixed-dim shadow-[0_2px_6px_rgba(0,105,72,0.15)]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAFRuMjsSS6BnPfCK_qvBNESeNSYLW18qdSteieguEcwA1IY2tq9Pho1WZzavHSAWb84MyFzWGPamayf_VPMImn5UDTj3tPhEwpRaDT-ISqZevpkufuZMVHR_pD9xI3cOV5FeBTpYKNindgrRRHy6ufK4o6Dyk-x6GrvB_bDeW4128xoFZD9xPUACIn3R4x5tdfUAS26rTW36UorxW7LFxIXK1nJzVOFwFJRP58-MslVpEoZxgT5ND1"/></div></div></div></header><main class="w-full pt-20 bg-background"><div class="flex flex-col w-full">
+<!-- Interactive Audio Mascot Sound Bar (Floating pill micro-banner) -->
+<div class="max-w-7xl mx-auto px-6 w-full pt-8 pb-4">
+<div class="bg-surface-container-low/90 backdrop-blur-md rounded-2xl p-4 flex flex-wrap items-center justify-between gap-4 shadow-sm">
+<div class="flex items-center gap-3.5">
+<div class="w-12 h-12 rounded-full bg-secondary-container flex items-center justify-center text-on-secondary shadow-md animate-bounce">
+<span class="material-symbols-outlined text-[26px]">pets</span>
+</div>
+<div>
+<span class="font-label-md text-label-md text-primary block">Sóc Nhí và Mầm Lá gửi lời chào bé!</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">"Chào mừng Ba Mẹ và các bé đến với khu vườn kỳ thú đượm mùi hương cỏ biếc."</p>
+</div>
+</div>
+<div class="flex items-center gap-2">
+<button class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary text-on-primary font-label-sm text-label-sm shadow-[0_3px_0_#005137] active:translate-y-0.5 transition-transform" id="audio-toggle-btn" onclick="toggleAudioPreview()">
+<span class="material-symbols-outlined text-[18px]" id="audio-icon">volume_up</span>
+<span id="audio-status-text">Nghe Giọng Rừng Xanh</span>
+</button>
+<span class="px-3 py-1.5 rounded-full bg-surface-container text-primary font-label-sm text-label-sm hidden sm:inline-flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">eco</span> Không gian an toàn 100%
+        </span>
+</div>
+</div>
+</div>
+<!-- Hero Section: Nơi Mầm Cây Ngôn Ngữ Nảy Chồi -->
+<section class="max-w-7xl mx-auto px-6 w-full py-8 lg:py-16">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+<!-- Left Column: Storytelling Narrative -->
+<div class="lg:col-span-7 flex flex-col space-y-6">
+<div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-surface-container-high w-fit shadow-sm">
+<span class="material-symbols-outlined text-primary text-[20px]">spa</span>
+<span class="font-label-md text-label-md text-primary uppercase tracking-wide">Về Dự Án Vườn Chữ Diệu Kỳ</span>
+</div>
+<h1 class="font-display-hero text-display-hero text-on-surface tracking-tight leading-tight">
+          Nuôi Dưỡng Tình Yêu <span class="text-primary underline decoration-secondary-container decoration-wavy decoration-2">Tiếng Việt</span> Giữa Thiên Nhiên Diệu Kỳ
+        </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+          Chúng tôi tin rằng học chữ không phải là những trang sách khô khan hay những giờ ngồi gò lưng mệt mỏi. Với <strong class="text-primary font-semibold">Vườn Chữ Diệu Kỳ</strong>, mỗi nguyên âm, phụ âm và dấu thanh là một mầm xanh reo vui trong gió, lớn lên cùng từng bước chân tò mò và nụ cười rạng rỡ của bé thơ.
+        </p>
+<!-- Interactive Quote Card -->
+<div class="bg-surface-container-lowest p-6 rounded-2xl shadow-md relative overflow-hidden">
+<div class="absolute -right-6 -bottom-6 w-28 h-28 bg-surface-container-low rounded-full opacity-60"></div>
+<div class="flex items-start gap-4 relative z-10">
+<span class="material-symbols-outlined text-secondary-container text-4xl select-none">format_quote</span>
+<div class="flex flex-col space-y-2">
+<p class="font-body-md text-body-md text-on-surface italic">
+                "Đứa trẻ nào cũng mang trong mình hạt mầm nhạy cảm với âm thanh bản ngữ. Khi được tưới mát bằng giai điệu cỏ cây và tình thương kiên nhẫn, mầm cây tiếng mẹ đẻ sẽ tự nhiên đâm chồi, xanh mướt và vững vàng."
+              </p>
+<div class="flex items-center gap-2 pt-2">
+<span class="font-label-md text-label-md text-primary font-bold">ThS. Nguyễn Hoàng Lan Anh</span>
+<span class="text-outline text-body-sm font-body-sm">• Chuyên gia Ngôn ngữ Trẻ em</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Quick Stats Pill Showcase -->
+<div class="grid grid-cols-3 gap-3 pt-2">
+<div class="bg-surface-container-high/60 p-4 rounded-xl text-center shadow-sm">
+<span class="font-headline-lg text-headline-lg text-primary block">29</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Chữ Cái Thần Tiên</span>
+</div>
+<div class="bg-surface-container-high/60 p-4 rounded-xl text-center shadow-sm">
+<span class="font-headline-lg text-headline-lg text-secondary block">100%</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Không Quảng Cáo</span>
+</div>
+<div class="bg-surface-container-high/60 p-4 rounded-xl text-center shadow-sm">
+<span class="font-headline-lg text-headline-lg text-tertiary block">3 Miền</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Ngữ Âm Bản Ngữ</span>
+</div>
+</div>
+</div>
+<!-- Right Column: Visual Mascot & Forest Illustration -->
+<div class="lg:col-span-5 relative flex justify-center items-center">
+<!-- Sunbeam decorative back glow -->
+<div class="absolute w-72 h-72 sm:w-96 sm:h-96 bg-secondary-fixed/50 rounded-full blur-3xl -z-10 animate-pulse"></div>
+<div class="bg-surface-container-lowest p-6 sm:p-8 rounded-3xl shadow-xl flex flex-col items-center text-center w-full max-w-md relative">
+<!-- Mascot Leaf Badge with gentle floating effect -->
+<div class="w-48 h-48 sm:w-56 sm:h-56 relative rounded-full overflow-hidden bg-surface-container p-3 mb-6 shadow-inner flex items-center justify-center">
+<img class="w-full h-full object-cover rounded-full" data-alt="Charming round illustrated emblem with a cheerful green seedling character named Mam La holding a pencil, surrounded by fluttering butterfly-shaped Vietnamese letter creatures A and O in a sunlit fairy tale forest clearing with warm pastel tones." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA_f8ReNvqKWyK_x2JV4gg03nYhcFdQT0XpMRpCNEo5PNCzgLTejxReTbxdQ74KM6NBnZKTzHjdM4YdIiplzOVKko8y2u6LIcUQL1JxujfLZIXBY7SskN321PjhlW3-iLJRtlOqOFRLNglI02DwlwKOh7PBrKDtHzWuGcqt-c1lhsP8VXHdwtS_SUt1REQ0YlB6b3EYCFHQ4vJ4FWcw5iaJG3kmpnsHIhBbhUxA-U5EJO-PQyJWTa38"/>
+</div>
+<!-- Speech bubble dialogue -->
+<div class="bg-surface-container-low rounded-2xl p-4 w-full relative mb-4">
+<span class="font-label-lg text-label-lg text-primary block mb-1">Bé ơi, cùng bạn Mầm Khám Phá Nhé!</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Từng chữ cái mang một câu chuyện rừng sâu. Nhấp vào mỗi hòn đá để lắng nghe tiếng suối hát và cùng bồi đắp vốn từ!
+            </p>
+</div>
+<div class="flex items-center gap-3 w-full">
+<a class="flex-1 py-3 px-4 rounded-full bg-primary hover:bg-primary-container text-on-primary font-label-md text-label-md shadow-[0_4px_0_#005137] active:translate-y-1 transition-all text-center" href="#triet-ly">
+              Xem Triết Lý Học
+            </a>
+<a class="py-3 px-4 rounded-full bg-surface-container text-primary hover:bg-surface-container-high font-label-md text-label-md shadow-[0_2px_0_#68dba9] transition-all text-center" href="#doi-ngu">
+              Gặp Thầy Cô
+            </a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 2: 3 Trụ Cột Triết Lý Thiên Nhiên -->
+<section class="w-full bg-surface-container-lowest py-16" id="triet-ly">
+<div class="max-w-7xl mx-auto px-6">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-4">
+<div>
+<div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-surface-container text-primary font-label-sm text-label-sm mb-3">
+<span class="material-symbols-outlined text-[18px]">psychology</span>
+<span>Phương Pháp Giáo Dục Tự Nhiên</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">3 Trụ Cột Nuôi Dưỡng Trí Tuệ Bé</h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md">
+          Được nghiên cứu bởi các chuyên gia giáo dục sớm hàng đầu, hòa quyện công nghệ nhân văn với phương pháp học tương tác trực quan.
+        </p>
+</div>
+<!-- Bento Grid 3 Pillars -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Pillar 1: Học Như Chơi Giữa Rừng Xanh -->
+<div class="bg-surface-container-low rounded-3xl p-8 flex flex-col justify-between shadow-md relative group hover:-translate-y-1 transition-all duration-300">
+<div>
+<div class="w-16 h-16 rounded-2xl bg-primary text-on-primary flex items-center justify-center mb-6 shadow-md">
+<span class="material-symbols-outlined text-3xl">nature_people</span>
+</div>
+<span class="font-label-sm text-label-sm text-primary uppercase font-bold tracking-wider">Trụ Cột 01</span>
+<h3 class="font-headline-md text-headline-md text-on-surface mt-1 mb-3">Học Như Chơi Giữa Rừng Xanh</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Mỗi bài học được thiết kế như một chuyến du hành sinh thái. Bé tương tác với tiếng chim ríu rít, tiếng gió thổi qua vòm tre, học âm "O" tròn như trứng ngỗng, chữ "Ô" đội nón lá tre làng. Đa giác quan từ xúc giác đến thính giác được kích hoạt trọn vẹn.
+            </p>
+</div>
+<div class="mt-8 pt-6 bg-surface-container/50 rounded-2xl p-4 flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-[24px]">forest</span>
+<span class="font-label-sm text-label-sm text-primary font-semibold">Tích hợp 60+ loài chim muông hoa lá Việt Nam</span>
+</div>
+</div>
+<!-- Pillar 2: AI Bản Ngữ Chữa Ngữ Âm 3 Miền -->
+<div class="bg-surface-container rounded-3xl p-8 flex flex-col justify-between shadow-md relative group hover:-translate-y-1 transition-all duration-300">
+<div>
+<div class="w-16 h-16 rounded-2xl bg-secondary-container text-on-secondary flex items-center justify-center mb-6 shadow-md">
+<span class="material-symbols-outlined text-3xl">record_voice_over</span>
+</div>
+<span class="font-label-sm text-label-sm text-secondary uppercase font-bold tracking-wider">Trụ Cột 02</span>
+<h3 class="font-headline-md text-headline-md text-on-surface mt-1 mb-3">Cá Nhân Hóa Bằng AI Bản Ngữ</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Công nghệ nhận diện giọng nói trẻ em được huấn luyện riêng biệt với hệ ngữ âm Việt Nam (Bắc - Trung - Nam). Hệ thống lắng nghe giọng nói trong trẻo của bé, phản hồi dịu dàng, uốn nắn khẩu hình và độ cong lưỡi một cách tự nhiên, không gây áp lực.
+            </p>
+</div>
+<div class="mt-8 pt-6 bg-surface-container-high/60 rounded-2xl p-4 flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary text-[24px]">graphic_eq</span>
+<span class="font-label-sm text-label-sm text-secondary font-semibold">Nhận diện giọng nói chuẩn xác 96.8%</span>
+</div>
+</div>
+<!-- Pillar 3: Bảo Vệ Thị Lực & An Toàn -->
+<div class="bg-surface-container-low rounded-3xl p-8 flex flex-col justify-between shadow-md relative group hover:-translate-y-1 transition-all duration-300">
+<div>
+<div class="w-16 h-16 rounded-2xl bg-tertiary-container text-on-tertiary-container flex items-center justify-center mb-6 shadow-md">
+<span class="material-symbols-outlined text-3xl">visibility</span>
+</div>
+<span class="font-label-sm text-label-sm text-tertiary uppercase font-bold tracking-wider">Trụ Cột 03</span>
+<h3 class="font-headline-md text-headline-md text-on-surface mt-1 mb-3">Bảo Vệ Mắt &amp; An Toàn 100%</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Áp dụng tiêu chuẩn công thái học nhãn khoa: gam màu thảo mộc dịu mắt, độ tương phản vừa đủ. Chế độ "Đồng Hồ Cú Mèo" nhắc nhở bé nghỉ ngơi sau đúng 20 phút học, cam kết không quảng cáo hay liên kết nguy hiểm ra ngoài.
+            </p>
+</div>
+<div class="mt-8 pt-6 bg-surface-container/50 rounded-2xl p-4 flex items-center gap-3">
+<span class="material-symbols-outlined text-tertiary text-[24px]">timer</span>
+<span class="font-label-sm text-label-sm text-tertiary font-semibold">Tự ngắt sau 20 phút hoạt động liên tục</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Demo: Tiếng Chim Rừng & Thanh Âm Kỳ Diệu -->
+<section class="max-w-7xl mx-auto px-6 w-full py-16">
+<div class="bg-surface-container-high/40 rounded-3xl p-8 lg:p-12 shadow-sm relative overflow-hidden">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+<div class="lg:col-span-5 flex flex-col space-y-4">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-surface-container text-primary font-label-sm text-label-sm w-fit">
+<span class="material-symbols-outlined text-[16px]">touch_app</span>
+<span>Bé thử nhấn để lắng nghe nào!</span>
+</div>
+<h3 class="font-headline-lg text-headline-lg text-primary">Khu Vườn Âm Vần Tương Tác</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            Mỗi chữ cái mang giai điệu riêng. Ba Mẹ và bé có thể ấn vào từng hạt mầm để nghe thử ngữ âm mẫu trong ứng dụng.
+          </p>
+<div class="flex items-center gap-3 text-on-surface-variant font-label-sm text-label-sm pt-2">
+<span class="flex items-center gap-1"><span class="w-3 h-3 rounded-full bg-primary inline-block"></span> Giọng Bắc</span>
+<span class="flex items-center gap-1"><span class="w-3 h-3 rounded-full bg-secondary-container inline-block"></span> Giọng Trung</span>
+<span class="flex items-center gap-1"><span class="w-3 h-3 rounded-full bg-tertiary inline-block"></span> Giọng Nam</span>
+</div>
+</div>
+<div class="lg:col-span-7 grid grid-cols-2 sm:grid-cols-4 gap-4" id="sound-garden-grid">
+<!-- Letter Tile A -->
+<div class="cursor-pointer bg-surface-container-lowest hover:bg-surface-container-low p-5 rounded-2xl shadow-md transition-all active:translate-y-1 text-center group flex flex-col items-center" onclick="playSoundSample('A', 'Con Gà', 'Ó o o... Chữ A trong đàn gà nhỏ!')">
+<div class="w-14 h-14 rounded-full bg-surface-container flex items-center justify-center font-display-hero text-headline-lg text-primary mb-2 group-hover:scale-110 transition-transform">
+              A
+            </div>
+<span class="font-label-md text-label-md text-on-surface">Con Gà</span>
+<span class="font-label-sm text-label-sm text-primary flex items-center gap-1 mt-1">
+<span class="material-symbols-outlined text-[16px]">volume_up</span> Nghe
+            </span>
+</div>
+<!-- Letter Tile B -->
+<div class="cursor-pointer bg-surface-container-lowest hover:bg-surface-container-low p-5 rounded-2xl shadow-md transition-all active:translate-y-1 text-center group flex flex-col items-center" onclick="playSoundSample('B', 'Quả Bơ', 'Bé thích ăn quả Bơ béo ngậy!')">
+<div class="w-14 h-14 rounded-full bg-secondary-fixed flex items-center justify-center font-display-hero text-headline-lg text-secondary mb-2 group-hover:scale-110 transition-transform">
+              B
+            </div>
+<span class="font-label-md text-label-md text-on-surface">Quả Bơ</span>
+<span class="font-label-sm text-label-sm text-secondary flex items-center gap-1 mt-1">
+<span class="material-symbols-outlined text-[16px]">volume_up</span> Nghe
+            </span>
+</div>
+<!-- Letter Tile C -->
+<div class="cursor-pointer bg-surface-container-lowest hover:bg-surface-container-low p-5 rounded-2xl shadow-md transition-all active:translate-y-1 text-center group flex flex-col items-center" onclick="playSoundSample('C', 'Cá Chép', 'Cá chép vàng quẫy đuôi lượn lờ.')">
+<div class="w-14 h-14 rounded-full bg-tertiary-fixed flex items-center justify-center font-display-hero text-headline-lg text-tertiary mb-2 group-hover:scale-110 transition-transform">
+              C
+            </div>
+<span class="font-label-md text-label-md text-on-surface">Cá Chép</span>
+<span class="font-label-sm text-label-sm text-tertiary flex items-center gap-1 mt-1">
+<span class="material-symbols-outlined text-[16px]">volume_up</span> Nghe
+            </span>
+</div>
+<!-- Letter Tile D -->
+<div class="cursor-pointer bg-surface-container-lowest hover:bg-surface-container-low p-5 rounded-2xl shadow-md transition-all active:translate-y-1 text-center group flex flex-col items-center" onclick="playSoundSample('D', 'Dưa Hấu', 'Dưa hấu mát ngọt ngày hè rực rỡ.')">
+<div class="w-14 h-14 rounded-full bg-surface-container-high flex items-center justify-center font-display-hero text-headline-lg text-primary mb-2 group-hover:scale-110 transition-transform">
+              D
+            </div>
+<span class="font-label-md text-label-md text-on-surface">Dưa Hấu</span>
+<span class="font-label-sm text-label-sm text-primary flex items-center gap-1 mt-1">
+<span class="material-symbols-outlined text-[16px]">volume_up</span> Nghe
+            </span>
+</div>
+</div>
+</div>
+<!-- Live Pronunciation Feedback Banner -->
+<div class="mt-6 p-4 rounded-xl bg-surface-container-lowest/80 backdrop-blur-sm flex items-center gap-3 transition-opacity" id="sound-feedback-box">
+<span class="material-symbols-outlined text-primary text-[28px] animate-spin" style="animation-duration: 4s;">graphic_eq</span>
+<div>
+<span class="font-label-md text-label-md text-primary" id="sound-feedback-title">Mầm Lá đang lắng nghe:</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant" id="sound-feedback-desc">Nhấp vào một chữ cái bất kỳ ở trên để thưởng thức thanh âm trong trẻo!</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 3: Đội Ngũ Sáng Lập & Ban Cố Vấn Sư Phạm -->
+<section class="w-full bg-surface-container-lowest py-16" id="doi-ngu">
+<div class="max-w-7xl mx-auto px-6">
+<div class="text-center max-w-2xl mx-auto mb-12">
+<div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-surface-container text-primary font-label-sm text-label-sm mb-3">
+<span class="material-symbols-outlined text-[18px]">favorite</span>
+<span>Trái Tim Vì Trẻ Thơ</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface mb-3">Đội Ngũ Sáng Lập &amp; Cố Vấn Sư Phạm</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          Là những người cha, người mẹ, nhà giáo mầm non và kỹ sư công nghệ hội tụ với một khát vọng duy nhất: làm rạng rỡ vẻ đẹp tiếng Việt trong lòng con trẻ.
+        </p>
+</div>
+<!-- Faculty Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Member 1 -->
+<div class="bg-surface-container-low rounded-3xl p-6 flex flex-col items-center text-center shadow-sm hover:shadow-md transition-shadow">
+<div class="w-28 h-28 rounded-full overflow-hidden mb-4 shadow-md bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Warm portrait photograph of a friendly Vietnamese female preschool educator in a pastel green linen shirt smiling gently with soft natural lighting, sitting in a cozy montessori library background." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDxBHWJP8CkquJAQIqzTjCSNLlG_wqfDCO_d6FHImIGIY14m5qCAe83omW2X5s7Snysnf4uL809_0FyJaGAj2a__kwup1fTSweONcX4ImD_eNoWFUgz_DMrpmwCJrMOd4lryd0BHYpo4g7bWlYLS0AiFFN1CDWQnnBOMcxZONb7S0hlm0dPj_XN6F5YMucNAFCojTh-YV_rWUgvuktrgfLMG4-K1j5uURWDn38Vh1iA2j8UUKwlZyQl"/>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Cô Lê Mai Hương</h4>
+<span class="font-label-sm text-label-sm text-primary font-bold mb-3">Chuyên Gia Phương Pháp Sư Phạm Mầm Non</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            14 năm trực tiếp giảng dạy tại các hệ thống trường mầm non thực nghiệm tại Hà Nội và TP.HCM.
+          </p>
+<div class="mt-4 pt-3 flex items-center gap-1.5 text-outline text-label-sm font-label-sm">
+<span class="material-symbols-outlined text-[16px]">school</span> ĐH Sư Phạm Hà Nội
+          </div>
+</div>
+<!-- Member 2 -->
+<div class="bg-surface-container-low rounded-3xl p-6 flex flex-col items-center text-center shadow-sm hover:shadow-md transition-shadow">
+<div class="w-28 h-28 rounded-full overflow-hidden mb-4 shadow-md bg-secondary-fixed">
+<img class="w-full h-full object-cover" data-alt="Friendly portrait of a Vietnamese male phonetics linguist professor with glasses and a gentle smile, holding a colorful storybook in a bright classroom with warm sunlight." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCGa0SQrr9MUb66Euk6aNExTeNvy1NyZEyzm5I6UCYTzcOwiuNzEhHvBKsIaPeDMsi-mU5NzX3BDTC_ALq4iT0Pwpxvx4HKu3FM3F9VtdQ2k9jspRjjRArWc2O_QLRjweh7V8OvPW3jVJ0RbX8rpsWks5pJ2ofS_6ibnfdHN7ftjIaSKb5b0hL6NkNW2F7J3ijf9ybW7lye-mZpj9sQNcop9dehwGZdfp5RoWecRntkYbkU4LhH2h3o"/>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">TS. Vũ Minh Trí</h4>
+<span class="font-label-sm text-label-sm text-secondary font-bold mb-3">Tiến Sĩ Ngôn Ngữ Học &amp; Ngữ Âm Bản Ngữ</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Chủ trì công trình số hóa phương ngữ 3 miền, đảm bảo độ chuẩn mực và giàu cảm xúc cho kho dữ liệu phát âm.
+          </p>
+<div class="mt-4 pt-3 flex items-center gap-1.5 text-outline text-label-sm font-label-sm">
+<span class="material-symbols-outlined text-[16px]">record_voice_over</span> Viện Ngôn Ngữ Học
+          </div>
+</div>
+<!-- Member 3 -->
+<div class="bg-surface-container-low rounded-3xl p-6 flex flex-col items-center text-center shadow-sm hover:shadow-md transition-shadow">
+<div class="w-28 h-28 rounded-full overflow-hidden mb-4 shadow-md bg-tertiary-fixed">
+<img class="w-full h-full object-cover" data-alt="Portrait of an approachable Vietnamese female child psychologist with a cheerful expression, wearing a soft cream sweater in a bright child-friendly room filled with wooden learning toys." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDTFCrQe-LI--RDvjSprIZRCN7Q5_t33iTSKUzrN1Do1h4qAEPjsPlFClkuLGaVajpPNBSnUSloHbohSBvxDcsWqu4x7j7AclogT_0Wtxx2PWBprP5OU7tEpLKeHw94DeB_ttIooY09KR_bUCkTO2SMQH7fr_PFd3cRevnGFWGpGDpbAQ5C8WdK9uoY5Gi07QN309Df2iB1hoG9WiyIMMpai4tSoX-gVcCm6ItpVotPpktTTuXF03tr"/>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">ThS. Phan Thùy Trang</h4>
+<span class="font-label-sm text-label-sm text-tertiary font-bold mb-3">Tâm Lý Học Phát Triển Trẻ Nhỏ</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Tư vấn cơ chế khen thưởng tích cực, xây dựng trải nghiệm học mà không gây căng thẳng hay kích động thị giác.
+          </p>
+<div class="mt-4 pt-3 flex items-center gap-1.5 text-outline text-label-sm font-label-sm">
+<span class="material-symbols-outlined text-[16px]">psychology</span> Chuyên gia Tâm lý Trẻ Em
+          </div>
+</div>
+<!-- Member 4 -->
+<div class="bg-surface-container-low rounded-3xl p-6 flex flex-col items-center text-center shadow-sm hover:shadow-md transition-shadow">
+<div class="w-28 h-28 rounded-full overflow-hidden mb-4 shadow-md bg-surface-container-high">
+<img class="w-full h-full object-cover" data-alt="Portrait of a young creative Vietnamese female illustrator and graphic designer smiling with drawing stylus in hand, standing in front of whimsical watercolor forest illustrations on the studio wall." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAs4TxEAL-N6voH_I_mIfpAQa1Dn1JQWlW4xqYX_viKhC0GBwkd888fMk4bzflkdQ9MfWTUo5tg3GcIyyp6xlWIYj2jq7Hzc9FvZNCvBBrQg2hVjsxdgcPbPWS2ihAEfA3yn9DXQF17uzk9BhZhrN-DPC16nVUF1UP6PYjYtbfKB-WFnHY1eLeJH3PO1tx2qVz_Yjal1uwS1lEGUtqMVfkx_7eEWxp5lisndQwrGxosxbNKNjGQSpLk"/>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Họa Sĩ Trần An Nhiên</h4>
+<span class="font-label-sm text-label-sm text-primary font-bold mb-3">Giám Đốc Nghệ Thuật &amp; Linh Vật Rừng</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Tác giả của bộ nhận diện chú Sóc Nhí, Mầm Lá và hơn 200 loài sinh vật diệu kỳ trong hệ sinh thái Vườn Chữ.
+          </p>
+<div class="mt-4 pt-3 flex items-center gap-1.5 text-outline text-label-sm font-label-sm">
+<span class="material-symbols-outlined text-[16px]">palette</span> Giải thưởng Tranh Sách Thiếu Nhi 2023
+          </div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 4: Lời Nhắn Gửi Tới Ba Mẹ & Cam Kết An Toàn -->
+<section class="max-w-7xl mx-auto px-6 w-full py-16">
+<div class="bg-surface-container rounded-3xl p-8 sm:p-12 shadow-sm relative overflow-hidden">
+<!-- Decorative leafy backdrop shapes -->
+<div class="absolute -top-12 -right-12 w-64 h-64 bg-surface-container-high rounded-full opacity-50 blur-2xl"></div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center relative z-10">
+<div class="lg:col-span-6 flex flex-col space-y-4">
+<div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-surface-container-lowest text-primary font-label-sm text-label-sm w-fit shadow-xs">
+<span class="material-symbols-outlined text-[18px]">verified_user</span>
+<span>Cam Kết Vàng Cho Phụ Huynh</span>
+</div>
+<h3 class="font-headline-lg text-headline-lg text-on-surface">Không Gian Kỷ Nguyên Số Lành Mạnh Như Khí Trời</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            Chúng tôi hiểu nỗi băn khoăn của cha mẹ khi cho con tiếp xúc với thiết bị thông minh. Vườn Chữ Diệu Kỳ được lập trình với 4 hàng rào bảo vệ vững chắc để trẻ em tự do vui học mà không gặp bất kỳ nguy cơ nào.
+          </p>
+<ul class="flex flex-col space-y-3 pt-2">
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-[22px] shrink-0 mt-0.5">check_circle</span>
+<span class="font-body-md text-body-md text-on-surface"><strong>Hoàn Toàn Không Quảng Cáo:</strong> Không banner gây xao nhãng, không pop-up khó chịu.</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-[22px] shrink-0 mt-0.5">check_circle</span>
+<span class="font-body-md text-body-md text-on-surface"><strong>Bảo Mật Dữ Liệu Tuyệt Đối:</strong> Không thu thập vị trí GPS, không bán thông tin bé cho bên thứ ba.</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-[22px] shrink-0 mt-0.5">check_circle</span>
+<span class="font-body-md text-body-md text-on-surface"><strong>Có Sẵn Học Liệu Tập Tô In Ấn:</strong> Hơn 150 trang PDF bài tập tô chữ viết tay, nối chữ để bé luyện cổ tay ngoài đời thực.</span>
+</li>
+</ul>
+</div>
+<div class="lg:col-span-6">
+<div class="bg-surface-container-lowest rounded-2xl p-6 sm:p-8 shadow-md">
+<div class="flex items-center justify-between border-b pb-4 mb-4 border-outline-variant/30">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-[32px]">download_for_offline</span>
+<div>
+<h5 class="font-label-lg text-label-lg text-on-surface">Túi Quà Tặng Ba Mẹ</h5>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Bộ Thẻ Học &amp; Vở Tô Chữ PDF In Sẵn</span>
+</div>
+</div>
+<span class="px-3 py-1 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm">Miễn Phí</span>
+</div>
+<div class="space-y-3">
+<div class="p-3 rounded-xl bg-surface-container-low flex items-center justify-between">
+<div class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-primary">description</span>
+<span class="font-label-md text-label-md text-on-surface">Vở Tô Chữ 29 Chữ Cái (Nét Chuẩn Bộ GD)</span>
+</div>
+<button class="px-3 py-1 rounded-full bg-primary text-on-primary font-label-sm text-label-sm shadow-[0_2px_0_#005137] active:translate-y-0.5" onclick="alert('Đã sẵn sàng tải xuống bộ tài liệu PDF chuẩn!')">Tải Về</button>
+</div>
+<div class="p-3 rounded-xl bg-surface-container-low flex items-center justify-between">
+<div class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-primary">draw</span>
+<span class="font-label-md text-label-md text-on-surface">Flashcard Cắt Ghép Rừng Động Vật</span>
+</div>
+<button class="px-3 py-1 rounded-full bg-primary text-on-primary font-label-sm text-label-sm shadow-[0_2px_0_#005137] active:translate-y-0.5" onclick="alert('Đã sẵn sàng tải xuống bộ Flashcard!')">Tải Về</button>
+</div>
+<div class="p-3 rounded-xl bg-surface-container-low flex items-center justify-between">
+<div class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-primary">checklist</span>
+<span class="font-label-md text-label-md text-on-surface">Sổ Tay 15 Phút Đồng Hành Cùng Bé Mỗi Ngày</span>
+</div>
+<button class="px-3 py-1 rounded-full bg-primary text-on-primary font-label-sm text-label-sm shadow-[0_2px_0_#005137] active:translate-y-0.5" onclick="alert('Đã sẵn sàng tải xuống sổ tay hướng dẫn!')">Tải Về</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 5: Call To Action (Gieo Hạt Mầm Đầu Tiên) -->
+<section class="max-w-7xl mx-auto px-6 w-full pb-16">
+<div class="bg-primary text-on-primary rounded-3xl p-8 sm:p-14 text-center shadow-xl relative overflow-hidden">
+<!-- Glow ambient shapes -->
+<div class="absolute -top-24 left-1/2 -translate-x-1/2 w-96 h-96 bg-primary-fixed-dim/20 rounded-full blur-3xl pointer-events-none"></div>
+<div class="max-w-2xl mx-auto relative z-10 flex flex-col items-center">
+<span class="material-symbols-outlined text-primary-fixed text-5xl mb-3 animate-bounce">park</span>
+<h2 class="font-headline-lg text-headline-lg sm:font-display-hero sm:text-display-hero text-on-primary tracking-tight leading-tight mb-4">
+          Cùng Bé Gieo Hạt Mầm Đầu Tiên Ngay Hôm Nay!
+        </h2>
+<p class="font-body-lg text-body-lg text-on-primary-container max-w-xl mb-8 opacity-95">
+          Tạo tài khoản miễn phí trong 30 giây để cùng con khám phá bảng chữ cái thần tiên, nhận báo cáo tiến trình phát âm mỗi tuần và bộ bài tập in kèm theo.
+        </p>
+<div class="flex flex-col sm:flex-row items-center gap-4 w-full sm:w-auto">
+<a class="w-full sm:w-auto px-8 py-4 rounded-full bg-secondary-container hover:bg-secondary-fixed text-on-secondary-container font-label-lg text-label-lg shadow-[0_4px_0_#653e00] active:translate-y-1 transition-all text-center" href="#">
+            Đăng Ký Tài Khoản Miễn Phí
+          </a>
+<a class="w-full sm:w-auto px-6 py-4 rounded-full bg-surface-container-lowest text-primary hover:bg-surface-container-low font-label-lg text-label-lg shadow-[0_3px_0_#005137] active:translate-y-1 transition-all text-center" href="#">
+            Học Thử Không Cần Cài Đặt
+          </a>
+</div>
+<div class="mt-8 flex flex-wrap items-center justify-center gap-6 text-on-primary-container font-label-sm text-label-sm">
+<span class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[18px]">credit_card_off</span> Không cần thẻ tín dụng</span>
+<span class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[18px]">verified</span> Hơn 45,000 phụ huynh tin dùng</span>
+<span class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[18px]">devices</span> Tương thích iPad, Tablet và Máy tính</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Logic for Sound Samples & Audio Preview -->
+<script>
+    function playSoundSample(letter, word, sentence) {
+      const feedbackBox = document.getElementById('sound-feedback-box');
+      const title = document.getElementById('sound-feedback-title');
+      const desc = document.getElementById('sound-feedback-desc');
+
+      if (feedbackBox && title && desc) {
+        feedbackBox.classList.remove('bg-surface-container-lowest/80');
+        feedbackBox.classList.add('bg-secondary-fixed/40');
+        
+        title.innerHTML = 'Thanh âm chữ cái <strong>' + letter + '</strong>:';
+        desc.textContent = word + ' — ' + sentence;
+
+        // Visual bounce animation feedback
+        feedbackBox.style.transform = 'scale(1.02)';
+        setTimeout(() => {
+          feedbackBox.style.transform = 'scale(1)';
+        }, 200);
+      }
+    }
+
+    let isAudioPlaying = false;
+    function toggleAudioPreview() {
+      const icon = document.getElementById('audio-icon');
+      const text = document.getElementById('audio-status-text');
+      const btn = document.getElementById('audio-toggle-btn');
+
+      isAudioPlaying = !isAudioPlaying;
+      if (isAudioPlaying) {
+        icon.textContent = 'pause_circle';
+        text.textContent = 'Đang Phát Tiếng Suối Reo...';
+        btn.classList.add('animate-pulse');
+      } else {
+        icon.textContent = 'volume_up';
+        text.textContent = 'Nghe Giọng Rừng Xanh';
+        btn.classList.remove('animate-pulse');
+      }
+    }
+  </script>
+</div></main><footer class="w-full bg-surface-container-low py-12 mt-16 shadow-[0_-2px_12px_rgba(0,105,72,0.04)]"><div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6"><div class="flex flex-col items-center md:items-start text-center md:text-left"><span class="font-headline-sm text-headline-sm text-primary mb-1">Vườn Chữ Diệu Kỳ 🌿</span><p class="font-body-sm text-body-sm text-on-surface-variant max-w-md">Nơi mỗi mầm chữ nảy chồi thành tình yêu ngôn ngữ, đồng hành cùng bước chân khám phá thiên nhiên của bé.</p></div><div class="flex flex-wrap items-center justify-center gap-3"><div class="flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-surface-container text-primary font-label-sm text-label-sm"><span class="material-symbols-outlined text-[18px]">verified_user</span><span>An Toàn Cho Trẻ Em</span></div><div class="flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-surface-container text-primary font-label-sm text-label-sm"><span class="material-symbols-outlined text-[18px]">shield</span><span>100% Không Quảng Cáo</span></div><div class="flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-surface-container text-primary font-label-sm text-label-sm"><span class="material-symbols-outlined text-[18px]">graphic_eq</span><span>Âm Thanh Trực Quan</span></div></div><div class="text-center md:text-right text-on-surface-variant font-label-sm text-label-sm"><p>© 2025 Vườn Chữ Diệu Kỳ. Tận tâm vì nụ cười trẻ thơ.</p></div></div></footer></body></html>

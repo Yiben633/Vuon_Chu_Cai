@@ -1,0 +1,113 @@
+{
+  "formatVersion": 1,
+  "databaseHint": "vuon_chu_dev",
+  "notMongoDump": true,
+  "demoOnlyUntilReviewed": true,
+  "timezone": "Asia/Ho_Chi_Minh",
+  "assetManifest": "assets/manifest.json",
+  "importOrder": [
+    "assets",
+    "letters",
+    "tones",
+    "vocabulary",
+    "spellingEntries",
+    "exercises",
+    "lessons",
+    "stories",
+    "rewardCatalog",
+    "badges",
+    "missions",
+    "resources"
+  ],
+  "upsertKey": "key",
+  "datasets": [
+    {
+      "collection": "letters",
+      "file": "data/seed/letters.json",
+      "count": 29,
+      "upsertKey": "key"
+    },
+    {
+      "collection": "tones",
+      "file": "data/seed/tones.json",
+      "count": 6,
+      "upsertKey": "key"
+    },
+    {
+      "collection": "vocabulary",
+      "file": "data/seed/vocabulary.json",
+      "count": 24,
+      "upsertKey": "key"
+    },
+    {
+      "collection": "spellingEntries",
+      "file": "data/seed/spellingEntries.json",
+      "count": 24,
+      "upsertKey": "key"
+    },
+    {
+      "collection": "exercises",
+      "file": "data/seed/exercises.json",
+      "count": 12,
+      "upsertKey": "key"
+    },
+    {
+      "collection": "lessons",
+      "file": "data/seed/lessons.json",
+      "count": 5,
+      "upsertKey": "key"
+    },
+    {
+      "collection": "stories",
+      "file": "data/seed/stories.json",
+      "count": 2,
+      "upsertKey": "key"
+    },
+    {
+      "collection": "rewardCatalog",
+      "file": "data/seed/rewardCatalog.json",
+      "count": 4,
+      "upsertKey": "key"
+    },
+    {
+      "collection": "badges",
+      "file": "data/seed/badges.json",
+      "count": 4,
+      "upsertKey": "key"
+    },
+    {
+      "collection": "missions",
+      "file": "data/seed/missions.json",
+      "count": 3,
+      "upsertKey": "key"
+    },
+    {
+      "collection": "resources",
+      "file": "data/seed/resources.json",
+      "count": 2,
+      "upsertKey": "key"
+    }
+  ],
+  "neverMutateCollections": [
+    "users",
+    "childProfiles",
+    "sessions",
+    "learningSessions",
+    "attempts",
+    "childProgress",
+    "dailyStats",
+    "wallets",
+    "rewardLedger",
+    "inventory",
+    "childBadges",
+    "missionClaims",
+    "recordings"
+  ],
+  "missingAssets": [
+    "region narration audio",
+    "letter and word illustrations",
+    "story scene artwork",
+    "PDF worksheets"
+  ],
+  "countsAfterStep03": "At least58 identify-letter and5 questions per game type; implementer extends seed."
+}

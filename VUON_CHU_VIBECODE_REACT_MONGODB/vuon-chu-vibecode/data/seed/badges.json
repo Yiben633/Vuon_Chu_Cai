@@ -1,0 +1,42 @@
+[
+  {
+    "key": "badge-first-lesson",
+    "title": "Hạt mầm đầu tiên",
+    "rule": {
+      "metric": "completedLessons",
+      "threshold": 1
+    },
+    "assetKey": null,
+    "version": 1
+  },
+  {
+    "key": "badge-three-letters",
+    "title": "Chồi non chăm học",
+    "rule": {
+      "metric": "masteredLetters",
+      "threshold": 3
+    },
+    "assetKey": null,
+    "version": 1
+  },
+  {
+    "key": "badge-story-friend",
+    "title": "Bạn của câu chuyện",
+    "rule": {
+      "metric": "completedStories",
+      "threshold": 1
+    },
+    "assetKey": null,
+    "version": 1
+  },
+  {
+    "key": "badge-seven-days",
+    "title": "Một tuần đồng hành",
+    "rule": {
+      "metric": "streakDays",
+      "threshold": 7
+    },
+    "assetKey": null,
+    "version": 1
+  }
+]

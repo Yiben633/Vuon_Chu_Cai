@@ -1,0 +1,872 @@
+[
+  {
+    "key": "letter-a",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "symbol": "A",
+    "lowerSymbol": "a",
+    "order": 1,
+    "group": "vowel",
+    "letterName": "a",
+    "example": {
+      "text": "cá",
+      "targetOffset": 1,
+      "targetLength": 1,
+      "baseSymbol": "A",
+      "note": "Chữ cơ sở được giữ khi bỏ dấu thanh; không bỏ dấu mũ/râu/breve."
+    },
+    "imageAssetKey": null,
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "teachingNote": "Chỉ tên chữ và chữ trong từ; audio dạy âm cần được biên tập riêng."
+  },
+  {
+    "key": "letter-aw",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "symbol": "Ă",
+    "lowerSymbol": "ă",
+    "order": 2,
+    "group": "vowel",
+    "letterName": "ă",
+    "example": {
+      "text": "ăn",
+      "targetOffset": 0,
+      "targetLength": 1,
+      "baseSymbol": "Ă",
+      "note": "Chữ cơ sở được giữ khi bỏ dấu thanh; không bỏ dấu mũ/râu/breve."
+    },
+    "imageAssetKey": null,
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "teachingNote": "Chỉ tên chữ và chữ trong từ; audio dạy âm cần được biên tập riêng."
+  },
+  {
+    "key": "letter-aa",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "symbol": "Â",
+    "lowerSymbol": "â",
+    "order": 3,
+    "group": "vowel",
+    "letterName": "â",
+    "example": {
+      "text": "ấm",
+      "targetOffset": 0,
+      "targetLength": 1,
+      "baseSymbol": "Â",
+      "note": "Chữ cơ sở được giữ khi bỏ dấu thanh; không bỏ dấu mũ/râu/breve."
+    },
+    "imageAssetKey": null,
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "teachingNote": "Chỉ tên chữ và chữ trong từ; audio dạy âm cần được biên tập riêng."
+  },
+  {
+    "key": "letter-b",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "symbol": "B",
+    "lowerSymbol": "b",
+    "order": 4,
+    "group": "consonant",
+    "letterName": "bê",
+    "example": {
+      "text": "bướm",
+      "targetOffset": 0,
+      "targetLength": 1,
+      "baseSymbol": "B",
+      "note": "Chữ cơ sở được giữ khi bỏ dấu thanh; không bỏ dấu mũ/râu/breve."
+    },
+    "imageAssetKey": null,
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "teachingNote": "Chỉ tên chữ và chữ trong từ; audio dạy âm cần được biên tập riêng."
+  },
+  {
+    "key": "letter-c",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "symbol": "C",
+    "lowerSymbol": "c",
+    "order": 5,
+    "group": "consonant",
+    "letterName": "xê",
+    "example": {
+      "text": "cá",
+      "targetOffset": 0,
+      "targetLength": 1,
+      "baseSymbol": "C",
+      "note": "Chữ cơ sở được giữ khi bỏ dấu thanh; không bỏ dấu mũ/râu/breve."
+    },
+    "imageAssetKey": null,
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "teachingNote": "Chỉ tên chữ và chữ trong từ; audio dạy âm cần được biên tập riêng."
+  },
+  {
+    "key": "letter-d",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "symbol": "D",
+    "lowerSymbol": "d",
+    "order": 6,
+    "group": "consonant",
+    "letterName": "dê",
+    "example": {
+      "text": "dưa",
+      "targetOffset": 0,
+      "targetLength": 1,
+      "baseSymbol": "D",
+      "note": "Chữ cơ sở được giữ khi bỏ dấu thanh; không bỏ dấu mũ/râu/breve."
+    },
+    "imageAssetKey": null,
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "teachingNote": "Chỉ tên chữ và chữ trong từ; audio dạy âm cần được biên tập riêng."
+  },
+  {
+    "key": "letter-dd",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "symbol": "Đ",
+    "lowerSymbol": "đ",
+    "order": 7,
+    "group": "consonant",
+    "letterName": "đê",
+    "example": {
+      "text": "đom đóm",
+      "targetOffset": 0,
+      "targetLength": 1,
+      "baseSymbol": "Đ",
+      "note": "Chữ cơ sở được giữ khi bỏ dấu thanh; không bỏ dấu mũ/râu/breve."
+    },
+    "imageAssetKey": null,
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "teachingNote": "Chỉ tên chữ và chữ trong từ; audio dạy âm cần được biên tập riêng."
+  },
+  {
+    "key": "letter-e",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "symbol": "E",
+    "lowerSymbol": "e",
+    "order": 8,
+    "group": "vowel",
+    "letterName": "e",
+    "example": {
+      "text": "em bé",
+      "targetOffset": 0,
+      "targetLength": 1,
+      "baseSymbol": "E",
+      "note": "Chữ cơ sở được giữ khi bỏ dấu thanh; không bỏ dấu mũ/râu/breve."
+    },
+    "imageAssetKey": null,
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "teachingNote": "Chỉ tên chữ và chữ trong từ; audio dạy âm cần được biên tập riêng."
+  },
+  {
+    "key": "letter-ee",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "symbol": "Ê",
+    "lowerSymbol": "ê",
+    "order": 9,
+    "group": "vowel",
+    "letterName": "ê",
+    "example": {
+      "text": "dế",
+      "targetOffset": 1,
+      "targetLength": 1,
+      "baseSymbol": "Ê",
+      "note": "Chữ cơ sở được giữ khi bỏ dấu thanh; không bỏ dấu mũ/râu/breve."
+    },
+    "imageAssetKey": null,
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "teachingNote": "Chỉ tên chữ và chữ trong từ; audio dạy âm cần được biên tập riêng."
+  },
+  {
+    "key": "letter-g",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "symbol": "G",
+    "lowerSymbol": "g",
+    "order": 10,
+    "group": "consonant",
+    "letterName": "giê",
+    "example": {
+      "text": "gà",
+      "targetOffset": 0,
+      "targetLength": 1,
+      "baseSymbol": "G",
+      "note": "Chữ cơ sở được giữ khi bỏ dấu thanh; không bỏ dấu mũ/râu/breve."
+    },
+    "imageAssetKey": null,
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "teachingNote": "Chỉ tên chữ và chữ trong từ; audio dạy âm cần được biên tập riêng."
+  },
+  {
+    "key": "letter-h",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "symbol": "H",
+    "lowerSymbol": "h",
+    "order": 11,
+    "group": "consonant",
+    "letterName": "hát",
+    "example": {
+      "text": "hoa",
+      "targetOffset": 0,
+      "targetLength": 1,
+      "baseSymbol": "H",
+      "note": "Chữ cơ sở được giữ khi bỏ dấu thanh; không bỏ dấu mũ/râu/breve."
+    },
+    "imageAssetKey": null,
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "teachingNote": "Chỉ tên chữ và chữ trong từ; audio dạy âm cần được biên tập riêng."
+  },
+  {
+    "key": "letter-i",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "symbol": "I",
+    "lowerSymbol": "i",
+    "order": 12,
+    "group": "vowel",
+    "letterName": "i",
+    "example": {
+      "text": "chim",
+      "targetOffset": 2,
+      "targetLength": 1,
+      "baseSymbol": "I",
+      "note": "Chữ cơ sở được giữ khi bỏ dấu thanh; không bỏ dấu mũ/râu/breve."
+    },
+    "imageAssetKey": null,
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "teachingNote": "Chỉ tên chữ và chữ trong từ; audio dạy âm cần được biên tập riêng."
+  },
+  {
+    "key": "letter-k",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "symbol": "K",
+    "lowerSymbol": "k",
+    "order": 13,
+    "group": "consonant",
+    "letterName": "ca",
+    "example": {
+      "text": "kiến",
+      "targetOffset": 0,
+      "targetLength": 1,
+      "baseSymbol": "K",
+      "note": "Chữ cơ sở được giữ khi bỏ dấu thanh; không bỏ dấu mũ/râu/breve."
+    },
+    "imageAssetKey": null,
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "teachingNote": "Chỉ tên chữ và chữ trong từ; audio dạy âm cần được biên tập riêng."
+  },
+  {
+    "key": "letter-l",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "symbol": "L",
+    "lowerSymbol": "l",
+    "order": 14,
+    "group": "consonant",
+    "letterName": "e-lờ",
+    "example": {
+      "text": "lá",
+      "targetOffset": 0,
+      "targetLength": 1,
+      "baseSymbol": "L",
+      "note": "Chữ cơ sở được giữ khi bỏ dấu thanh; không bỏ dấu mũ/râu/breve."
+    },
+    "imageAssetKey": null,
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "teachingNote": "Chỉ tên chữ và chữ trong từ; audio dạy âm cần được biên tập riêng."
+  },
+  {
+    "key": "letter-m",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "symbol": "M",
+    "lowerSymbol": "m",
+    "order": 15,
+    "group": "consonant",
+    "letterName": "em-mờ",
+    "example": {
+      "text": "mèo",
+      "targetOffset": 0,
+      "targetLength": 1,
+      "baseSymbol": "M",
+      "note": "Chữ cơ sở được giữ khi bỏ dấu thanh; không bỏ dấu mũ/râu/breve."
+    },
+    "imageAssetKey": null,
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "teachingNote": "Chỉ tên chữ và chữ trong từ; audio dạy âm cần được biên tập riêng."
+  },
+  {
+    "key": "letter-n",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "symbol": "N",
+    "lowerSymbol": "n",
+    "order": 16,
+    "group": "consonant",
+    "letterName": "en-nờ",
+    "example": {
+      "text": "nai",
+      "targetOffset": 0,
+      "targetLength": 1,
+      "baseSymbol": "N",
+      "note": "Chữ cơ sở được giữ khi bỏ dấu thanh; không bỏ dấu mũ/râu/breve."
+    },
+    "imageAssetKey": null,
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "teachingNote": "Chỉ tên chữ và chữ trong từ; audio dạy âm cần được biên tập riêng."
+  },
+  {
+    "key": "letter-o",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "symbol": "O",
+    "lowerSymbol": "o",
+    "order": 17,
+    "group": "vowel",
+    "letterName": "o",
+    "example": {
+      "text": "ong",
+      "targetOffset": 0,
+      "targetLength": 1,
+      "baseSymbol": "O",
+      "note": "Chữ cơ sở được giữ khi bỏ dấu thanh; không bỏ dấu mũ/râu/breve."
+    },
+    "imageAssetKey": null,
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "teachingNote": "Chỉ tên chữ và chữ trong từ; audio dạy âm cần được biên tập riêng."
+  },
+  {
+    "key": "letter-oo",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "symbol": "Ô",
+    "lowerSymbol": "ô",
+    "order": 18,
+    "group": "vowel",
+    "letterName": "ô",
+    "example": {
+      "text": "ô cửa",
+      "targetOffset": 0,
+      "targetLength": 1,
+      "baseSymbol": "Ô",
+      "note": "Chữ cơ sở được giữ khi bỏ dấu thanh; không bỏ dấu mũ/râu/breve."
+    },
+    "imageAssetKey": null,
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "teachingNote": "Chỉ tên chữ và chữ trong từ; audio dạy âm cần được biên tập riêng."
+  },
+  {
+    "key": "letter-ow",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "symbol": "Ơ",
+    "lowerSymbol": "ơ",
+    "order": 19,
+    "group": "vowel",
+    "letterName": "ơ",
+    "example": {
+      "text": "mơ",
+      "targetOffset": 1,
+      "targetLength": 1,
+      "baseSymbol": "Ơ",
+      "note": "Chữ cơ sở được giữ khi bỏ dấu thanh; không bỏ dấu mũ/râu/breve."
+    },
+    "imageAssetKey": null,
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "teachingNote": "Chỉ tên chữ và chữ trong từ; audio dạy âm cần được biên tập riêng."
+  },
+  {
+    "key": "letter-p",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "symbol": "P",
+    "lowerSymbol": "p",
+    "order": 20,
+    "group": "consonant",
+    "letterName": "pê",
+    "example": {
+      "text": "pin",
+      "targetOffset": 0,
+      "targetLength": 1,
+      "baseSymbol": "P",
+      "note": "Chữ cơ sở được giữ khi bỏ dấu thanh; không bỏ dấu mũ/râu/breve."
+    },
+    "imageAssetKey": null,
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "teachingNote": "Ví dụ pin là từ vay mượn quen thuộc; cần cố vấn sư phạm duyệt cách dạy chữ P."
+  },
+  {
+    "key": "letter-q",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "symbol": "Q",
+    "lowerSymbol": "q",
+    "order": 21,
+    "group": "consonant",
+    "letterName": "quy",
+    "example": {
+      "text": "quạt",
+      "targetOffset": 0,
+      "targetLength": 1,
+      "baseSymbol": "Q",
+      "note": "Chữ cơ sở được giữ khi bỏ dấu thanh; không bỏ dấu mũ/râu/breve."
+    },
+    "imageAssetKey": null,
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "teachingNote": "Tên chữ Q là quy; nội dung ghép âm dùng QU, không ghép Q đứng riêng với A."
+  },
+  {
+    "key": "letter-r",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "symbol": "R",
+    "lowerSymbol": "r",
+    "order": 22,
+    "group": "consonant",
+    "letterName": "e-rờ",
+    "example": {
+      "text": "rùa",
+      "targetOffset": 0,
+      "targetLength": 1,
+      "baseSymbol": "R",
+      "note": "Chữ cơ sở được giữ khi bỏ dấu thanh; không bỏ dấu mũ/râu/breve."
+    },
+    "imageAssetKey": null,
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "teachingNote": "Chỉ tên chữ và chữ trong từ; audio dạy âm cần được biên tập riêng."
+  },
+  {
+    "key": "letter-s",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "symbol": "S",
+    "lowerSymbol": "s",
+    "order": 23,
+    "group": "consonant",
+    "letterName": "ét",
+    "example": {
+      "text": "sóc",
+      "targetOffset": 0,
+      "targetLength": 1,
+      "baseSymbol": "S",
+      "note": "Chữ cơ sở được giữ khi bỏ dấu thanh; không bỏ dấu mũ/râu/breve."
+    },
+    "imageAssetKey": null,
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "teachingNote": "Chỉ tên chữ và chữ trong từ; audio dạy âm cần được biên tập riêng."
+  },
+  {
+    "key": "letter-t",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "symbol": "T",
+    "lowerSymbol": "t",
+    "order": 24,
+    "group": "consonant",
+    "letterName": "tê",
+    "example": {
+      "text": "tre",
+      "targetOffset": 0,
+      "targetLength": 1,
+      "baseSymbol": "T",
+      "note": "Chữ cơ sở được giữ khi bỏ dấu thanh; không bỏ dấu mũ/râu/breve."
+    },
+    "imageAssetKey": null,
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "teachingNote": "Chỉ tên chữ và chữ trong từ; audio dạy âm cần được biên tập riêng."
+  },
+  {
+    "key": "letter-u",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "symbol": "U",
+    "lowerSymbol": "u",
+    "order": 25,
+    "group": "vowel",
+    "letterName": "u",
+    "example": {
+      "text": "rùa",
+      "targetOffset": 1,
+      "targetLength": 1,
+      "baseSymbol": "U",
+      "note": "Chữ cơ sở được giữ khi bỏ dấu thanh; không bỏ dấu mũ/râu/breve."
+    },
+    "imageAssetKey": null,
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "teachingNote": "Chỉ tên chữ và chữ trong từ; audio dạy âm cần được biên tập riêng."
+  },
+  {
+    "key": "letter-uw",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "symbol": "Ư",
+    "lowerSymbol": "ư",
+    "order": 26,
+    "group": "vowel",
+    "letterName": "ư",
+    "example": {
+      "text": "thư",
+      "targetOffset": 2,
+      "targetLength": 1,
+      "baseSymbol": "Ư",
+      "note": "Chữ cơ sở được giữ khi bỏ dấu thanh; không bỏ dấu mũ/râu/breve."
+    },
+    "imageAssetKey": null,
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "teachingNote": "Chỉ tên chữ và chữ trong từ; audio dạy âm cần được biên tập riêng."
+  },
+  {
+    "key": "letter-v",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "symbol": "V",
+    "lowerSymbol": "v",
+    "order": 27,
+    "group": "consonant",
+    "letterName": "vê",
+    "example": {
+      "text": "voi",
+      "targetOffset": 0,
+      "targetLength": 1,
+      "baseSymbol": "V",
+      "note": "Chữ cơ sở được giữ khi bỏ dấu thanh; không bỏ dấu mũ/râu/breve."
+    },
+    "imageAssetKey": null,
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "teachingNote": "Chỉ tên chữ và chữ trong từ; audio dạy âm cần được biên tập riêng."
+  },
+  {
+    "key": "letter-x",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "symbol": "X",
+    "lowerSymbol": "x",
+    "order": 28,
+    "group": "consonant",
+    "letterName": "ích",
+    "example": {
+      "text": "xoài",
+      "targetOffset": 0,
+      "targetLength": 1,
+      "baseSymbol": "X",
+      "note": "Chữ cơ sở được giữ khi bỏ dấu thanh; không bỏ dấu mũ/râu/breve."
+    },
+    "imageAssetKey": null,
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "teachingNote": "Chỉ tên chữ và chữ trong từ; audio dạy âm cần được biên tập riêng."
+  },
+  {
+    "key": "letter-y",
+    "version": 1,
+    "status": "published",
+    "reviewStatus": "needs_review",
+    "ageBands": [
+      "3-4",
+      "4-5",
+      "5-6"
+    ],
+    "symbol": "Y",
+    "lowerSymbol": "y",
+    "order": 29,
+    "group": "vowel",
+    "letterName": "y",
+    "example": {
+      "text": "cây",
+      "targetOffset": 2,
+      "targetLength": 1,
+      "baseSymbol": "Y",
+      "note": "Chữ cơ sở được giữ khi bỏ dấu thanh; không bỏ dấu mũ/râu/breve."
+    },
+    "imageAssetKey": null,
+    "audioAssetKeys": {
+      "north": null,
+      "central": null,
+      "south": null
+    },
+    "teachingNote": "Chỉ tên chữ và chữ trong từ; audio dạy âm cần được biên tập riêng."
+  }
+]

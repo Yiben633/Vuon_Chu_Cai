@@ -1,0 +1,907 @@
+<!DOCTYPE html>
+
+<html lang="vi"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@500;600;700&amp;family=Quicksand:wght@600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"on-primary":"#ffffff","surface-container-low":"#cbffe8","tertiary-container":"#007bb9","surface-container-high":"#b6f6db","on-tertiary-container":"#fdfcff","surface-variant":"#b0f0d6","secondary":"#855300","tertiary-fixed-dim":"#93ccff","surface-dim":"#a8e7cd","on-tertiary-fixed":"#001d31","surface-tint":"#006c4a","tertiary":"#006194","inverse-on-surface":"#befee3","on-primary-container":"#f5fff7","inverse-surface":"#003829","outline":"#6d7a72","secondary-fixed":"#ffddb8","on-secondary-fixed":"#2a1700","secondary-container":"#fea619","on-surface-variant":"#3d4a42","on-background":"#002117","outline-variant":"#bccac0","on-tertiary-fixed-variant":"#004b73","inverse-primary":"#68dba9","surface":"#e7fff3","surface-container":"#bbfbe1","on-secondary-fixed-variant":"#653e00","primary-container":"#00855d","on-primary-fixed-variant":"#005137","primary-fixed":"#85f8c4","error":"#ba1a1a","error-container":"#ffdad6","on-tertiary":"#ffffff","tertiary-fixed":"#cce5ff","surface-container-lowest":"#ffffff","on-secondary-container":"#684000","on-error-container":"#93000a","secondary-fixed-dim":"#ffb95f","primary":"#006948","on-error":"#ffffff","on-primary-fixed":"#002114","on-surface":"#002117","primary-fixed-dim":"#68dba9","surface-container-highest":"#b0f0d6","background":"#e7fff3","surface-bright":"#e7fff3","on-secondary":"#ffffff"},borderRadius:{DEFAULT:"1rem",lg:"2rem",xl:"3rem",full:"9999px"},spacing:{"space-sm":"0.75rem","space-xl":"3rem","space-lg":"2rem",gutter:"1.5rem",margin:"1.5rem","space-md":"1.25rem","space-xs":"0.375rem"},fontFamily:{"headline-sm":["Quicksand"],"body-lg":["Nunito Sans"],"label-sm":["Quicksand"],"display-hero-mobile":["Quicksand"],"headline-lg-mobile":["Quicksand"],"body-md":["Nunito Sans"],"body-sm":["Nunito Sans"],"label-md":["Quicksand"],"label-lg":["Quicksand"],"headline-lg":["Quicksand"],"headline-md":["Quicksand"],"display-hero":["Quicksand"]},fontSize:{"headline-sm":["20px",{lineHeight:"28px",fontWeight:"600"}],"body-lg":["20px",{lineHeight:"30px",fontWeight:"600"}],"label-sm":["13px",{lineHeight:"16px",fontWeight:"700"}],"display-hero-mobile":["34px",{lineHeight:"42px",fontWeight:"700"}],"headline-lg-mobile":["26px",{lineHeight:"34px",fontWeight:"700"}],"body-md":["17px",{lineHeight:"26px",fontWeight:"500"}],"body-sm":["15px",{lineHeight:"22px",fontWeight:"500"}],"label-md":["15px",{lineHeight:"20px",fontWeight:"700"}],"label-lg":["18px",{lineHeight:"24px",fontWeight:"700"}],"headline-lg":["32px",{lineHeight:"40px",fontWeight:"700"}],"headline-md":["24px",{lineHeight:"32px",fontWeight:"600"}],"display-hero":["48px",{lineHeight:"56px",fontWeight:"700"}]}}}};</script></head><body class="bg-background font-body-md text-on-surface antialiased relative min-h-screen"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/90 backdrop-blur-xl shadow-[0_4px_20px_rgba(0,105,72,0.06)]"><div class="h-20 max-w-7xl mx-auto px-6 flex items-center justify-between gap-4"><div class="flex items-center gap-3 shrink-0"><img alt="Logo Vườn Chữ Diệu Kỳ" class="h-11 w-auto object-contain drop-shadow-sm" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAa1cwhkMOQY3hu6DO0GMG3KpYF6lSTWgByyBW_NN-4BgldRTwU4UUk-ZEW1EHQzhZRQAuDMO78xMIDbx-gupBtEUWFby9rNddRKyb1BxqgyU06T45bG23oHG1y7BJjU6jCfMZg4ShK2M0SMAbdeIkvAjsM0-6m5IT-4KQoeAx51PkRZa5KVQvRgHjrQA4xdexMuuCzA-2S0CSmzKn4_DeTJv7GTRomM9QEsbtm-cAwM8lF6PHOlt5I"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-primary tracking-tight leading-tight">Vườn Chữ Diệu Kỳ</span><span class="font-label-sm text-label-sm text-on-surface-variant font-medium leading-none hidden sm:inline">Bé vui học Tiếng Việt cùng muôn loài</span></div></div><nav class="hidden xl:flex items-center gap-2" data-active-classes="bg-primary text-on-primary shadow-[0_4px_0_#005137]"><a aria-current="page" class="font-label-md px-4 py-2.5 rounded-full transition-all duration-200 bg-primary text-on-primary shadow-[0_4px_0_#005137]" data-path="alphabet-garden" href="#">Bảng Chữ Cái</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container px-4 py-2.5 rounded-full transition-all duration-200" data-path="spelling-forest" href="#">Rừng Ghép Vần</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container px-4 py-2.5 rounded-full transition-all duration-200" data-path="story-swamp" href="#">Đầm Kể Chuyện</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container px-4 py-2.5 rounded-full transition-all duration-200" data-path="nature-quizzes" href="#">Thử Thách Đố Vui</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container px-4 py-2.5 rounded-full transition-all duration-200" data-path="parent-dashboard" href="#">Góc Phụ Huynh</a></nav><div class="flex items-center gap-2.5 shrink-0"><div class="hidden sm:flex items-center gap-1.5 px-3 py-1.5 bg-secondary-container/20 text-on-surface rounded-full shadow-[0_2px_0_#ffb95f]"><span class="material-symbols-outlined text-secondary-container text-[20px]">star</span><span class="font-label-sm text-label-sm text-secondary font-bold">128 Hạt Dẻ</span></div><div class="hidden md:flex items-center gap-1.5 px-3 py-1.5 bg-surface-container-high rounded-full text-primary font-bold shadow-[0_2px_0_#68dba9]"><span class="material-symbols-outlined text-primary text-[18px]">eco</span><span class="font-label-sm text-label-sm">Cấp 2: Sóc Nhí</span></div><button aria-label="Bật tắt âm thanh" class="w-10 h-10 rounded-full bg-surface-container hover:bg-surface-container-high text-primary flex items-center justify-center transition-transform active:translate-y-0.5 shadow-[0_3px_0_#a8e7cd]" type="button"><span class="material-symbols-outlined text-[22px]">volume_up</span></button><div class="flex items-center pl-1"><img alt="Profile" class="w-10 h-10 rounded-full object-cover ring-2 ring-primary-fixed-dim shadow-[0_2px_6px_rgba(0,105,72,0.15)]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAFRuMjsSS6BnPfCK_qvBNESeNSYLW18qdSteieguEcwA1IY2tq9Pho1WZzavHSAWb84MyFzWGPamayf_VPMImn5UDTj3tPhEwpRaDT-ISqZevpkufuZMVHR_pD9xI3cOV5FeBTpYKNindgrRRHy6ufK4o6Dyk-x6GrvB_bDeW4128xoFZD9xPUACIn3R4x5tdfUAS26rTW36UorxW7LFxIXK1nJzVOFwFJRP58-MslVpEoZxgT5ND1"/></div></div></div></header><main class="w-full pt-20 bg-background"><div class="flex flex-col w-full overflow-hidden">
+<!-- Keyframe Animations & Forest Dynamics -->
+<style>
+    @keyframes gentle-sway {
+      0%, 100% { transform: rotate(-2.5deg); }
+      50% { transform: rotate(2.5deg); }
+    }
+    @keyframes leaf-drift {
+      0% { transform: translateY(0px) rotate(0deg); opacity: 0.8; }
+      50% { transform: translateY(12px) rotate(8deg); opacity: 1; }
+      100% { transform: translateY(0px) rotate(0deg); opacity: 0.8; }
+    }
+    @keyframes firefly-glow {
+      0%, 100% { opacity: 0.3; transform: scale(0.85) translate(0, 0); }
+      50% { opacity: 0.95; transform: scale(1.15) translate(6px, -8px); }
+    }
+    @keyframes shimmer-glide {
+      0% { transform: translateX(-150%) skewX(-20deg); }
+      100% { transform: translateX(250%) skewX(-20deg); }
+    }
+    @keyframes float-badge {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-6px); }
+    }
+    .animate-sway { animation: gentle-sway 4.5s ease-in-out infinite; }
+    .animate-drift { animation: leaf-drift 6s ease-in-out infinite; }
+    .animate-firefly-1 { animation: firefly-glow 3.2s ease-in-out infinite; }
+    .animate-firefly-2 { animation: firefly-glow 4.1s ease-in-out infinite 1.2s; }
+    .animate-firefly-3 { animation: firefly-glow 2.8s ease-in-out infinite 0.7s; }
+    .animate-float { animation: float-badge 3s ease-in-out infinite; }
+    .shimmer-effect::after {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.45), transparent);
+      animation: shimmer-glide 3.5s infinite;
+    }
+  </style>
+<!-- Ambient Soundscapes Bar -->
+<section class="w-full max-w-7xl mx-auto px-6 py-4">
+<div class="bg-surface-container/80 backdrop-blur-md rounded-lg p-3.5 flex flex-wrap items-center justify-between gap-4 shadow-sm">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-primary-container text-on-primary flex items-center justify-center shadow-md">
+<span class="material-symbols-outlined text-[22px]">nest_eco_leaf</span>
+</div>
+<div>
+<span class="font-label-md text-label-md text-primary block">Giai Điệu Rừng Xanh</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant block">Âm thanh thiên nhiên êm dịu đồng hành cùng bé</span>
+</div>
+</div>
+<div class="flex flex-wrap items-center gap-2" id="soundscape-control">
+<button class="sound-chip active flex items-center gap-2 px-4 py-2 rounded-full bg-primary text-on-primary transition-all duration-200 shadow-[0_3px_0_#005137] active:translate-y-0.5" onclick="toggleAmbience(this, 'bird')" type="button">
+<span class="material-symbols-outlined text-[18px]">flutter_dash</span>
+<span class="font-label-sm text-label-sm">Tiếng Chim Hót</span>
+</button>
+<button class="sound-chip flex items-center gap-2 px-4 py-2 rounded-full bg-surface-container-high text-on-surface-variant hover:text-primary transition-all duration-200 active:translate-y-0.5" onclick="toggleAmbience(this, 'water')" type="button">
+<span class="material-symbols-outlined text-[18px]">water_drop</span>
+<span class="font-label-sm text-label-sm">Suối Róc Rách</span>
+</button>
+<button class="sound-chip flex items-center gap-2 px-4 py-2 rounded-full bg-surface-container-high text-on-surface-variant hover:text-primary transition-all duration-200 active:translate-y-0.5" onclick="toggleAmbience(this, 'wind')" type="button">
+<span class="material-symbols-outlined text-[18px]">air</span>
+<span class="font-label-sm text-label-sm">Gió Thổi Lá Xào Xạc</span>
+</button>
+</div>
+</div>
+</section>
+<!-- Hero Section: Woodland Explorer & Squirrel Mascot -->
+<section class="w-full max-w-7xl mx-auto px-6 py-6 md:py-10">
+<div class="relative bg-gradient-to-br from-surface-container via-surface-container-high to-surface-container-low rounded-xl p-6 sm:p-10 md:p-12 shadow-xl overflow-hidden">
+<!-- Ambient Fireflies and Forest Sprites -->
+<div class="absolute top-6 left-12 w-3 h-3 rounded-full bg-secondary-fixed shadow-[0_0_12px_#ffb95f] animate-firefly-1 pointer-events-none"></div>
+<div class="absolute bottom-16 left-1/3 w-4 h-4 rounded-full bg-primary-fixed shadow-[0_0_16px_#85f8c4] animate-firefly-2 pointer-events-none"></div>
+<div class="absolute top-1/4 right-1/4 w-3.5 h-3.5 rounded-full bg-secondary-container shadow-[0_0_14px_#fea619] animate-firefly-3 pointer-events-none"></div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center relative z-10">
+<!-- Left: Mascot Presentation -->
+<div class="lg:col-span-5 flex flex-col items-center justify-center relative">
+<!-- Mascot Floating Acorn Badge -->
+<div class="absolute -top-4 -right-2 sm:right-6 z-20 bg-secondary text-on-secondary px-4 py-2 rounded-full shadow-lg flex items-center gap-1.5 animate-float">
+<span class="material-symbols-outlined text-[20px] text-secondary-fixed">school</span>
+<span class="font-label-md text-label-md">Đội Trưởng Hạt Dẻ</span>
+</div>
+<!-- Illustrated Character Container -->
+<div class="relative w-64 h-64 sm:w-80 sm:h-80 md:w-96 md:h-96 rounded-xl overflow-hidden shadow-2xl bg-surface-container-lowest">
+<img alt="Chú Sóc Nâu Thám Hiểm" class="w-full h-full object-cover transition-transform duration-700 hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAFRuMjsSS6BnPfCK_qvBNESeNSYLW18qdSteieguEcwA1IY2tq9Pho1WZzavHSAWb84MyFzWGPamayf_VPMImn5UDTj3tPhEwpRaDT-ISqZevpkufuZMVHR_pD9xI3cOV5FeBTpYKNindgrRRHy6ufK4o6Dyk-x6GrvB_bDeW4128xoFZD9xPUACIn3R4x5tdfUAS26rTW36UorxW7LFxIXK1nJzVOFwFJRP58-MslVpEoZxgT5ND1"/>
+</div>
+<!-- Mascot Shadow Disc -->
+<div class="w-48 h-5 rounded-full bg-primary/10 blur-md mt-2"></div>
+</div>
+<!-- Right: Story Dialogue & Featured Letter C Action -->
+<div class="lg:col-span-7 flex flex-col gap-5 text-left">
+<!-- Playful Speech Bubble -->
+<div class="relative bg-surface-container-lowest rounded-lg p-5 sm:p-6 shadow-md">
+<div class="flex items-center gap-2 text-secondary mb-1.5">
+<span class="material-symbols-outlined text-[22px]">pets</span>
+<span class="font-label-md text-label-md">Sóc Bông tíu tít nhắn bé:</span>
+</div>
+<p class="font-headline-sm text-headline-sm text-on-surface leading-snug">
+              "Chào bạn nhỏ dũng cảm! Hôm nay trong khu vườn thơm ngát, mầm cây <span class="text-primary font-bold">Chữ C</span> vừa nở một đóa hoa lấp lánh như vảy cá vàng đấy!"
+            </p>
+</div>
+<!-- Featured Spotlight Box -->
+<div class="bg-surface-container-lowest/80 backdrop-blur-sm rounded-lg p-6 shadow-md flex flex-col sm:flex-row items-center justify-between gap-6">
+<div class="flex items-center gap-4">
+<div class="w-20 h-20 rounded-lg bg-secondary-fixed flex items-center justify-center text-secondary font-display-hero text-display-hero shadow-[0_4px_0_#ffb95f]">
+                C
+              </div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-primary tracking-wider uppercase">Chữ Cái Của Ngày</span>
+<span class="font-headline-md text-headline-md text-on-surface">Cá Vàng Mắt Ngọc</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Phát âm trong veo: /cờ/ - /ca/ - Cá</span>
+</div>
+</div>
+<!-- Big Sound Button -->
+<button aria-label="Nghe phát âm chữ C" class="group relative w-16 h-16 rounded-full bg-secondary-container hover:bg-secondary text-on-secondary flex items-center justify-center transition-all duration-200 active:translate-y-1 shadow-[0_6px_0_#684000] shrink-0" onclick="playLetterSound('C', 'Cá Vàng')" type="button">
+<span class="material-symbols-outlined text-[34px] group-hover:scale-110 transition-transform">volume_up</span>
+</button>
+</div>
+<!-- Call to Action Buttons -->
+<div class="flex flex-wrap items-center gap-4 pt-2">
+<a class="relative overflow-hidden inline-flex items-center gap-3 px-8 py-4 rounded-full bg-primary hover:bg-primary-container text-on-primary font-label-lg text-label-lg shadow-[0_5px_0_#005137] active:translate-y-1 transition-all shimmer-effect" href="#letter-grid">
+<span class="material-symbols-outlined text-[24px]">explore</span>
+<span>Khám Phá Chữ C - Chú Cá Vàng</span>
+</a>
+<button class="inline-flex items-center gap-2 px-6 py-4 rounded-full bg-surface-container-highest text-primary font-label-md text-label-md hover:bg-surface-container transition-all active:translate-y-0.5 shadow-[0_3px_0_#68dba9]" onclick="playAllVowelsHint()" type="button">
+<span class="material-symbols-outlined text-[20px]">auto_stories</span>
+<span>Đọc Mẫu Toàn Vườn</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Progress Meadow: Stepping Stones & Dewdrop Energy -->
+<section class="w-full max-w-7xl mx-auto px-6 py-6">
+<div class="bg-surface-container-lowest rounded-xl p-6 sm:p-8 shadow-lg">
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-6">
+<div>
+<div class="flex items-center gap-2 mb-1">
+<span class="material-symbols-outlined text-primary text-[24px]">hiking</span>
+<span class="font-headline-sm text-headline-sm text-primary">Con Đường Sỏi Hoa Thần Tiên</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Bé đã đánh thức 18 trên tổng số 29 hạt mầm rực rỡ!</p>
+</div>
+<!-- Dew Energy Meter -->
+<div class="flex items-center gap-4 bg-surface-container-low px-5 py-3 rounded-full">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-tertiary text-[24px]">opacity</span>
+<span class="font-label-md text-label-md text-tertiary">Giọt Sương Năng Lượng:</span>
+</div>
+<div class="w-36 h-4 bg-surface-container-high rounded-full overflow-hidden p-0.5">
+<div class="h-full bg-tertiary-container rounded-full w-[78%] transition-all duration-700"></div>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface font-bold">78/100</span>
+</div>
+</div>
+<!-- Interactive Stepping Stones Trail (Visual Map) -->
+<div class="relative py-4">
+<!-- SVG Winding Trail -->
+<svg class="w-full h-16 sm:h-20 text-surface-container" fill="none" preserveaspectratio="none" viewbox="0 0 1000 60">
+<path d="M 0 30 Q 250 60 500 30 T 1000 30" stroke="currentColor" stroke-dasharray="14 10" stroke-linecap="round" stroke-width="10"></path>
+</svg>
+<!-- Stepping Stations Positioned along path -->
+<div class="absolute inset-0 flex items-center justify-between px-2 sm:px-6">
+<!-- Station 1 (Completed) -->
+<div class="flex flex-col items-center group cursor-pointer" title="Chữ A - Đã nở hoa">
+<div class="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-primary text-on-primary flex items-center justify-center font-label-md text-label-md shadow-[0_4px_0_#005137] transform transition-transform group-hover:scale-110">
+<span class="material-symbols-outlined text-[20px]">local_florist</span>
+</div>
+<span class="font-label-sm text-label-sm text-primary mt-1">A</span>
+</div>
+<!-- Station 2 (Completed) -->
+<div class="flex flex-col items-center group cursor-pointer" title="Chữ B - Đã nở hoa">
+<div class="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-primary text-on-primary flex items-center justify-center font-label-md text-label-md shadow-[0_4px_0_#005137] transform transition-transform group-hover:scale-110">
+<span class="material-symbols-outlined text-[20px]">local_florist</span>
+</div>
+<span class="font-label-sm text-label-sm text-primary mt-1">B</span>
+</div>
+<!-- Station 3 (Active Goal) -->
+<div class="flex flex-col items-center group cursor-pointer relative" title="Chữ C - Đang chinh phục">
+<div class="absolute -top-7 px-2.5 py-0.5 rounded-full bg-secondary-container text-on-secondary font-label-sm text-label-sm shadow animate-bounce">
+              Trạm này!
+            </div>
+<div class="w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-secondary-container text-on-secondary flex items-center justify-center font-label-lg text-label-lg shadow-[0_4px_0_#684000] ring-4 ring-secondary-fixed">
+              C
+            </div>
+<span class="font-label-sm text-label-sm text-secondary font-bold mt-1">C</span>
+</div>
+<!-- Station 4 (Completed) -->
+<div class="hidden sm:flex flex-col items-center group cursor-pointer" title="Chữ D">
+<div class="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-primary text-on-primary flex items-center justify-center font-label-md text-label-md shadow-[0_4px_0_#005137] transform transition-transform group-hover:scale-110">
+<span class="material-symbols-outlined text-[20px]">check</span>
+</div>
+<span class="font-label-sm text-label-sm text-primary mt-1">D</span>
+</div>
+<!-- Station 5 (Locked) -->
+<div class="hidden md:flex flex-col items-center group cursor-pointer" title="Chữ M - Đang ươm mầm">
+<div class="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-surface-container-high text-on-surface-variant flex items-center justify-center font-label-md text-label-md shadow-[0_3px_0_#68dba9]">
+<span class="material-symbols-outlined text-[18px]">potted_plant</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant mt-1">M</span>
+</div>
+<!-- Station 6 (Mystery Treasure Chest) -->
+<div class="flex flex-col items-center group cursor-pointer" title="Rương Quà Cuối Vườn">
+<div class="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-secondary-fixed text-secondary flex items-center justify-center font-label-md text-label-md shadow-[0_4px_0_#ffb95f]">
+<span class="material-symbols-outlined text-[20px]">featured_seasonal_and_gifts</span>
+</div>
+<span class="font-label-sm text-label-sm text-secondary font-bold mt-1">Quà 29</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 29 Vietnamese Letters Grid: Whimsical Flora & Fauna -->
+<section class="w-full max-w-7xl mx-auto px-6 py-10" id="letter-grid">
+<div class="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-8">
+<div>
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary-container/15 text-primary font-label-sm text-label-sm mb-2">
+<span class="material-symbols-outlined text-[16px]">psychiatry</span>
+<span>Bách Thảo Bảng Âm Tiếng Việt</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Vườn 29 Cánh Hoa Tri Thức</h2>
+</div>
+<!-- Quick Filter for Youngsters -->
+<div class="flex items-center gap-2 bg-surface-container p-1.5 rounded-full">
+<button class="letter-filter-btn px-4 py-1.5 rounded-full bg-primary text-on-primary font-label-sm text-label-sm shadow-[0_2px_0_#005137]" onclick="filterLetters('all')" type="button">Tất Cả (29)</button>
+<button class="letter-filter-btn px-4 py-1.5 rounded-full text-on-surface font-label-sm text-label-sm hover:bg-surface-container-high transition-colors" onclick="filterLetters('vowel')" type="button">Nguyên Âm (12)</button>
+<button class="letter-filter-btn px-4 py-1.5 rounded-full text-on-surface font-label-sm text-label-sm hover:bg-surface-container-high transition-colors" onclick="filterLetters('consonant')" type="button">Phụ Âm (17)</button>
+</div>
+</div>
+<!-- Letter Cards Matrix (29 Letters Grid) -->
+<div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4 sm:gap-6">
+<!-- 1: A -->
+<div class="letter-card vowel bg-surface-container-lowest rounded-xl p-4 sm:p-5 flex flex-col items-center justify-between text-center transition-all duration-300 hover:-translate-y-2 hover:shadow-xl shadow-md group relative">
+<div class="w-full flex items-center justify-between text-secondary">
+<span class="material-symbols-outlined text-[20px] text-secondary-container" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-sm text-label-sm bg-surface-container-high text-primary px-2 py-0.5 rounded-full">Trạm 1</span>
+</div>
+<div class="my-2 flex flex-col items-center">
+<span class="font-display-hero text-display-hero text-primary group-hover:scale-110 transition-transform">A</span>
+<div class="w-14 h-14 rounded-full bg-secondary-fixed/50 flex items-center justify-center my-1 text-2xl">🐝</div>
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold">Con Ong</span>
+</div>
+<button aria-label="Nghe Chữ A" class="w-full py-2 rounded-full bg-surface-container hover:bg-primary hover:text-on-primary text-primary font-label-sm text-label-sm flex items-center justify-center gap-1.5 transition-all shadow-[0_2px_0_#a8e7cd] active:translate-y-0.5" onclick="playLetterSound('A', 'Con Ong')" type="button">
+<span class="material-symbols-outlined text-[16px]">volume_up</span>
+<span>Nghe âm /a/</span>
+</button>
+</div>
+<!-- 2: Ă -->
+<div class="letter-card vowel bg-surface-container-lowest rounded-xl p-4 sm:p-5 flex flex-col items-center justify-between text-center transition-all duration-300 hover:-translate-y-2 hover:shadow-xl shadow-md group relative">
+<div class="w-full flex items-center justify-between text-secondary">
+<span class="material-symbols-outlined text-[20px] text-secondary-container" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-sm text-label-sm bg-surface-container-high text-primary px-2 py-0.5 rounded-full">Trạm 2</span>
+</div>
+<div class="my-2 flex flex-col items-center">
+<span class="font-display-hero text-display-hero text-primary group-hover:scale-110 transition-transform">Ă</span>
+<div class="w-14 h-14 rounded-full bg-secondary-fixed/50 flex items-center justify-center my-1 text-2xl">🌙</div>
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold">Trăng Rằm</span>
+</div>
+<button class="w-full py-2 rounded-full bg-surface-container hover:bg-primary hover:text-on-primary text-primary font-label-sm text-label-sm flex items-center justify-center gap-1.5 transition-all shadow-[0_2px_0_#a8e7cd] active:translate-y-0.5" onclick="playLetterSound('Ă', 'Mặt Trăng')" type="button">
+<span class="material-symbols-outlined text-[16px]">volume_up</span>
+<span>Nghe âm /ă/</span>
+</button>
+</div>
+<!-- 3: Â -->
+<div class="letter-card vowel bg-surface-container-lowest rounded-xl p-4 sm:p-5 flex flex-col items-center justify-between text-center transition-all duration-300 hover:-translate-y-2 hover:shadow-xl shadow-md group relative">
+<div class="w-full flex items-center justify-between text-secondary">
+<span class="material-symbols-outlined text-[20px] text-secondary-container" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-sm text-label-sm bg-surface-container-high text-primary px-2 py-0.5 rounded-full">Trạm 3</span>
+</div>
+<div class="my-2 flex flex-col items-center">
+<span class="font-display-hero text-display-hero text-primary group-hover:scale-110 transition-transform">Â</span>
+<div class="w-14 h-14 rounded-full bg-secondary-fixed/50 flex items-center justify-center my-1 text-2xl">🍄</div>
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold">Nấm Hương</span>
+</div>
+<button class="w-full py-2 rounded-full bg-surface-container hover:bg-primary hover:text-on-primary text-primary font-label-sm text-label-sm flex items-center justify-center gap-1.5 transition-all shadow-[0_2px_0_#a8e7cd] active:translate-y-0.5" onclick="playLetterSound('Â', 'Cây Nấm')" type="button">
+<span class="material-symbols-outlined text-[16px]">volume_up</span>
+<span>Nghe âm /â/</span>
+</button>
+</div>
+<!-- 4: B -->
+<div class="letter-card consonant bg-surface-container-lowest rounded-xl p-4 sm:p-5 flex flex-col items-center justify-between text-center transition-all duration-300 hover:-translate-y-2 hover:shadow-xl shadow-md group relative">
+<div class="w-full flex items-center justify-between text-secondary">
+<span class="material-symbols-outlined text-[20px] text-secondary-container" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-sm text-label-sm bg-surface-container-high text-primary px-2 py-0.5 rounded-full">Trạm 4</span>
+</div>
+<div class="my-2 flex flex-col items-center">
+<span class="font-display-hero text-display-hero text-primary group-hover:scale-110 transition-transform">B</span>
+<div class="w-14 h-14 rounded-full bg-tertiary-fixed/50 flex items-center justify-center my-1 text-2xl">🦋</div>
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold">Bướm Xinh</span>
+</div>
+<button class="w-full py-2 rounded-full bg-surface-container hover:bg-primary hover:text-on-primary text-primary font-label-sm text-label-sm flex items-center justify-center gap-1.5 transition-all shadow-[0_2px_0_#a8e7cd] active:translate-y-0.5" onclick="playLetterSound('B', 'Bướm Xinh')" type="button">
+<span class="material-symbols-outlined text-[16px]">volume_up</span>
+<span>Nghe âm /b/</span>
+</button>
+</div>
+<!-- 5: C (Spotlighted) -->
+<div class="letter-card consonant bg-secondary-fixed/30 rounded-xl p-4 sm:p-5 flex flex-col items-center justify-between text-center transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl shadow-lg group relative ring-2 ring-secondary-container">
+<div class="w-full flex items-center justify-between text-secondary">
+<span class="material-symbols-outlined text-[20px] text-secondary-container animate-pulse" style="font-variation-settings: 'FILL' 1;">stars</span>
+<span class="font-label-sm text-label-sm bg-secondary-container text-on-secondary px-2 py-0.5 rounded-full">Yêu Thích</span>
+</div>
+<div class="my-2 flex flex-col items-center">
+<span class="font-display-hero text-display-hero text-secondary font-bold group-hover:scale-110 transition-transform">C</span>
+<div class="w-14 h-14 rounded-full bg-secondary-container/30 flex items-center justify-center my-1 text-2xl">🐠</div>
+<span class="font-headline-sm text-headline-sm text-secondary font-bold">Cá Vàng</span>
+</div>
+<button class="w-full py-2 rounded-full bg-secondary-container text-on-secondary font-label-sm text-label-sm flex items-center justify-center gap-1.5 transition-all shadow-[0_2px_0_#684000] active:translate-y-0.5" onclick="playLetterSound('C', 'Cá Vàng')" type="button">
+<span class="material-symbols-outlined text-[16px]">volume_up</span>
+<span>Nghe âm /c/</span>
+</button>
+</div>
+<!-- 6: D -->
+<div class="letter-card consonant bg-surface-container-lowest rounded-xl p-4 sm:p-5 flex flex-col items-center justify-between text-center transition-all duration-300 hover:-translate-y-2 hover:shadow-xl shadow-md group relative">
+<div class="w-full flex items-center justify-between text-secondary">
+<span class="material-symbols-outlined text-[20px] text-secondary-container" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-sm text-label-sm bg-surface-container-high text-primary px-2 py-0.5 rounded-full">Trạm 6</span>
+</div>
+<div class="my-2 flex flex-col items-center">
+<span class="font-display-hero text-display-hero text-primary group-hover:scale-110 transition-transform">D</span>
+<div class="w-14 h-14 rounded-full bg-secondary-fixed/50 flex items-center justify-center my-1 text-2xl">🍉</div>
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold">Dưa Hấu</span>
+</div>
+<button class="w-full py-2 rounded-full bg-surface-container hover:bg-primary hover:text-on-primary text-primary font-label-sm text-label-sm flex items-center justify-center gap-1.5 transition-all shadow-[0_2px_0_#a8e7cd] active:translate-y-0.5" onclick="playLetterSound('D', 'Dưa Hấu')" type="button">
+<span class="material-symbols-outlined text-[16px]">volume_up</span>
+<span>Nghe âm /d/</span>
+</button>
+</div>
+<!-- 7: Đ -->
+<div class="letter-card consonant bg-surface-container-lowest rounded-xl p-4 sm:p-5 flex flex-col items-center justify-between text-center transition-all duration-300 hover:-translate-y-2 hover:shadow-xl shadow-md group relative">
+<div class="w-full flex items-center justify-between text-secondary">
+<span class="material-symbols-outlined text-[20px] text-secondary-container" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-sm text-label-sm bg-surface-container-high text-primary px-2 py-0.5 rounded-full">Trạm 7</span>
+</div>
+<div class="my-2 flex flex-col items-center">
+<span class="font-display-hero text-display-hero text-primary group-hover:scale-110 transition-transform">Đ</span>
+<div class="w-14 h-14 rounded-full bg-secondary-fixed/50 flex items-center justify-center my-1 text-2xl">✨</div>
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold">Đom Đóm</span>
+</div>
+<button class="w-full py-2 rounded-full bg-surface-container hover:bg-primary hover:text-on-primary text-primary font-label-sm text-label-sm flex items-center justify-center gap-1.5 transition-all shadow-[0_2px_0_#a8e7cd] active:translate-y-0.5" onclick="playLetterSound('Đ', 'Đom Đóm')" type="button">
+<span class="material-symbols-outlined text-[16px]">volume_up</span>
+<span>Nghe âm /đ/</span>
+</button>
+</div>
+<!-- 8: E -->
+<div class="letter-card vowel bg-surface-container-lowest rounded-xl p-4 sm:p-5 flex flex-col items-center justify-between text-center transition-all duration-300 hover:-translate-y-2 hover:shadow-xl shadow-md group relative">
+<div class="w-full flex items-center justify-between text-secondary">
+<span class="material-symbols-outlined text-[20px] text-secondary-container" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-sm text-label-sm bg-surface-container-high text-primary px-2 py-0.5 rounded-full">Trạm 8</span>
+</div>
+<div class="my-2 flex flex-col items-center">
+<span class="font-display-hero text-display-hero text-primary group-hover:scale-110 transition-transform">E</span>
+<div class="w-14 h-14 rounded-full bg-secondary-fixed/50 flex items-center justify-center my-1 text-2xl">👶</div>
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold">Em Bé</span>
+</div>
+<button class="w-full py-2 rounded-full bg-surface-container hover:bg-primary hover:text-on-primary text-primary font-label-sm text-label-sm flex items-center justify-center gap-1.5 transition-all shadow-[0_2px_0_#a8e7cd] active:translate-y-0.5" onclick="playLetterSound('E', 'Em Bé')" type="button">
+<span class="material-symbols-outlined text-[16px]">volume_up</span>
+<span>Nghe âm /e/</span>
+</button>
+</div>
+<!-- 9: Ê -->
+<div class="letter-card vowel bg-surface-container-lowest rounded-xl p-4 sm:p-5 flex flex-col items-center justify-between text-center transition-all duration-300 hover:-translate-y-2 hover:shadow-xl shadow-md group relative">
+<div class="w-full flex items-center justify-between text-secondary">
+<span class="material-symbols-outlined text-[20px] text-secondary-container" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-sm text-label-sm bg-surface-container-high text-primary px-2 py-0.5 rounded-full">Trạm 9</span>
+</div>
+<div class="my-2 flex flex-col items-center">
+<span class="font-display-hero text-display-hero text-primary group-hover:scale-110 transition-transform">Ê</span>
+<div class="w-14 h-14 rounded-full bg-surface-container-high flex items-center justify-center my-1 text-2xl">🐸</div>
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold">Ếch Xanh</span>
+</div>
+<button class="w-full py-2 rounded-full bg-surface-container hover:bg-primary hover:text-on-primary text-primary font-label-sm text-label-sm flex items-center justify-center gap-1.5 transition-all shadow-[0_2px_0_#a8e7cd] active:translate-y-0.5" onclick="playLetterSound('Ê', 'Ếch Xanh')" type="button">
+<span class="material-symbols-outlined text-[16px]">volume_up</span>
+<span>Nghe âm /ê/</span>
+</button>
+</div>
+<!-- 10: G -->
+<div class="letter-card consonant bg-surface-container-lowest rounded-xl p-4 sm:p-5 flex flex-col items-center justify-between text-center transition-all duration-300 hover:-translate-y-2 hover:shadow-xl shadow-md group relative">
+<div class="w-full flex items-center justify-between text-secondary">
+<span class="material-symbols-outlined text-[20px] text-secondary-container" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-sm text-label-sm bg-surface-container-high text-primary px-2 py-0.5 rounded-full">Trạm 10</span>
+</div>
+<div class="my-2 flex flex-col items-center">
+<span class="font-display-hero text-display-hero text-primary group-hover:scale-110 transition-transform">G</span>
+<div class="w-14 h-14 rounded-full bg-secondary-fixed/50 flex items-center justify-center my-1 text-2xl">🐓</div>
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold">Gà Gáy</span>
+</div>
+<button class="w-full py-2 rounded-full bg-surface-container hover:bg-primary hover:text-on-primary text-primary font-label-sm text-label-sm flex items-center justify-center gap-1.5 transition-all shadow-[0_2px_0_#a8e7cd] active:translate-y-0.5" onclick="playLetterSound('G', 'Gà Trống')" type="button">
+<span class="material-symbols-outlined text-[16px]">volume_up</span>
+<span>Nghe âm /g/</span>
+</button>
+</div>
+<!-- 11: H -->
+<div class="letter-card consonant bg-surface-container-lowest rounded-xl p-4 sm:p-5 flex flex-col items-center justify-between text-center transition-all duration-300 hover:-translate-y-2 hover:shadow-xl shadow-md group relative">
+<div class="w-full flex items-center justify-between text-secondary">
+<span class="material-symbols-outlined text-[20px] text-secondary-container" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-sm text-label-sm bg-surface-container-high text-primary px-2 py-0.5 rounded-full">Trạm 11</span>
+</div>
+<div class="my-2 flex flex-col items-center">
+<span class="font-display-hero text-display-hero text-primary group-hover:scale-110 transition-transform">H</span>
+<div class="w-14 h-14 rounded-full bg-secondary-fixed/50 flex items-center justify-center my-1 text-2xl">🌹</div>
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold">Hoa Hồng</span>
+</div>
+<button class="w-full py-2 rounded-full bg-surface-container hover:bg-primary hover:text-on-primary text-primary font-label-sm text-label-sm flex items-center justify-center gap-1.5 transition-all shadow-[0_2px_0_#a8e7cd] active:translate-y-0.5" onclick="playLetterSound('H', 'Hoa Hồng')" type="button">
+<span class="material-symbols-outlined text-[16px]">volume_up</span>
+<span>Nghe âm /h/</span>
+</button>
+</div>
+<!-- 12: I -->
+<div class="letter-card vowel bg-surface-container-lowest rounded-xl p-4 sm:p-5 flex flex-col items-center justify-between text-center transition-all duration-300 hover:-translate-y-2 hover:shadow-xl shadow-md group relative">
+<div class="w-full flex items-center justify-between text-secondary">
+<span class="material-symbols-outlined text-[20px] text-secondary-container" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-sm text-label-sm bg-surface-container-high text-primary px-2 py-0.5 rounded-full">Trạm 12</span>
+</div>
+<div class="my-2 flex flex-col items-center">
+<span class="font-display-hero text-display-hero text-primary group-hover:scale-110 transition-transform">I</span>
+<div class="w-14 h-14 rounded-full bg-secondary-fixed/50 flex items-center justify-center my-1 text-2xl">🐌</div>
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold">Ốc Sên</span>
+</div>
+<button class="w-full py-2 rounded-full bg-surface-container hover:bg-primary hover:text-on-primary text-primary font-label-sm text-label-sm flex items-center justify-center gap-1.5 transition-all shadow-[0_2px_0_#a8e7cd] active:translate-y-0.5" onclick="playLetterSound('I', 'Ốc Sên')" type="button">
+<span class="material-symbols-outlined text-[16px]">volume_up</span>
+<span>Nghe âm /i/</span>
+</button>
+</div>
+<!-- 13: K -->
+<div class="letter-card consonant bg-surface-container-lowest rounded-xl p-4 sm:p-5 flex flex-col items-center justify-between text-center transition-all duration-300 hover:-translate-y-2 hover:shadow-xl shadow-md group relative">
+<div class="w-full flex items-center justify-between text-secondary">
+<span class="material-symbols-outlined text-[20px] text-secondary-container" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-sm text-label-sm bg-surface-container-high text-primary px-2 py-0.5 rounded-full">Trạm 13</span>
+</div>
+<div class="my-2 flex flex-col items-center">
+<span class="font-display-hero text-display-hero text-primary group-hover:scale-110 transition-transform">K</span>
+<div class="w-14 h-14 rounded-full bg-tertiary-fixed/50 flex items-center justify-center my-1 text-2xl">🔍</div>
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold">Kính Lúp</span>
+</div>
+<button class="w-full py-2 rounded-full bg-surface-container hover:bg-primary hover:text-on-primary text-primary font-label-sm text-label-sm flex items-center justify-center gap-1.5 transition-all shadow-[0_2px_0_#a8e7cd] active:translate-y-0.5" onclick="playLetterSound('K', 'Kính Lúp')" type="button">
+<span class="material-symbols-outlined text-[16px]">volume_up</span>
+<span>Nghe âm /k/</span>
+</button>
+</div>
+<!-- 14: L -->
+<div class="letter-card consonant bg-surface-container-lowest rounded-xl p-4 sm:p-5 flex flex-col items-center justify-between text-center transition-all duration-300 hover:-translate-y-2 hover:shadow-xl shadow-md group relative">
+<div class="w-full flex items-center justify-between text-secondary">
+<span class="material-symbols-outlined text-[20px] text-secondary-container" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-sm text-label-sm bg-surface-container-high text-primary px-2 py-0.5 rounded-full">Trạm 14</span>
+</div>
+<div class="my-2 flex flex-col items-center">
+<span class="font-display-hero text-display-hero text-primary group-hover:scale-110 transition-transform">L</span>
+<div class="w-14 h-14 rounded-full bg-surface-container-high flex items-center justify-center my-1 text-2xl">🍁</div>
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold">Lá Phong</span>
+</div>
+<button class="w-full py-2 rounded-full bg-surface-container hover:bg-primary hover:text-on-primary text-primary font-label-sm text-label-sm flex items-center justify-center gap-1.5 transition-all shadow-[0_2px_0_#a8e7cd] active:translate-y-0.5" onclick="playLetterSound('L', 'Chiếc Lá')" type="button">
+<span class="material-symbols-outlined text-[16px]">volume_up</span>
+<span>Nghe âm /l/</span>
+</button>
+</div>
+<!-- 15: M -->
+<div class="letter-card consonant bg-surface-container-lowest rounded-xl p-4 sm:p-5 flex flex-col items-center justify-between text-center transition-all duration-300 hover:-translate-y-2 hover:shadow-xl shadow-md group relative">
+<div class="w-full flex items-center justify-between text-secondary">
+<span class="material-symbols-outlined text-[20px] text-secondary-container" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-sm text-label-sm bg-surface-container-high text-primary px-2 py-0.5 rounded-full">Trạm 15</span>
+</div>
+<div class="my-2 flex flex-col items-center">
+<span class="font-display-hero text-display-hero text-primary group-hover:scale-110 transition-transform">M</span>
+<div class="w-14 h-14 rounded-full bg-secondary-fixed/50 flex items-center justify-center my-1 text-2xl">🐱</div>
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold">Mèo Mướp</span>
+</div>
+<button class="w-full py-2 rounded-full bg-surface-container hover:bg-primary hover:text-on-primary text-primary font-label-sm text-label-sm flex items-center justify-center gap-1.5 transition-all shadow-[0_2px_0_#a8e7cd] active:translate-y-0.5" onclick="playLetterSound('M', 'Mèo Con')" type="button">
+<span class="material-symbols-outlined text-[16px]">volume_up</span>
+<span>Nghe âm /m/</span>
+</button>
+</div>
+<!-- 16: N -->
+<div class="letter-card consonant bg-surface-container-lowest rounded-xl p-4 sm:p-5 flex flex-col items-center justify-between text-center transition-all duration-300 hover:-translate-y-2 hover:shadow-xl shadow-md group relative">
+<div class="w-full flex items-center justify-between text-secondary">
+<span class="material-symbols-outlined text-[20px] text-secondary-container" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-sm text-label-sm bg-surface-container-high text-primary px-2 py-0.5 rounded-full">Trạm 16</span>
+</div>
+<div class="my-2 flex flex-col items-center">
+<span class="font-display-hero text-display-hero text-primary group-hover:scale-110 transition-transform">N</span>
+<div class="w-14 h-14 rounded-full bg-secondary-fixed/50 flex items-center justify-center my-1 text-2xl">🦌</div>
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold">Nai Nhỏ</span>
+</div>
+<button class="w-full py-2 rounded-full bg-surface-container hover:bg-primary hover:text-on-primary text-primary font-label-sm text-label-sm flex items-center justify-center gap-1.5 transition-all shadow-[0_2px_0_#a8e7cd] active:translate-y-0.5" onclick="playLetterSound('N', 'Chú Nai')" type="button">
+<span class="material-symbols-outlined text-[16px]">volume_up</span>
+<span>Nghe âm /n/</span>
+</button>
+</div>
+<!-- 17: O -->
+<div class="letter-card vowel bg-surface-container-lowest rounded-xl p-4 sm:p-5 flex flex-col items-center justify-between text-center transition-all duration-300 hover:-translate-y-2 hover:shadow-xl shadow-md group relative">
+<div class="w-full flex items-center justify-between text-secondary">
+<span class="material-symbols-outlined text-[20px] text-secondary-container" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-sm text-label-sm bg-surface-container-high text-primary px-2 py-0.5 rounded-full">Trạm 17</span>
+</div>
+<div class="my-2 flex flex-col items-center">
+<span class="font-display-hero text-display-hero text-primary group-hover:scale-110 transition-transform">O</span>
+<div class="w-14 h-14 rounded-full bg-surface-container-high flex items-center justify-center my-1 text-2xl">🍐</div>
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold">Quả Ổi</span>
+</div>
+<button class="w-full py-2 rounded-full bg-surface-container hover:bg-primary hover:text-on-primary text-primary font-label-sm text-label-sm flex items-center justify-center gap-1.5 transition-all shadow-[0_2px_0_#a8e7cd] active:translate-y-0.5" onclick="playLetterSound('O', 'Quả Ổi')" type="button">
+<span class="material-symbols-outlined text-[16px]">volume_up</span>
+<span>Nghe âm /o/</span>
+</button>
+</div>
+<!-- 18: Ô -->
+<div class="letter-card vowel bg-surface-container-lowest rounded-xl p-4 sm:p-5 flex flex-col items-center justify-between text-center transition-all duration-300 hover:-translate-y-2 hover:shadow-xl shadow-md group relative">
+<div class="w-full flex items-center justify-between text-secondary">
+<span class="material-symbols-outlined text-[20px] text-secondary-container" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-sm text-label-sm bg-surface-container-high text-primary px-2 py-0.5 rounded-full">Trạm 18</span>
+</div>
+<div class="my-2 flex flex-col items-center">
+<span class="font-display-hero text-display-hero text-primary group-hover:scale-110 transition-transform">Ô</span>
+<div class="w-14 h-14 rounded-full bg-tertiary-fixed/50 flex items-center justify-center my-1 text-2xl">☂️</div>
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold">Cây Dù</span>
+</div>
+<button class="w-full py-2 rounded-full bg-surface-container hover:bg-primary hover:text-on-primary text-primary font-label-sm text-label-sm flex items-center justify-center gap-1.5 transition-all shadow-[0_2px_0_#a8e7cd] active:translate-y-0.5" onclick="playLetterSound('Ô', 'Cái Ô')" type="button">
+<span class="material-symbols-outlined text-[16px]">volume_up</span>
+<span>Nghe âm /ô/</span>
+</button>
+</div>
+<!-- 19: Ơ -->
+<div class="letter-card vowel bg-surface-container-lowest rounded-xl p-4 sm:p-5 flex flex-col items-center justify-between text-center transition-all duration-300 hover:-translate-y-2 hover:shadow-xl shadow-md group relative">
+<div class="w-full flex items-center justify-between text-secondary">
+<span class="material-symbols-outlined text-[20px] text-secondary-container" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-sm text-label-sm bg-surface-container-high text-primary px-2 py-0.5 rounded-full">Trạm 19</span>
+</div>
+<div class="my-2 flex flex-col items-center">
+<span class="font-display-hero text-display-hero text-primary group-hover:scale-110 transition-transform">Ơ</span>
+<div class="w-14 h-14 rounded-full bg-error-container/50 flex items-center justify-center my-1 text-2xl">🌶️</div>
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold">Quả Ớt</span>
+</div>
+<button class="w-full py-2 rounded-full bg-surface-container hover:bg-primary hover:text-on-primary text-primary font-label-sm text-label-sm flex items-center justify-center gap-1.5 transition-all shadow-[0_2px_0_#a8e7cd] active:translate-y-0.5" onclick="playLetterSound('Ơ', 'Quả Ớt')" type="button">
+<span class="material-symbols-outlined text-[16px]">volume_up</span>
+<span>Nghe âm /ơ/</span>
+</button>
+</div>
+<!-- 20: P -->
+<div class="letter-card consonant bg-surface-container-lowest rounded-xl p-4 sm:p-5 flex flex-col items-center justify-between text-center transition-all duration-300 hover:-translate-y-2 hover:shadow-xl shadow-md group relative">
+<div class="w-full flex items-center justify-between text-secondary">
+<span class="material-symbols-outlined text-[20px] text-secondary-container" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-sm text-label-sm bg-surface-container-high text-primary px-2 py-0.5 rounded-full">Trạm 20</span>
+</div>
+<div class="my-2 flex flex-col items-center">
+<span class="font-display-hero text-display-hero text-primary group-hover:scale-110 transition-transform">P</span>
+<div class="w-14 h-14 rounded-full bg-secondary-fixed/50 flex items-center justify-center my-1 text-2xl">🎆</div>
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold">Pháo Hoa</span>
+</div>
+<button class="w-full py-2 rounded-full bg-surface-container hover:bg-primary hover:text-on-primary text-primary font-label-sm text-label-sm flex items-center justify-center gap-1.5 transition-all shadow-[0_2px_0_#a8e7cd] active:translate-y-0.5" onclick="playLetterSound('P', 'Pháo Hoa')" type="button">
+<span class="material-symbols-outlined text-[16px]">volume_up</span>
+<span>Nghe âm /p/</span>
+</button>
+</div>
+<!-- 21: Q -->
+<div class="letter-card consonant bg-surface-container-lowest rounded-xl p-4 sm:p-5 flex flex-col items-center justify-between text-center transition-all duration-300 hover:-translate-y-2 hover:shadow-xl shadow-md group relative">
+<div class="w-full flex items-center justify-between text-secondary">
+<span class="material-symbols-outlined text-[20px] text-secondary-container" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-sm text-label-sm bg-surface-container-high text-primary px-2 py-0.5 rounded-full">Trạm 21</span>
+</div>
+<div class="my-2 flex flex-col items-center">
+<span class="font-display-hero text-display-hero text-primary group-hover:scale-110 transition-transform">Q</span>
+<div class="w-14 h-14 rounded-full bg-secondary-fixed/50 flex items-center justify-center my-1 text-2xl">🪭</div>
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold">Quạt Nan</span>
+</div>
+<button class="w-full py-2 rounded-full bg-surface-container hover:bg-primary hover:text-on-primary text-primary font-label-sm text-label-sm flex items-center justify-center gap-1.5 transition-all shadow-[0_2px_0_#a8e7cd] active:translate-y-0.5" onclick="playLetterSound('Q', 'Quạt Nan')" type="button">
+<span class="material-symbols-outlined text-[16px]">volume_up</span>
+<span>Nghe âm /q/</span>
+</button>
+</div>
+<!-- 22: R -->
+<div class="letter-card consonant bg-surface-container-lowest rounded-xl p-4 sm:p-5 flex flex-col items-center justify-between text-center transition-all duration-300 hover:-translate-y-2 hover:shadow-xl shadow-md group relative">
+<div class="w-full flex items-center justify-between text-secondary">
+<span class="material-symbols-outlined text-[20px] text-secondary-container" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-sm text-label-sm bg-surface-container-high text-primary px-2 py-0.5 rounded-full">Trạm 22</span>
+</div>
+<div class="my-2 flex flex-col items-center">
+<span class="font-display-hero text-display-hero text-primary group-hover:scale-110 transition-transform">R</span>
+<div class="w-14 h-14 rounded-full bg-surface-container-high flex items-center justify-center my-1 text-2xl">🐢</div>
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold">Rùa Con</span>
+</div>
+<button class="w-full py-2 rounded-full bg-surface-container hover:bg-primary hover:text-on-primary text-primary font-label-sm text-label-sm flex items-center justify-center gap-1.5 transition-all shadow-[0_2px_0_#a8e7cd] active:translate-y-0.5" onclick="playLetterSound('R', 'Rùa Nhỏ')" type="button">
+<span class="material-symbols-outlined text-[16px]">volume_up</span>
+<span>Nghe âm /r/</span>
+</button>
+</div>
+<!-- 23: S -->
+<div class="letter-card consonant bg-surface-container-lowest rounded-xl p-4 sm:p-5 flex flex-col items-center justify-between text-center transition-all duration-300 hover:-translate-y-2 hover:shadow-xl shadow-md group relative">
+<div class="w-full flex items-center justify-between text-secondary">
+<span class="material-symbols-outlined text-[20px] text-secondary-container" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-sm text-label-sm bg-surface-container-high text-primary px-2 py-0.5 rounded-full">Trạm 23</span>
+</div>
+<div class="my-2 flex flex-col items-center">
+<span class="font-display-hero text-display-hero text-primary group-hover:scale-110 transition-transform">S</span>
+<div class="w-14 h-14 rounded-full bg-secondary-fixed/50 flex items-center justify-center my-1 text-2xl">🐿️</div>
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold">Sóc Nâu</span>
+</div>
+<button class="w-full py-2 rounded-full bg-surface-container hover:bg-primary hover:text-on-primary text-primary font-label-sm text-label-sm flex items-center justify-center gap-1.5 transition-all shadow-[0_2px_0_#a8e7cd] active:translate-y-0.5" onclick="playLetterSound('S', 'Sóc Nâu')" type="button">
+<span class="material-symbols-outlined text-[16px]">volume_up</span>
+<span>Nghe âm /s/</span>
+</button>
+</div>
+<!-- 24: T -->
+<div class="letter-card consonant bg-surface-container-lowest rounded-xl p-4 sm:p-5 flex flex-col items-center justify-between text-center transition-all duration-300 hover:-translate-y-2 hover:shadow-xl shadow-md group relative">
+<div class="w-full flex items-center justify-between text-secondary">
+<span class="material-symbols-outlined text-[20px] text-secondary-container" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-sm text-label-sm bg-surface-container-high text-primary px-2 py-0.5 rounded-full">Trạm 24</span>
+</div>
+<div class="my-2 flex flex-col items-center">
+<span class="font-display-hero text-display-hero text-primary group-hover:scale-110 transition-transform">T</span>
+<div class="w-14 h-14 rounded-full bg-secondary-fixed/50 flex items-center justify-center my-1 text-2xl">🐇</div>
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold">Thỏ Trắng</span>
+</div>
+<button class="w-full py-2 rounded-full bg-surface-container hover:bg-primary hover:text-on-primary text-primary font-label-sm text-label-sm flex items-center justify-center gap-1.5 transition-all shadow-[0_2px_0_#a8e7cd] active:translate-y-0.5" onclick="playLetterSound('T', 'Thỏ Trắng')" type="button">
+<span class="material-symbols-outlined text-[16px]">volume_up</span>
+<span>Nghe âm /t/</span>
+</button>
+</div>
+<!-- 25: U -->
+<div class="letter-card vowel bg-surface-container-lowest rounded-xl p-4 sm:p-5 flex flex-col items-center justify-between text-center transition-all duration-300 hover:-translate-y-2 hover:shadow-xl shadow-md group relative">
+<div class="w-full flex items-center justify-between text-secondary">
+<span class="material-symbols-outlined text-[20px] text-secondary-container" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-sm text-label-sm bg-surface-container-high text-primary px-2 py-0.5 rounded-full">Trạm 25</span>
+</div>
+<div class="my-2 flex flex-col items-center">
+<span class="font-display-hero text-display-hero text-primary group-hover:scale-110 transition-transform">U</span>
+<div class="w-14 h-14 rounded-full bg-secondary-fixed/50 flex items-center justify-center my-1 text-2xl">🌷</div>
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold">Uất Kim Hương</span>
+</div>
+<button class="w-full py-2 rounded-full bg-surface-container hover:bg-primary hover:text-on-primary text-primary font-label-sm text-label-sm flex items-center justify-center gap-1.5 transition-all shadow-[0_2px_0_#a8e7cd] active:translate-y-0.5" onclick="playLetterSound('U', 'Hoa Uất Kim Hương')" type="button">
+<span class="material-symbols-outlined text-[16px]">volume_up</span>
+<span>Nghe âm /u/</span>
+</button>
+</div>
+<!-- 26: Ư -->
+<div class="letter-card vowel bg-surface-container-lowest rounded-xl p-4 sm:p-5 flex flex-col items-center justify-between text-center transition-all duration-300 hover:-translate-y-2 hover:shadow-xl shadow-md group relative">
+<div class="w-full flex items-center justify-between text-secondary">
+<span class="material-symbols-outlined text-[20px] text-secondary-container" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-sm text-label-sm bg-surface-container-high text-primary px-2 py-0.5 rounded-full">Trạm 26</span>
+</div>
+<div class="my-2 flex flex-col items-center">
+<span class="font-display-hero text-display-hero text-primary group-hover:scale-110 transition-transform">Ư</span>
+<div class="w-14 h-14 rounded-full bg-surface-container-high flex items-center justify-center my-1 text-2xl">🌱</div>
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold">Vườn Ươm</span>
+</div>
+<button class="w-full py-2 rounded-full bg-surface-container hover:bg-primary hover:text-on-primary text-primary font-label-sm text-label-sm flex items-center justify-center gap-1.5 transition-all shadow-[0_2px_0_#a8e7cd] active:translate-y-0.5" onclick="playLetterSound('Ư', 'Vườn Ươm')" type="button">
+<span class="material-symbols-outlined text-[16px]">volume_up</span>
+<span>Nghe âm /ư/</span>
+</button>
+</div>
+<!-- 27: V -->
+<div class="letter-card consonant bg-surface-container-lowest rounded-xl p-4 sm:p-5 flex flex-col items-center justify-between text-center transition-all duration-300 hover:-translate-y-2 hover:shadow-xl shadow-md group relative">
+<div class="w-full flex items-center justify-between text-secondary">
+<span class="material-symbols-outlined text-[20px] text-secondary-container" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-sm text-label-sm bg-surface-container-high text-primary px-2 py-0.5 rounded-full">Trạm 27</span>
+</div>
+<div class="my-2 flex flex-col items-center">
+<span class="font-display-hero text-display-hero text-primary group-hover:scale-110 transition-transform">V</span>
+<div class="w-14 h-14 rounded-full bg-secondary-fixed/50 flex items-center justify-center my-1 text-2xl">🐘</div>
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold">Voi Con</span>
+</div>
+<button class="w-full py-2 rounded-full bg-surface-container hover:bg-primary hover:text-on-primary text-primary font-label-sm text-label-sm flex items-center justify-center gap-1.5 transition-all shadow-[0_2px_0_#a8e7cd] active:translate-y-0.5" onclick="playLetterSound('V', 'Voi Con')" type="button">
+<span class="material-symbols-outlined text-[16px]">volume_up</span>
+<span>Nghe âm /v/</span>
+</button>
+</div>
+<!-- 28: X -->
+<div class="letter-card consonant bg-surface-container-lowest rounded-xl p-4 sm:p-5 flex flex-col items-center justify-between text-center transition-all duration-300 hover:-translate-y-2 hover:shadow-xl shadow-md group relative">
+<div class="w-full flex items-center justify-between text-secondary">
+<span class="material-symbols-outlined text-[20px] text-secondary-container" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-sm text-label-sm bg-surface-container-high text-primary px-2 py-0.5 rounded-full">Trạm 28</span>
+</div>
+<div class="my-2 flex flex-col items-center">
+<span class="font-display-hero text-display-hero text-primary group-hover:scale-110 transition-transform">X</span>
+<div class="w-14 h-14 rounded-full bg-secondary-fixed/50 flex items-center justify-center my-1 text-2xl">🥭</div>
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold">Xoài Chín</span>
+</div>
+<button class="w-full py-2 rounded-full bg-surface-container hover:bg-primary hover:text-on-primary text-primary font-label-sm text-label-sm flex items-center justify-center gap-1.5 transition-all shadow-[0_2px_0_#a8e7cd] active:translate-y-0.5" onclick="playLetterSound('X', 'Xoài Chín')" type="button">
+<span class="material-symbols-outlined text-[16px]">volume_up</span>
+<span>Nghe âm /x/</span>
+</button>
+</div>
+<!-- 29: Y -->
+<div class="letter-card vowel bg-surface-container-lowest rounded-xl p-4 sm:p-5 flex flex-col items-center justify-between text-center transition-all duration-300 hover:-translate-y-2 hover:shadow-xl shadow-md group relative">
+<div class="w-full flex items-center justify-between text-secondary">
+<span class="material-symbols-outlined text-[20px] text-secondary-container" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-sm text-label-sm bg-surface-container-high text-primary px-2 py-0.5 rounded-full">Trạm 29</span>
+</div>
+<div class="my-2 flex flex-col items-center">
+<span class="font-display-hero text-display-hero text-primary group-hover:scale-110 transition-transform">Y</span>
+<div class="w-14 h-14 rounded-full bg-tertiary-fixed/50 flex items-center justify-center my-1 text-2xl">🕊️</div>
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold">Chim Yến</span>
+</div>
+<button class="w-full py-2 rounded-full bg-surface-container hover:bg-primary hover:text-on-primary text-primary font-label-sm text-label-sm flex items-center justify-center gap-1.5 transition-all shadow-[0_2px_0_#a8e7cd] active:translate-y-0.5" onclick="playLetterSound('Y', 'Yến Hót')" type="button">
+<span class="material-symbols-outlined text-[16px]">volume_up</span>
+<span>Nghe âm /y/</span>
+</button>
+</div>
+</div>
+</section>
+<!-- Interactive Quick-Reflex Play Arena -->
+<section class="w-full max-w-7xl mx-auto px-6 py-10">
+<div class="flex items-center gap-3 mb-6">
+<div class="w-10 h-10 rounded-full bg-secondary-container text-on-secondary flex items-center justify-center shadow-md">
+<span class="material-symbols-outlined text-[22px]">sports_esports</span>
+</div>
+<div>
+<h3 class="font-headline-lg text-headline-lg text-on-surface">Đấu Trường Phản Xạ Nhanh</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Vừa chơi vừa nhớ mặt chữ siêu tốc cùng các bạn muôn thú</p>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
+<!-- Game 1: Flutter Butterfly Letter Hunt -->
+<div class="bg-surface-container-lowest rounded-xl p-6 sm:p-8 shadow-lg flex flex-col justify-between relative overflow-hidden group">
+<div class="absolute -right-8 -bottom-8 w-36 h-36 bg-surface-container-low rounded-full pointer-events-none group-hover:scale-125 transition-transform duration-500"></div>
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="px-3 py-1 rounded-full bg-surface-container text-primary font-label-sm text-label-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">timer</span>
+<span>30 Giây Thử Thách</span>
+</span>
+<span class="font-label-sm text-label-sm text-secondary font-bold flex items-center gap-1">
+<span class="material-symbols-outlined text-[18px]">military_tech</span>
+<span>+30 Hạt Dẻ</span>
+</span>
+</div>
+<h4 class="font-headline-md text-headline-md text-on-surface mb-2">Vỗ Cánh Cùng Bướm Bắt Chữ</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-6">
+            Bướm vàng lượn quanh các đóa hoa! Hãy chạm thật nhanh vào chữ cái vừa phát ra âm thanh để giúp bạn bướm hút mật ngọt.
+          </p>
+<!-- Interactive Demo Mini-Board -->
+<div class="bg-surface rounded-lg p-4 mb-6 flex items-center justify-around">
+<button class="w-14 h-14 rounded-full bg-surface-container-lowest text-primary font-display-hero text-headline-md flex items-center justify-center shadow-[0_3px_0_#68dba9] hover:bg-primary hover:text-on-primary transition-all" onclick="tapMiniGame(this, true)" type="button">A</button>
+<button class="w-14 h-14 rounded-full bg-surface-container-lowest text-primary font-display-hero text-headline-md flex items-center justify-center shadow-[0_3px_0_#68dba9] hover:bg-primary hover:text-on-primary transition-all" onclick="tapMiniGame(this, false)" type="button">Ă</button>
+<button class="w-14 h-14 rounded-full bg-surface-container-lowest text-primary font-display-hero text-headline-md flex items-center justify-center shadow-[0_3px_0_#68dba9] hover:bg-primary hover:text-on-primary transition-all" onclick="tapMiniGame(this, false)" type="button">B</button>
+<button class="w-14 h-14 rounded-full bg-surface-container-lowest text-primary font-display-hero text-headline-md flex items-center justify-center shadow-[0_3px_0_#68dba9] hover:bg-primary hover:text-on-primary transition-all" onclick="tapMiniGame(this, false)" type="button">C</button>
+</div>
+</div>
+<button class="w-full py-4 rounded-full bg-primary text-on-primary font-label-lg text-label-lg shadow-[0_4px_0_#005137] active:translate-y-1 transition-all flex items-center justify-center gap-2" onclick="startButterflyGame()" type="button">
+<span class="material-symbols-outlined text-[22px]">play_arrow</span>
+<span>Bắt Đầu Vỗ Cánh</span>
+</button>
+</div>
+<!-- Game 2: Nature Sounds Guessing Quest -->
+<div class="bg-surface-container-lowest rounded-xl p-6 sm:p-8 shadow-lg flex flex-col justify-between relative overflow-hidden group">
+<div class="absolute -right-8 -bottom-8 w-36 h-36 bg-secondary-fixed/30 rounded-full pointer-events-none group-hover:scale-125 transition-transform duration-500"></div>
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="px-3 py-1 rounded-full bg-secondary-fixed text-secondary font-label-sm text-label-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">hearing</span>
+<span>Luyện Thính Giác</span>
+</span>
+<span class="font-label-sm text-label-sm text-secondary font-bold flex items-center gap-1">
+<span class="material-symbols-outlined text-[18px]">military_tech</span>
+<span>+25 Hạt Dẻ</span>
+</span>
+</div>
+<h4 class="font-headline-md text-headline-md text-on-surface mb-2">Nghe Tiếng Đoán Muôn Loài</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-6">
+            Bịt mắt lắng nghe tiếng gáy 'Ò ó o', tiếng róc rách của nước suối hay tiếng chim gõ kiến, sau đó chọn chữ cái bắt đầu tương ứng!
+          </p>
+<!-- Interactive Demo Speaker Box -->
+<div class="bg-surface-container-low rounded-lg p-4 mb-6 flex items-center justify-between">
+<div class="flex items-center gap-3">
+<button class="w-12 h-12 rounded-full bg-secondary-container text-on-secondary flex items-center justify-center shadow-[0_3px_0_#684000] active:translate-y-0.5" onclick="triggerAnimalSoundDemo()" type="button">
+<span class="material-symbols-outlined text-[24px]">volume_up</span>
+</button>
+<div>
+<span class="font-label-sm text-label-sm text-secondary font-bold block" id="sound-clue-label">Gợi ý: "Ò... ó... o..."</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Con vật bắt đầu bằng chữ nào?</span>
+</div>
+</div>
+<div class="px-3 py-1.5 rounded-full bg-surface-container-highest text-primary font-bold font-label-md text-label-md">
+              G?
+            </div>
+</div>
+</div>
+<button class="w-full py-4 rounded-full bg-secondary-container text-on-secondary font-label-lg text-label-lg shadow-[0_4px_0_#684000] active:translate-y-1 transition-all flex items-center justify-center gap-2" onclick="startAnimalSoundGame()" type="button">
+<span class="material-symbols-outlined text-[22px]">headphones</span>
+<span>Tham Gia Nghe Đố</span>
+</button>
+</div>
+</div>
+</section>
+<!-- Parent & Guidance Micro-Note -->
+<section class="w-full max-w-7xl mx-auto px-6 py-6">
+<div class="bg-surface-container/60 rounded-xl p-6 flex flex-col sm:flex-row items-center justify-between gap-4">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-full bg-primary-container text-on-primary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[24px]">favorite</span>
+</div>
+<div>
+<span class="font-headline-sm text-headline-sm text-primary block">Mẹo nhỏ cùng bé hôm nay</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Cho bé nhắc lại âm thanh 3 lần sau mỗi tiếng chuông mẫu để hình thành phản xạ vòm họng tự nhiên nhất!</span>
+</div>
+</div>
+<button class="whitespace-nowrap px-5 py-2.5 rounded-full bg-surface-container-high text-primary font-label-md text-label-md hover:bg-surface-container transition-all active:translate-y-0.5" onclick="alert('Đã lưu cẩm nang phát âm chuẩn tiếng Việt cho bé 4-8 tuổi!')" type="button">
+        Xem Cẩm Nang Phát Âm
+      </button>
+</div>
+</section>
+<!-- Client-side Interactive Logic -->
+<script>
+    function playLetterSound(letter, word) {
+      if ('speechSynthesis' in window) {
+        window.speechSynthesis.cancel();
+        const utterance = new SpeechSynthesisUtterance(letter + '. ' + word);
+        utterance.lang = 'vi-VN';
+        utterance.rate = 0.85;
+        window.speechSynthesis.speak(utterance);
+      }
+      showFloatingPraise(letter, word);
+    }
+
+    function showFloatingPraise(letter, word) {
+      const toast = document.createElement('div');
+      toast.className = 'fixed bottom-8 right-8 z-50 bg-secondary-container text-on-secondary px-5 py-3 rounded-full shadow-2xl flex items-center gap-2 transition-all transform duration-300 translate-y-0 opacity-100 font-label-md text-label-md';
+      toast.innerHTML = '<span class="material-symbols-outlined text-[20px]">eco</span> Đang phát âm chữ <strong>' + letter + '</strong> (' + word + ')';
+      document.body.appendChild(toast);
+      setTimeout(() => {
+        toast.classList.add('opacity-0', 'translate-y-4');
+        setTimeout(() => toast.remove(), 400);
+      }, 2200);
+    }
+
+    function toggleAmbience(button, type) {
+      const parent = document.getElementById('soundscape-control');
+      const allButtons = parent.querySelectorAll('.sound-chip');
+      allButtons.forEach(btn => {
+        btn.classList.remove('bg-primary', 'text-on-primary', 'shadow-[0_3px_0_#005137]');
+        btn.classList.add('bg-surface-container-high', 'text-on-surface-variant');
+      });
+      button.classList.add('bg-primary', 'text-on-primary', 'shadow-[0_3px_0_#005137]');
+      button.classList.remove('bg-surface-container-high', 'text-on-surface-variant');
+      
+      const label = button.querySelector('span:last-child').textContent;
+      const banner = document.createElement('div');
+      banner.className = 'fixed top-24 left-1/2 -translate-x-1/2 z-50 bg-primary text-on-primary px-6 py-2 rounded-full shadow-lg font-label-sm text-label-sm flex items-center gap-2';
+      banner.innerHTML = '<span class="material-symbols-outlined text-[18px]">volume_up</span> Đang phát không gian: ' + label;
+      document.body.appendChild(banner);
+      setTimeout(() => banner.remove(), 2000);
+    }
+
+    function filterLetters(type) {
+      const buttons = document.querySelectorAll('.letter-filter-btn');
+      buttons.forEach(btn => {
+        btn.classList.remove('bg-primary', 'text-on-primary', 'shadow-[0_2px_0_#005137]');
+        btn.classList.add('text-on-surface');
+      });
+      event.target.classList.add('bg-primary', 'text-on-primary', 'shadow-[0_2px_0_#005137]');
+      event.target.classList.remove('text-on-surface');
+
+      const cards = document.querySelectorAll('.letter-card');
+      cards.forEach(card => {
+        if (type === 'all') {
+          card.style.display = 'flex';
+        } else if (type === 'vowel') {
+          card.style.display = card.classList.contains('vowel') ? 'flex' : 'none';
+        } else if (type === 'consonant') {
+          card.style.display = card.classList.contains('consonant') ? 'flex' : 'none';
+        }
+      });
+    }
+
+    function playAllVowelsHint() {
+      if ('speechSynthesis' in window) {
+        window.speechSynthesis.cancel();
+        const utterance = new SpeechSynthesisUtterance("Các bé hãy đọc theo Sóc nâu: A, Ă, Â, E, Ê, I, O, Ô, Ơ, U, Ư, Y!");
+        utterance.lang = 'vi-VN';
+        utterance.rate = 0.85;
+        window.speechSynthesis.speak(utterance);
+      }
+    }
+
+    function tapMiniGame(button, isCorrect) {
+      if (isCorrect) {
+        button.classList.add('bg-primary', 'text-on-primary', 'scale-110');
+        if ('speechSynthesis' in window) {
+          const ut = new SpeechSynthesisUtterance("Chính xác! Bé giỏi lắm!");
+          ut.lang = 'vi-VN';
+          window.speechSynthesis.speak(ut);
+        }
+      } else {
+        button.classList.add('bg-secondary-fixed', 'text-secondary');
+        setTimeout(() => {
+          button.classList.remove('bg-secondary-fixed', 'text-secondary');
+        }, 600);
+      }
+    }
+
+    function triggerAnimalSoundDemo() {
+      if ('speechSynthesis' in window) {
+        const ut = new SpeechSynthesisUtterance("Ò ó o o... Chú gà trống gọi bé dậy học chữ G!");
+        ut.lang = 'vi-VN';
+        window.speechSynthesis.speak(ut);
+      }
+    }
+
+    function startButterflyGame() {
+      alert("Trò chơi 'Vỗ cánh cùng Bướm bắt chữ' đã sẵn sàng! Mời bé lắng nghe và bắt đầu.");
+    }
+
+    function startAnimalSoundGame() {
+      alert("Trò chơi 'Nghe tiếng đoán muôn loài' bắt đầu! Bạn đã nhận được 1 lượt nghe gợi ý.");
+    }
+  </script>
+</div></main><footer class="w-full bg-surface-container-low py-12 mt-16 shadow-[0_-2px_12px_rgba(0,105,72,0.04)]"><div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6"><div class="flex flex-col items-center md:items-start text-center md:text-left"><span class="font-headline-sm text-headline-sm text-primary mb-1">Vườn Chữ Diệu Kỳ 🌿</span><p class="font-body-sm text-body-sm text-on-surface-variant max-w-md">Nơi mỗi mầm chữ nảy chồi thành tình yêu ngôn ngữ, đồng hành cùng bước chân khám phá thiên nhiên của bé.</p></div><div class="flex flex-wrap items-center justify-center gap-3"><div class="flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-surface-container text-primary font-label-sm text-label-sm"><span class="material-symbols-outlined text-[18px]">verified_user</span><span>An Toàn Cho Trẻ Em</span></div><div class="flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-surface-container text-primary font-label-sm text-label-sm"><span class="material-symbols-outlined text-[18px]">shield</span><span>100% Không Quảng Cáo</span></div><div class="flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-surface-container text-primary font-label-sm text-label-sm"><span class="material-symbols-outlined text-[18px]">graphic_eq</span><span>Âm Thanh Trực Quan</span></div></div><div class="text-center md:text-right text-on-surface-variant font-label-sm text-label-sm"><p>© 2025 Vườn Chữ Diệu Kỳ. Tận tâm vì nụ cười trẻ thơ.</p></div></div></footer></body></html>
