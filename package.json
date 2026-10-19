@@ -26,6 +26,7 @@
     "db:validate-seed": "npm run db:validate-seed --workspace @vuon-chu/api",
     "db:seed:dry-run": "npm run db:seed:dry-run --workspace @vuon-chu/api",
     "db:verify-seed-idempotency": "npm run db:verify-seed-idempotency --workspace @vuon-chu/api",
+    "db:rebuild-aggregates": "npm run db:rebuild-aggregates --workspace @vuon-chu/api",
     "db:demo": "npm run db:demo --workspace @vuon-chu/api",
     "admin:create": "npm run admin:create --workspace @vuon-chu/api"
   }

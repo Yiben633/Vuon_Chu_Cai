@@ -66,11 +66,25 @@ authRoutes.post(
   "/register",
   asyncHandler(async (req, res) => {
     const input = parseBody(registerSchema, req.body);
-    const { user, child } = await registerFamily(input);
+    const { user, child, wallet } = await registerFamily(input);
     await regenerateSession(req);
     setAuthenticatedSession(req, user, { mode: "parent" });
     await saveSession(req);
-    sendData(req, res, { user: userDto(user, { includeEmail: true }), child: childPublicDto(child), mode: "parent" }, 201);
+    sendData(
+      req,
+      res,
+      {
+        user: userDto(user, { includeEmail: true }),
+        child: childPublicDto(child),
+        wallet: {
+          balance: wallet.balance,
+          earnedTotal: wallet.earnedTotal,
+          spentTotal: wallet.spentTotal
+        },
+        mode: "parent"
+      },
+      201
+    );
   })
 );
 

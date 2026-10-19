@@ -1,14 +1,17 @@
 import "./accountModels.js";
+import "./contentAuditModels.js";
 import "./contentModels.js";
 import "./learningModels.js";
 import "./rewardModels.js";
 import "./recordingModels.js";
+import "./speechAttemptModels.js";
 import mongoose from "mongoose";
 
 export const modelRegistry = Object.freeze({
   User: mongoose.model("User"),
   ChildProfile: mongoose.model("ChildProfile"),
   PinAttempt: mongoose.model("PinAttempt"),
+  ContentAudit: mongoose.model("ContentAudit"),
   Asset: mongoose.model("Asset"),
   Letter: mongoose.model("Letter"),
   Tone: mongoose.model("Tone"),
@@ -30,7 +33,8 @@ export const modelRegistry = Object.freeze({
   ChildBadge: mongoose.model("ChildBadge"),
   Mission: mongoose.model("Mission"),
   MissionClaim: mongoose.model("MissionClaim"),
-  Recording: mongoose.model("Recording")
+  Recording: mongoose.model("Recording"),
+  SpeechAttempt: mongoose.model("SpeechAttempt")
 });
 
 export function getModel(name) {

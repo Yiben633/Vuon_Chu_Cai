@@ -24,9 +24,9 @@ export async function probeTransactions() {
 export async function createDeclaredIndexes() {
   const results = [];
   for (const [name, model] of Object.entries(modelRegistry)) {
-    const before = await model.collection.indexes();
+    const before = await listIndexesIfCollectionExists(model);
     await model.createIndexes();
-    const after = await model.collection.indexes();
+    const after = await listIndexesIfCollectionExists(model);
     results.push({
       model: name,
       collection: model.collection.name,
@@ -35,4 +35,15 @@ export async function createDeclaredIndexes() {
     });
   }
   return results;
+}
+
+async function listIndexesIfCollectionExists(model) {
+  try {
+    return await model.collection.indexes();
+  } catch (error) {
+    if (error?.codeName === "NamespaceNotFound" || /ns does not exist/i.test(error?.message ?? "")) {
+      return [];
+    }
+    throw error;
+  }
 }

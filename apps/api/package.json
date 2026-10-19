@@ -16,6 +16,7 @@
     "db:validate-seed": "node scripts/validate-seed.mjs",
     "db:seed:dry-run": "node scripts/seed-database.mjs --dry-run",
     "db:verify-seed-idempotency": "node scripts/verify-seed-idempotency.mjs",
+    "db:rebuild-aggregates": "node scripts/rebuild-aggregates.mjs",
     "db:demo": "node scripts/create-demo.mjs",
     "admin:create": "node scripts/create-admin.mjs"
   },

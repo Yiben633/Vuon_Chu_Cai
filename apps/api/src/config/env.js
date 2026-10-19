@@ -24,6 +24,8 @@ const envSchema = z.object({
   ENABLE_OAUTH: booleanString.default("false"),
   ENABLE_QR_LOGIN: booleanString.default("false"),
   ENABLE_LUCKY_WHEEL: booleanString.default("false"),
+  SPEECH_TIMEOUT_MS: z.coerce.number().int().min(500).max(30000).default(8000),
+  SPEECH_BACKOFF_MS: z.coerce.number().int().min(100).max(10000).default(1000),
   PRIVATE_MEDIA_DIR: z.string().min(1).default("./var/private-media"),
   RECORDING_RETENTION_DAYS: z.coerce.number().int().positive().default(7),
   MAX_RECORDING_BYTES: z.coerce.number().int().positive().default(5_242_880),

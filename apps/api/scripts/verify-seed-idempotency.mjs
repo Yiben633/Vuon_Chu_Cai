@@ -6,6 +6,7 @@ import bcrypt from "bcryptjs";
 const { connectDatabase, disconnectDatabase, getDatabaseState } = await import("../src/lib/database.js");
 const { modelRegistry } = await import("../src/models/index.js");
 const { createDeclaredIndexes } = await import("../src/services/indexMaintenanceService.js");
+const { canonicalHash } = await import("../src/services/learning/learningService.js");
 const { getSeedCollectionCounts, importSeed } = await import("../src/services/seed/seedDataService.js");
 
 const markerEmail = "seed-preserve-check@example.test";
@@ -64,6 +65,7 @@ try {
     contentVersion: exercise.version,
     attemptNo: 1,
     idempotencyKey: "seed-preserve-attempt",
+    requestHash: canonicalHash({ marker: "seed-preserve-attempt", optionId: exercise.answer.optionId }),
     response: { optionId: exercise.answer.optionId },
     isCorrect: true,
     dayKey

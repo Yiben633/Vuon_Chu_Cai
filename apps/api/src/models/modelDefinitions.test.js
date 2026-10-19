@@ -56,6 +56,7 @@ describe("model definitions", () => {
     expect(modelRegistry.Exercise.schema.path("answer").options.select).toBe(false);
     expect(modelRegistry.LearningSession.schema.path("questionSnapshots").options.select).toBe(false);
     expect(modelRegistry.Recording.schema.path("objectKey").options.select).toBe(false);
+    expect(modelRegistry.SpeechAttempt.schema.path("pronunciationScore").options.default).toBe(null);
   });
 
   it("declares the critical unique indexes required by step 02", () => {

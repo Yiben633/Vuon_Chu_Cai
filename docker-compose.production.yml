@@ -1,0 +1,62 @@
+services:
+  mongo:
+    image: mongo:7
+    command: ["mongod", "--replSet", "rs0", "--bind_ip_all"]
+    volumes:
+      - mongo-production-data:/data/db
+    healthcheck:
+      test:
+        [
+          "CMD-SHELL",
+          "mongosh --quiet --eval \"try { rs.status().ok } catch (e) { rs.initiate({_id:'rs0',members:[{_id:0,host:'mongo:27017'}]}).ok }\""
+        ]
+      interval: 10s
+      timeout: 5s
+      retries: 18
+
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile.api
+    environment:
+      NODE_ENV: production
+      PORT: 4000
+      APP_ORIGIN: ${APP_ORIGIN:?APP_ORIGIN must be set to the HTTPS public origin}
+      MONGODB_URI: mongodb://mongo:27017/vuon_chu_prod?replicaSet=rs0
+      SESSION_SECRET: ${SESSION_SECRET:?SESSION_SECRET must be set at runtime}
+      SESSION_COOKIE_NAME: vuonchu.sid
+      SESSION_TTL_HOURS: ${SESSION_TTL_HOURS:-12}
+      PARENT_GATE_TTL_MINUTES: ${PARENT_GATE_TTL_MINUTES:-10}
+      TRUST_PROXY: ${TRUST_PROXY:-1}
+      ALLOW_UNREVIEWED_DEMO_CONTENT: "false"
+      ENABLE_SERVER_RECORDINGS: "false"
+      ENABLE_CLOUD_SPEECH: "false"
+      ENABLE_BROWSER_SPEECH: "false"
+      ENABLE_OAUTH: "false"
+      ENABLE_QR_LOGIN: "false"
+      ENABLE_LUCKY_WHEEL: "false"
+      PRIVATE_MEDIA_DIR: /app/var/private-media
+    depends_on:
+      mongo:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://127.0.0.1:4000/api/v1/health/ready >/dev/null || exit 1"]
+      interval: 10s
+      timeout: 5s
+      start_period: 20s
+      retries: 12
+
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile.web
+      args:
+        VITE_BASE_PATH: /vuon-chu/
+    ports:
+      - "${WEB_PORT:-8080}:80"
+    depends_on:
+      api:
+        condition: service_healthy
+
+volumes:
+  mongo-production-data:

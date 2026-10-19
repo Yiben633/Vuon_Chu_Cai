@@ -59,6 +59,7 @@ const attemptSchema = createSchema({
   contentVersion: { type: Number, required: true, min: 1 },
   attemptNo: { type: Number, required: true, min: 1, max: 3 },
   idempotencyKey: requiredString(128),
+  requestHash: requiredString(128),
   response: { type: mongoose.Schema.Types.Mixed, required: true },
   isCorrect: { type: Boolean, required: true },
   responseMode: { type: String, enum: ["text", "audio", "image"], required: true, default: "text" },

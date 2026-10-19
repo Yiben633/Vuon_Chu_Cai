@@ -91,6 +91,15 @@ RecognitionAccuracy=correct first tries / all first tries ×100; 0 denominator�
 
 Không public path cho recordings. Chưa có object storage production thì feature server-recording=false, preview cục bộ có thể chạy khi consent; “Gửi ba mẹ” disabled và giải thích rõ.
 
+## Speech optional — bước17
+
+| Method + path | Quyền | Nội dung |
+|---|---|---|
+| GET `/children/:childId/speech/capability` | CHILD/PARENT | Trả feature flag/provider/consent/timeout/backoff; `pronunciationScore=null` khi chưa có provider kiểm chứng |
+| POST `/children/:childId/speech/assess` | CHILD+consent | Stub có rate limit; trả `CONSENT_REQUIRED` hoặc `PROVIDER_UNAVAILABLE` khi provider OFF/chưa cấu hình |
+
+Browser SpeechRecognition không tự bật. Transcript matcher giữ NFC/dấu tiếng Việt và chỉ dùng cho feedback lời nhận diện, không tạo điểm phát âm hay reward.
+
 ## Admin — content only
 
 `/admin/:resourceType` resourceType allowlist: letters, tones, vocabulary, spelling-entries, lessons, exercises, stories, rewards, badges, missions, resources, assets.

@@ -65,7 +65,7 @@ export async function registerFamily(input) {
         { session }
       );
       const [child] = await modelRegistry.ChildProfile.create([{ ...input.child, parentId: user._id }], { session });
-      await modelRegistry.Wallet.create([{ childId: child._id, balance: WELCOME_ACORNS, earnedTotal: WELCOME_ACORNS, spentTotal: 0 }], {
+      const [wallet] = await modelRegistry.Wallet.create([{ childId: child._id, balance: WELCOME_ACORNS, earnedTotal: WELCOME_ACORNS, spentTotal: 0 }], {
         session
       });
       await modelRegistry.RewardLedger.create(
@@ -80,7 +80,7 @@ export async function registerFamily(input) {
         ],
         { session }
       );
-      created = { user, child };
+      created = { user, child, wallet };
     });
     return created;
   } catch (error) {
@@ -232,6 +232,7 @@ export async function deleteChildProfile(child) {
       await modelRegistry.ChildBadge.deleteMany({ childId }, { session });
       await modelRegistry.MissionClaim.deleteMany({ childId }, { session });
       await modelRegistry.Recording.deleteMany({ childId }, { session });
+      await modelRegistry.SpeechAttempt.deleteMany({ childId }, { session });
       await modelRegistry.ChildProfile.deleteOne({ _id: childId }, { session });
     });
   } finally {

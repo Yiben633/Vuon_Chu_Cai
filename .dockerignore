@@ -1,0 +1,12 @@
+.git
+.gitignore
+node_modules
+**/node_modules
+**/dist
+**/.env
+**/.env.*
+!**/.env.example
+var
+coverage
+reference
+VUON_CHU_VIBECODE_REACT_MONGODB

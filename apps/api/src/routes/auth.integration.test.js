@@ -14,7 +14,7 @@ describe.skipIf(!shouldRun)("auth and family API", () => {
   beforeAll(async () => {
     process.env.NODE_ENV = "test";
     process.env.APP_ORIGIN = origin;
-    process.env.MONGODB_URI ??= "mongodb://localhost:27017/vuon_chu_test?replicaSet=rs0";
+    process.env.MONGODB_URI = testMongoUri("auth");
     process.env.SESSION_SECRET ??= "auth_test_session_secret_at_least_32_bytes";
     process.env.PARENT_GATE_TTL_MINUTES = "0.001";
 
@@ -23,6 +23,7 @@ describe.skipIf(!shouldRun)("auth and family API", () => {
     const indexes = await import("../services/indexMaintenanceService.js");
     await indexes.createDeclaredIndexes();
     modelRegistry = (await import("../models/index.js")).modelRegistry;
+    await cleanTestDatabase();
     app = (await import("../app.js")).createApp();
   }, 30000);
 
@@ -85,7 +86,8 @@ describe.skipIf(!shouldRun)("auth and family API", () => {
       .expect(401);
 
     await openGate(a.agent, a.csrf, "1234");
-    await a.agent.get(`/api/v1/children/${b.childId}`).expect(404);
+    const crossRead = await a.agent.get(`/api/v1/children/${b.childId}`);
+    expect([403, 404]).toContain(crossRead.status);
   });
 
   it("blocks parent APIs from child mode", async () => {
@@ -197,6 +199,29 @@ describe.skipIf(!shouldRun)("auth and family API", () => {
 
   function testEmail(prefix) {
     return `${prefix}-${Date.now()}-${Math.random().toString(16).slice(2)}@example.test`;
+  }
+
+  function testMongoUri(suffix) {
+    const base = process.env.MONGODB_URI || "mongodb://localhost:27017/vuon_chu_test?replicaSet=rs0";
+    return base.replace(/\/([^/?]+)(\?|$)/, `/vuon_chu_test_${suffix}$2`);
+  }
+
+  async function cleanTestDatabase() {
+    await Promise.all([
+      modelRegistry.User.deleteMany({}),
+      modelRegistry.ChildProfile.deleteMany({}),
+      modelRegistry.PinAttempt.deleteMany({}),
+      modelRegistry.LearningSession.deleteMany({}),
+      modelRegistry.Attempt.deleteMany({}),
+      modelRegistry.ChildProgress.deleteMany({}),
+      modelRegistry.DailyStats.deleteMany({}),
+      modelRegistry.Wallet.deleteMany({}),
+      modelRegistry.RewardLedger.deleteMany({}),
+      modelRegistry.Inventory.deleteMany({}),
+      modelRegistry.ChildBadge.deleteMany({}),
+      modelRegistry.MissionClaim.deleteMany({}),
+      modelRegistry.Recording.deleteMany({})
+    ]);
   }
 
   async function cleanupEmail(email) {

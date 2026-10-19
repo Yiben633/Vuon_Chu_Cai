@@ -1,0 +1,130 @@
+{
+  "assets": [
+    {
+      "key": "brand-logo",
+      "kind": "image",
+      "localPath": "assets/images/brand-logo.png",
+      "mimeType": "image/png",
+      "sizeBytes": 830235,
+      "checksum": "d1ae4891afa82c4aa7d4518f0db0238128255e0f102ac60e4cd66e725c2d387e",
+      "status": "ready",
+      "sourceOriginalPath": "reference/logo_v_n_ch_di_u_k/screen.png",
+      "licenseStatus": "unknown"
+    },
+    {
+      "key": "mascot-squirrel",
+      "kind": "image",
+      "localPath": "assets/images/mascot-squirrel.png",
+      "mimeType": "image/png",
+      "sizeBytes": 1682873,
+      "checksum": "e056660dd6ddc0540d28dc5eb3dd238e6fbde3cd8477c1b67733b1d4dcf1d2de",
+      "status": "ready",
+      "sourceOriginalPath": "reference/cute_3d_animated_style_friendly_baby_squirrel_mascot_holding_an_acorn_carved/screen.png",
+      "licenseStatus": "unknown"
+    },
+    {
+      "key": "mascot-sprout-character",
+      "kind": "image",
+      "localPath": "assets/images/mascot-sprout-character.png",
+      "mimeType": "image/png",
+      "sizeBytes": 1461977,
+      "checksum": "8c58278d3483d0db02a4fa551e1e4ca36efdfee62cfd9406e08dbcc2b6da705c",
+      "status": "ready",
+      "sourceOriginalPath": "reference/remove_the_wooden_sign_with_vietnamese_text_m_m_tinh_ngh_ch_at_the_bottom._keep/screen.png",
+      "licenseStatus": "unknown"
+    },
+    {
+      "key": "mascot-owl-character",
+      "kind": "image",
+      "localPath": "assets/images/mascot-owl-character.png",
+      "mimeType": "image/png",
+      "sizeBytes": 1532879,
+      "checksum": "b358dadde6482f0181bc48fe82a65d1e6b028471402431ff888833871ca29a0c",
+      "status": "ready",
+      "sourceOriginalPath": "reference/inpaint_edit_completely_remove_the_text_c_m_o_tr_tu_from_the_bottom_right/screen.png",
+      "licenseStatus": "unknown"
+    },
+    {
+      "key": "mascot-deer-character",
+      "kind": "image",
+      "localPath": "assets/images/mascot-deer-character.png",
+      "mimeType": "image/png",
+      "sizeBytes": 1459298,
+      "checksum": "6eb05e3a3e174b1ff82b9bd66b48a02d2e2c4f48b5f13ad9083b4e6449e5a5d1",
+      "status": "ready",
+      "sourceOriginalPath": "reference/inpaint_edit_completely_remove_the_wooden_text_letters_nai_con_hi_n_l_nh_from/screen.png",
+      "licenseStatus": "unknown"
+    },
+    {
+      "key": "background-forest",
+      "kind": "image",
+      "localPath": "assets/images/background-forest.png",
+      "mimeType": "image/png",
+      "sizeBytes": 1666435,
+      "checksum": "b4b3a9703b82dc51d0a60041a6c512de46175ae76169cb65d533c6b309171e3c",
+      "status": "ready",
+      "sourceOriginalPath": "reference/enchanted_vietnamese_nature_woodland_landscape_background_for_kids_educational/screen.png",
+      "licenseStatus": "unknown"
+    },
+    {
+      "key": "background-treehouse",
+      "kind": "image",
+      "localPath": "assets/images/background-treehouse.png",
+      "mimeType": "image/png",
+      "sizeBytes": 1389471,
+      "checksum": "c9b3ac8b2e719e4a354c0c5f2e9e7448e871f31d3bdc06330619f8365ddddcba",
+      "status": "ready",
+      "sourceOriginalPath": "reference/magical_storybook_classroom_nature_treehouse_background_for_kids_learning/screen.png",
+      "licenseStatus": "unknown"
+    },
+    {
+      "key": "icon-acorn",
+      "kind": "svg",
+      "localPath": "assets/icons/acorn.svg",
+      "mimeType": "image/svg+xml",
+      "sizeBytes": 1324,
+      "checksum": "c5c56d5145cb28886250c758b0754cb01165a47b239fff83fd0783bb7cae602a",
+      "status": "ready",
+      "sourceOriginalPath": "reference/icon_h_t_d_v_ng_acorn_coin/code.html",
+      "licenseStatus": "unknown"
+    },
+    {
+      "key": "icon-sprout",
+      "kind": "svg",
+      "localPath": "assets/icons/sprout.svg",
+      "mimeType": "image/svg+xml",
+      "sizeBytes": 1095,
+      "checksum": "0e1daaeef1d9595ab199eeb348b5eda07c69ac351ee592bb402bbbd6685b112f",
+      "status": "ready",
+      "sourceOriginalPath": "reference/icon_m_m_c_y_xanh_sprout/code.html",
+      "licenseStatus": "unknown"
+    },
+    {
+      "key": "icon-lotus",
+      "kind": "svg",
+      "localPath": "assets/icons/lotus.svg",
+      "mimeType": "image/svg+xml",
+      "sizeBytes": 1085,
+      "checksum": "23ba83fdd94b4b250f285755fd3f8e510e91e13332103ea505699835684f008e",
+      "status": "ready",
+      "sourceOriginalPath": "reference/icon_hoa_sen_h_ng_lotus/code.html",
+      "licenseStatus": "unknown"
+    },
+    {
+      "key": "icon-apple",
+      "kind": "svg",
+      "localPath": "assets/icons/apple.svg",
+      "mimeType": "image/svg+xml",
+      "sizeBytes": 984,
+      "checksum": "e7248a83f9fa0007ac4696a49407c940ab3d40287ad027e5e9725dce7a915a90",
+      "status": "ready",
+      "sourceOriginalPath": "reference/icon_qu_t_o_ch_apple/code.html",
+      "licenseStatus": "unknown"
+    }
+  ],
+  "notes": [
+    "Assets copied from supplied ZIP; SVG extracted with namespace for standalone use.",
+    "Unknown license means educational/public commercial permission still needs verification.",
+    "No region narration, private recordings or PDFs are supplied."
+  ]
+}

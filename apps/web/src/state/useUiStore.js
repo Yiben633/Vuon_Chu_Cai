@@ -4,5 +4,6 @@ export const useUiStore = create((set) => ({
   ambienceEnabled: false,
   currentChildId: null,
   setAmbienceEnabled: (ambienceEnabled) => set({ ambienceEnabled }),
-  setCurrentChildId: (currentChildId) => set({ currentChildId })
+  setCurrentChildId: (currentChildId) => set({ currentChildId }),
+  resetPrivateState: () => set({ currentChildId: null, ambienceEnabled: false })
 }));

@@ -36,11 +36,28 @@ export const loginSchema = z.object({
   rememberMe: z.boolean().optional().default(false)
 });
 
-export const startLearningSessionSchema = z.object({
-  type: z.enum(learningSessionTypes),
-  contentId: objectIdSchema,
-  gameType: z.string().trim().max(64).optional()
-});
+export const startLearningSessionSchema = z
+  .object({
+    type: z.enum(learningSessionTypes),
+    contentId: objectIdSchema.optional(),
+    gameType: z.string().trim().max(64).optional()
+  })
+  .superRefine((value, context) => {
+    if (value.type !== "quiz" && !value.contentId) {
+      context.addIssue({
+        code: z.ZodIssueCode.custom,
+        path: ["contentId"],
+        message: "contentId bat buoc cho phien hoc nay"
+      });
+    }
+    if (value.type === "quiz" && !value.gameType) {
+      context.addIssue({
+        code: z.ZodIssueCode.custom,
+        path: ["gameType"],
+        message: "gameType bat buoc cho quiz"
+      });
+    }
+  });
 
 export const answerSubmissionSchema = z.object({
   exerciseId: objectIdSchema,

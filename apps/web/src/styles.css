@@ -4,25 +4,60 @@
   font-family: "Nunito Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   color: #002117;
   background: #e7fff3;
-  --color-background: #e7fff3;
-  --color-surface: #ffffff;
-  --color-mint: #cbffe8;
-  --color-primary: #006948;
-  --color-primary-pressed: #004d36;
-  --color-text: #002117;
-  --color-muted: #3d4a42;
-  --color-outline: #bccac0;
-  --color-reward: #f59e0b;
-  --color-error: #ba1a1a;
+
+  --vc-background: #e7fff3;
+  --vc-surface: #ffffff;
+  --vc-surface-soft: #f4fff9;
+  --vc-cream: #fff8dc;
+  --vc-mint: #cbffe8;
+  --vc-primary: #006948;
+  --vc-primary-container: #00855d;
+  --vc-primary-pressed: #004d36;
+  --vc-text: #002117;
+  --vc-muted: #3d4a42;
+  --vc-outline: #bccac0;
+  --vc-reward: #f59e0b;
+  --vc-lotus: #f472b6;
+  --vc-error: #ba1a1a;
+  --vc-warning: #9a3412;
+  --vc-info: #075985;
+  --vc-shadow: 0 18px 44px -24px rgba(0, 105, 72, 0.45);
+  --vc-card-radius: 28px;
+  --vc-font-body: "Nunito Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --vc-font-display: "Quicksand", "Nunito Sans", system-ui, sans-serif;
 }
 
 * {
   box-sizing: border-box;
 }
 
+html {
+  font-size: 15px;
+  min-width: 320px;
+  background: var(--vc-background);
+  color: var(--vc-text);
+  text-rendering: optimizeLegibility;
+}
+
 body {
   margin: 0;
   min-width: 320px;
+  overflow-x: hidden;
+}
+
+img,
+svg,
+video,
+canvas {
+  max-width: 100%;
+}
+
+button,
+a,
+input,
+select,
+textarea {
+  font: inherit;
 }
 
 button,
@@ -31,21 +66,125 @@ a {
 }
 
 button:focus-visible,
-a:focus-visible {
+a:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+[tabindex]:focus-visible {
   outline: 4px solid #fbbf24;
   outline-offset: 3px;
 }
 
 .font-display {
-  font-family: "Quicksand", "Nunito Sans", system-ui, sans-serif;
+  font-family: var(--vc-font-display);
+}
+
+.page-shell {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 12% 8%, rgba(203, 255, 232, 0.95), transparent 28rem),
+    radial-gradient(circle at 78% 42%, rgba(255, 248, 220, 0.72), transparent 24rem),
+    linear-gradient(180deg, #e7fff3 0%, #dcffef 58%, #e7fff3 100%);
+  color: var(--vc-text);
+}
+
+.container-page {
+  width: min(100% - 32px, 1320px);
+  margin-inline: auto;
+}
+
+.auth-main {
+  min-height: calc(100vh - 76px);
+}
+
+.auth-screen {
+  min-height: calc(100vh - 76px);
+}
+
+.auth-card {
+  border: 1px solid rgba(213, 245, 232, 0.95);
+  border-radius: 48px;
+  background: rgba(255, 255, 255, 0.94);
+  box-shadow: 0 28px 70px -38px rgba(0, 105, 72, 0.52);
+}
+
+.auth-strip,
+.auth-mini-card {
+  border: 1px solid rgba(213, 245, 232, 0.95);
+  border-radius: 34px;
+  background: rgba(255, 255, 255, 0.76);
+  box-shadow: 0 18px 45px -34px rgba(0, 105, 72, 0.42);
 }
 
 .shadow-soft {
-  box-shadow: 0 16px 36px -18px rgba(0, 105, 72, 0.35);
+  box-shadow: var(--vc-shadow);
 }
 
 .shadow-button {
-  box-shadow: 0 4px 0 var(--color-primary-pressed);
+  box-shadow: 0 4px 0 var(--vc-primary-pressed);
+}
+
+.target-56 {
+  min-height: 56px;
+  min-width: 56px;
+}
+
+.hero-forest {
+  background-image:
+    linear-gradient(90deg, rgba(231, 255, 243, 0.96), rgba(231, 255, 243, 0.72) 56%, rgba(231, 255, 243, 0.42)),
+    url("/assets/images/background-forest.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.treehouse-band {
+  background-image:
+    linear-gradient(90deg, rgba(0, 33, 23, 0.72), rgba(0, 105, 72, 0.5)),
+    url("/assets/images/background-treehouse.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.glass-panel {
+  border: 1px solid rgba(188, 202, 192, 0.82);
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(16px);
+}
+
+.skip-link {
+  position: absolute;
+  left: 16px;
+  top: -80px;
+  z-index: 50;
+  border-radius: 999px;
+  background: var(--vc-primary);
+  color: white;
+  padding: 14px 20px;
+  font-weight: 800;
+}
+
+.skip-link:focus {
+  top: 16px;
+}
+
+@media (max-width: 640px) {
+  html {
+    font-size: 14.5px;
+  }
+
+  .container-page {
+    width: min(100% - 24px, 1200px);
+  }
+
+  .auth-card {
+    border-radius: 32px;
+  }
+
+  .hero-forest {
+    background-image:
+      linear-gradient(180deg, rgba(231, 255, 243, 0.98), rgba(231, 255, 243, 0.82)),
+      url("/assets/images/background-forest.png");
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {

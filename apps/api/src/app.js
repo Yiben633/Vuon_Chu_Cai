@@ -10,12 +10,20 @@ import { requestLogger } from "./lib/logger.js";
 import { healthRoutes } from "./routes/healthRoutes.js";
 import { authRoutes } from "./routes/authRoutes.js";
 import { childrenRoutes } from "./routes/childrenRoutes.js";
+import { childDataRoutes } from "./routes/childDataRoutes.js";
+import { contentRoutes } from "./routes/contentRoutes.js";
+import { learningRoutes } from "./routes/learningRoutes.js";
+import { adminRoutes } from "./routes/adminRoutes.js";
 import { attachCurrentUser } from "./middleware/authMiddleware.js";
 import { csrfMiddleware } from "./middleware/csrfMiddleware.js";
 import { errorMiddleware, notFoundMiddleware } from "./middleware/errorMiddleware.js";
 
 export function createApp() {
   const app = express();
+
+  if (env.NODE_ENV === "production" && !getDatabaseState().ready) {
+    throw new Error("Production API yêu cầu MongoDB replica set/Atlas ready trước khi khởi động.");
+  }
 
   if (env.TRUST_PROXY > 0) {
     app.set("trust proxy", env.TRUST_PROXY);
@@ -64,7 +72,11 @@ export function createApp() {
 
   app.use("/api/v1/health", healthRoutes);
   app.use("/api/v1/auth", authRoutes);
+  app.use("/api/v1", contentRoutes);
+  app.use("/api/v1/learning", learningRoutes);
+  app.use("/api/v1", childDataRoutes);
   app.use("/api/v1/children", childrenRoutes);
+  app.use("/api/v1/admin", adminRoutes);
   app.use("/api/v1", notFoundMiddleware);
   app.use(notFoundMiddleware);
   app.use(errorMiddleware);
